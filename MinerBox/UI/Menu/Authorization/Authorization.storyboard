@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RP4-bs-BKu">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Semibold.otf">
+            <string>SFProText-Semibold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--log_in-->
+        <scene sceneID="gYI-gM-eJr">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" id="d6L-fy-BCN" customClass="LoginViewController" customModule="MinerBox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hMc-9j-xgN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Coh-BQ-e4H">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ec9-70-9Lj" userLabel="Login fields view">
+                                        <rect key="frame" x="0.0" y="314.5" width="414" height="145"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qdw-Xu-RYE" customClass="CustomTextField" customModule="MinerBox" customModuleProvider="target">
+                                                <rect key="frame" x="52" y="0.0" width="310.5" height="50"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="RrT-Ip-SL3"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="amQ-7k-vHK" customClass="CustomTextField" customModule="MinerBox" customModuleProvider="target">
+                                                <rect key="frame" x="52" y="65" width="310.5" height="50"/>
+                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="qdw-Xu-RYE" firstAttribute="centerX" secondItem="ec9-70-9Lj" secondAttribute="centerX" id="4eg-0T-Mtw"/>
+                                            <constraint firstItem="amQ-7k-vHK" firstAttribute="width" secondItem="qdw-Xu-RYE" secondAttribute="width" id="9uK-da-Ebq"/>
+                                            <constraint firstItem="qdw-Xu-RYE" firstAttribute="top" secondItem="ec9-70-9Lj" secondAttribute="top" id="D4Z-WH-9py"/>
+                                            <constraint firstAttribute="bottom" secondItem="amQ-7k-vHK" secondAttribute="bottom" constant="30" id="Ejy-NY-qTA"/>
+                                            <constraint firstItem="amQ-7k-vHK" firstAttribute="height" secondItem="qdw-Xu-RYE" secondAttribute="height" id="Utd-hm-EKu"/>
+                                            <constraint firstItem="qdw-Xu-RYE" firstAttribute="width" secondItem="ec9-70-9Lj" secondAttribute="width" multiplier="0.75" id="jc3-Pc-3Hh"/>
+                                            <constraint firstItem="amQ-7k-vHK" firstAttribute="centerX" secondItem="ec9-70-9Lj" secondAttribute="centerX" id="ojD-jU-AFL"/>
+                                            <constraint firstItem="amQ-7k-vHK" firstAttribute="top" secondItem="qdw-Xu-RYE" secondAttribute="bottom" constant="15" id="zWA-Me-Hst"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CR3-wh-meO" userLabel="Logo background view">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="314.5"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="w0U-ck-MPe">
+                                                <rect key="frame" x="116" y="66" width="182" height="182.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="w0U-ck-MPe" secondAttribute="height" id="fqX-13-IZV"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="w0U-ck-MPe" firstAttribute="centerX" secondItem="CR3-wh-meO" secondAttribute="centerX" id="14b-B1-k1l"/>
+                                            <constraint firstItem="w0U-ck-MPe" firstAttribute="height" secondItem="CR3-wh-meO" secondAttribute="height" multiplier="0.58" id="L67-4r-3yw"/>
+                                            <constraint firstItem="w0U-ck-MPe" firstAttribute="centerY" secondItem="CR3-wh-meO" secondAttribute="centerY" id="Ncu-Wc-xf7"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sfi-ih-LWg">
+                                        <rect key="frame" x="0.0" y="459.5" width="414" height="314.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w2i-cX-LWV" customClass="LoginButton" customModule="MinerBox" customModuleProvider="target">
+                                                <rect key="frame" x="179.5" y="126" width="55" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <state key="normal" title="sign_up"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ab-ZO-Qn7" customClass="LoginButton" customModule="MinerBox" customModuleProvider="target">
+                                                <rect key="frame" x="149" y="166" width="116" height="30"/>
+                                                <state key="normal" title="forgot_password"/>
+                                                <connections>
+                                                    <segue destination="hcT-Vv-9cg" kind="show" id="8cp-NX-AxW"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rGU-qD-5wO" customClass="LoginButton" customModule="MinerBox" customModuleProvider="target">
+                                                <rect key="frame" x="354" y="266.5" width="30" height="28"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <state key="normal" title="skip"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbT-op-4Dt" customClass="BackgroundButton" customModule="MinerBox" customModuleProvider="target">
+                                                <rect key="frame" x="138.5" y="61" width="137" height="35"/>
+                                                <color key="backgroundColor" red="0.097661994399999993" green="0.4664257765" blue="0.47451776270000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="35" id="omu-uS-QmX"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="SFProText-Semibold" family="SF Pro Text" pointSize="17"/>
+                                                <state key="normal" title="login">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="w2i-cX-LWV" firstAttribute="centerX" secondItem="Sfi-ih-LWg" secondAttribute="centerX" id="44w-HV-Sfw"/>
+                                            <constraint firstItem="8ab-ZO-Qn7" firstAttribute="centerX" secondItem="Sfi-ih-LWg" secondAttribute="centerX" id="4vO-jc-bON"/>
+                                            <constraint firstItem="vbT-op-4Dt" firstAttribute="centerY" secondItem="Sfi-ih-LWg" secondAttribute="centerY" multiplier="0.5" id="86J-dM-tnp"/>
+                                            <constraint firstAttribute="bottom" secondItem="rGU-qD-5wO" secondAttribute="bottom" constant="20" id="BDs-F2-RKY"/>
+                                            <constraint firstItem="w2i-cX-LWV" firstAttribute="top" secondItem="vbT-op-4Dt" secondAttribute="bottom" constant="30" id="Jny-hT-c4K"/>
+                                            <constraint firstAttribute="trailing" secondItem="rGU-qD-5wO" secondAttribute="trailing" constant="30" id="YMc-JC-4pq"/>
+                                            <constraint firstItem="8ab-ZO-Qn7" firstAttribute="top" secondItem="w2i-cX-LWV" secondAttribute="bottom" constant="10" id="dOg-PJ-vtV"/>
+                                            <constraint firstItem="vbT-op-4Dt" firstAttribute="width" secondItem="Sfi-ih-LWg" secondAttribute="width" multiplier="0.33" id="s5Y-0j-ghu"/>
+                                            <constraint firstItem="vbT-op-4Dt" firstAttribute="centerX" secondItem="Sfi-ih-LWg" secondAttribute="centerX" id="zXN-ql-eXd"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Sfi-ih-LWg" firstAttribute="top" secondItem="ec9-70-9Lj" secondAttribute="bottom" id="2Mp-nn-3RF"/>
+                                    <constraint firstItem="ec9-70-9Lj" firstAttribute="centerX" secondItem="Coh-BQ-e4H" secondAttribute="centerX" id="5Gr-96-jRo"/>
+                                    <constraint firstAttribute="trailing" secondItem="Sfi-ih-LWg" secondAttribute="trailing" id="7af-Ci-Hb1"/>
+                                    <constraint firstItem="CR3-wh-meO" firstAttribute="leading" secondItem="Coh-BQ-e4H" secondAttribute="leading" id="Ae7-pP-ANX"/>
+                                    <constraint firstItem="Sfi-ih-LWg" firstAttribute="leading" secondItem="Coh-BQ-e4H" secondAttribute="leading" id="IA9-bX-wAS"/>
+                                    <constraint firstItem="ec9-70-9Lj" firstAttribute="trailing" secondItem="Coh-BQ-e4H" secondAttribute="trailing" id="Zyt-Ae-Yao"/>
+                                    <constraint firstAttribute="bottom" secondItem="Sfi-ih-LWg" secondAttribute="bottom" id="aaX-OI-sBz"/>
+                                    <constraint firstItem="ec9-70-9Lj" firstAttribute="centerY" secondItem="Coh-BQ-e4H" secondAttribute="centerY" id="eye-39-u4W"/>
+                                    <constraint firstItem="ec9-70-9Lj" firstAttribute="top" secondItem="CR3-wh-meO" secondAttribute="bottom" id="hpA-yP-993"/>
+                                    <constraint firstItem="CR3-wh-meO" firstAttribute="top" secondItem="Coh-BQ-e4H" secondAttribute="top" id="t72-l7-HK1"/>
+                                    <constraint firstItem="Sfi-ih-LWg" firstAttribute="height" secondItem="CR3-wh-meO" secondAttribute="height" id="uCR-fd-zb9"/>
+                                    <constraint firstAttribute="trailing" secondItem="CR3-wh-meO" secondAttribute="trailing" id="xac-Tc-PHi"/>
+                                    <constraint firstItem="CR3-wh-meO" firstAttribute="width" secondItem="Coh-BQ-e4H" secondAttribute="width" id="y3M-eB-OZd"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4jS-qK-Fdx"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Coh-BQ-e4H" firstAttribute="width" secondItem="4jS-qK-Fdx" secondAttribute="width" id="6Be-30-fdp"/>
+                            <constraint firstItem="ec9-70-9Lj" firstAttribute="centerX" secondItem="4jS-qK-Fdx" secondAttribute="centerX" id="Fu7-py-9ic"/>
+                            <constraint firstItem="Coh-BQ-e4H" firstAttribute="leading" secondItem="4jS-qK-Fdx" secondAttribute="leading" id="U1C-79-67v"/>
+                            <constraint firstItem="4jS-qK-Fdx" firstAttribute="bottom" secondItem="Coh-BQ-e4H" secondAttribute="bottom" id="dok-96-TLN"/>
+                            <constraint firstItem="ec9-70-9Lj" firstAttribute="width" secondItem="4jS-qK-Fdx" secondAttribute="width" id="ip3-T1-xik"/>
+                            <constraint firstItem="Coh-BQ-e4H" firstAttribute="top" secondItem="4jS-qK-Fdx" secondAttribute="top" id="uXk-A9-yil"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="log_in" id="ZzT-oC-UnJ"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="qdw-Xu-RYE" id="hzs-WP-NlP"/>
+                        <outlet property="forgotPasswordButton" destination="8ab-ZO-Qn7" id="lXn-6p-wfg"/>
+                        <outlet property="loginButton" destination="vbT-op-4Dt" id="iKu-nn-MH5"/>
+                        <outlet property="logo" destination="w0U-ck-MPe" id="Y4y-JG-TTC"/>
+                        <outlet property="passwordTextField" destination="amQ-7k-vHK" id="0w8-Mp-H8F"/>
+                        <outlet property="scrollView" destination="Coh-BQ-e4H" id="ZFS-hk-y6I"/>
+                        <outlet property="signupButton" destination="w2i-cX-LWV" id="VEZ-bB-HvN"/>
+                        <outlet property="skipButton" destination="rGU-qD-5wO" id="Rog-iG-KZ6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qwV-Sp-faF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1282.608695652174" y="-170.08928571428569"/>
+        </scene>
+        <!--Forgot Password View Controller-->
+        <scene sceneID="Lps-N5-bNe">
+            <objects>
+                <viewController id="hcT-Vv-9cg" customClass="ForgotPasswordViewController" customModule="MinerBox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mnm-Y8-93m">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fHf-gT-Uke">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Qe-Ad-28A">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="L8g-yw-lpB">
+                                                <rect key="frame" x="52" y="253.5" width="310.5" height="267"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="l57-or-5vo">
+                                                        <rect key="frame" x="0.0" y="0.0" width="310.5" height="137"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0dY-ca-iSU" customClass="BaseTextField" customModule="MinerBox" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="310.5" height="35"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="35" id="tCb-a9-F0G"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="done" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="email"/>
+                                                            </textField>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e7Q-kl-LTw" customClass="BackgroundButton" customModule="MinerBox" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="51" width="310.5" height="35"/>
+                                                                <state key="normal" title="Button"/>
+                                                            </button>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="szl-Tb-vhk">
+                                                                <rect key="frame" x="0.0" y="102" width="310.5" height="35"/>
+                                                                <subviews>
+                                                                    <textField opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="79n-7B-wix" customClass="BaseTextField" customModule="MinerBox" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="185.5" height="35"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="done" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="one-time-code"/>
+                                                                    </textField>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CmI-xr-NVB" customClass="BackgroundButton" customModule="MinerBox" customModuleProvider="target">
+                                                                        <rect key="frame" x="201.5" y="0.0" width="109" height="35"/>
+                                                                        <state key="normal" title="Button"/>
+                                                                    </button>
+                                                                </subviews>
+                                                                <constraints>
+                                                                    <constraint firstItem="CmI-xr-NVB" firstAttribute="width" secondItem="szl-Tb-vhk" secondAttribute="width" multiplier="0.35" id="suH-Z2-KMb"/>
+                                                                </constraints>
+                                                            </stackView>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="UVo-W3-q5r">
+                                                        <rect key="frame" x="0.0" y="181" width="310.5" height="86"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" alpha="0.5" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OSI-8J-Hwk" customClass="BaseTextField" customModule="MinerBox" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="310.5" height="35"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="next" secureTextEntry="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="password"/>
+                                                            </textField>
+                                                            <textField opaque="NO" alpha="0.5" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="83O-at-NXb" customClass="BaseTextField" customModule="MinerBox" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="51" width="310.5" height="35"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="done" secureTextEntry="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="password"/>
+                                                            </textField>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="OSI-8J-Hwk" firstAttribute="height" secondItem="0dY-ca-iSU" secondAttribute="height" id="CYy-Rw-cmL"/>
+                                                </constraints>
+                                            </stackView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ji7-f2-EYl">
+                                                <rect key="frame" x="0.0" y="520.5" width="414" height="253.5"/>
+                                                <subviews>
+                                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="723-h5-PfQ" customClass="BackgroundButton" customModule="MinerBox" customModuleProvider="target">
+                                                        <rect key="frame" x="129.5" y="46" width="155" height="35"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="35" id="NBA-Jh-VFv"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Button"/>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="723-h5-PfQ" firstAttribute="centerX" secondItem="ji7-f2-EYl" secondAttribute="centerX" id="HIn-2d-tcT"/>
+                                                    <constraint firstItem="723-h5-PfQ" firstAttribute="centerY" secondItem="ji7-f2-EYl" secondAttribute="centerY" multiplier="0.5" id="QEV-eG-LNj"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="ji7-f2-EYl" secondAttribute="bottom" id="8cK-xl-6rK"/>
+                                            <constraint firstItem="L8g-yw-lpB" firstAttribute="width" secondItem="8Qe-Ad-28A" secondAttribute="width" multiplier="0.75" id="IDP-19-LFl"/>
+                                            <constraint firstItem="ji7-f2-EYl" firstAttribute="leading" secondItem="8Qe-Ad-28A" secondAttribute="leading" id="YtP-hB-Trk"/>
+                                            <constraint firstItem="L8g-yw-lpB" firstAttribute="centerX" secondItem="8Qe-Ad-28A" secondAttribute="centerX" id="hir-R5-vDO"/>
+                                            <constraint firstAttribute="trailing" secondItem="ji7-f2-EYl" secondAttribute="trailing" id="i0F-AN-vre"/>
+                                            <constraint firstItem="L8g-yw-lpB" firstAttribute="centerY" secondItem="8Qe-Ad-28A" secondAttribute="centerY" id="kVw-Yj-41d"/>
+                                            <constraint firstItem="ji7-f2-EYl" firstAttribute="top" secondItem="L8g-yw-lpB" secondAttribute="bottom" id="oK2-xM-aac"/>
+                                            <constraint firstItem="723-h5-PfQ" firstAttribute="width" secondItem="83O-at-NXb" secondAttribute="width" multiplier="0.5" id="tWj-h1-8wn"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="8Qe-Ad-28A" firstAttribute="width" secondItem="fHf-gT-Uke" secondAttribute="width" id="80U-ET-ox3"/>
+                                    <constraint firstItem="8Qe-Ad-28A" firstAttribute="height" secondItem="fHf-gT-Uke" secondAttribute="height" id="T0C-Jk-oqj"/>
+                                    <constraint firstAttribute="trailing" secondItem="8Qe-Ad-28A" secondAttribute="trailing" id="U48-IR-0DO"/>
+                                    <constraint firstAttribute="bottom" secondItem="8Qe-Ad-28A" secondAttribute="bottom" id="XkF-rb-cQD"/>
+                                    <constraint firstItem="8Qe-Ad-28A" firstAttribute="top" secondItem="fHf-gT-Uke" secondAttribute="top" id="dCy-Ih-YFb"/>
+                                    <constraint firstItem="8Qe-Ad-28A" firstAttribute="leading" secondItem="fHf-gT-Uke" secondAttribute="leading" id="uc4-jr-YfT"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pA6-Tc-Npr"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fHf-gT-Uke" firstAttribute="top" secondItem="pA6-Tc-Npr" secondAttribute="top" id="2SQ-4W-Qfy"/>
+                            <constraint firstItem="pA6-Tc-Npr" firstAttribute="bottom" secondItem="fHf-gT-Uke" secondAttribute="bottom" id="L4o-vU-3Qu"/>
+                            <constraint firstItem="fHf-gT-Uke" firstAttribute="leading" secondItem="pA6-Tc-Npr" secondAttribute="leading" id="ttA-DD-2rv"/>
+                            <constraint firstItem="pA6-Tc-Npr" firstAttribute="trailing" secondItem="fHf-gT-Uke" secondAttribute="trailing" id="uB8-ha-rEA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="0dY-ca-iSU" id="32P-4i-29o"/>
+                        <outlet property="passwordTextField" destination="OSI-8J-Hwk" id="3eL-rH-jXI"/>
+                        <outlet property="receiveCodeButton" destination="e7Q-kl-LTw" id="gPT-c6-V9I"/>
+                        <outlet property="retypePasswordTextField" destination="83O-at-NXb" id="ePg-8u-zzH"/>
+                        <outlet property="scrollView" destination="fHf-gT-Uke" id="Arp-Bp-bcE"/>
+                        <outlet property="updateButton" destination="723-h5-PfQ" id="YVJ-KG-ahc"/>
+                        <outlet property="verificaitonCodeTextField" destination="79n-7B-wix" id="WiQ-HG-NqD"/>
+                        <outlet property="verifyButton" destination="CmI-xr-NVB" id="Th6-Ra-J0d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lCD-Y7-F2v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2406" y="204"/>
+        </scene>
+        <!--Signup View Controller-->
+        <scene sceneID="ziO-M2-SZH">
+            <objects>
+                <viewController storyboardIdentifier="SignupViewController" id="3tq-HF-6RQ" customClass="SignupViewController" customModule="MinerBox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iRw-H8-pPO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JFb-tn-Ulo">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wfQ-Iw-k4Y">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="2gV-Mt-jBf">
+                                                <rect key="frame" x="52" y="307" width="310.5" height="204"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="wc1-Og-DuV">
+                                                        <rect key="frame" x="0.0" y="0.0" width="310.5" height="82"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TZR-3c-6LM" customClass="BaseTextField" customModule="MinerBox" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="310.5" height="36"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="36" id="fpp-f2-wJl"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="next" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="username"/>
+                                                            </textField>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JoT-dY-4rR" customClass="BaseTextField" customModule="MinerBox" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="46" width="310.5" height="36"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="next" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="email"/>
+                                                            </textField>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="W71-2s-m6I">
+                                                        <rect key="frame" x="0.0" y="122" width="310.5" height="82"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3d9-NL-V0P" customClass="BaseTextField" customModule="MinerBox" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="310.5" height="36"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="next" secureTextEntry="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="password"/>
+                                                            </textField>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FW9-Tk-HK2" customClass="BaseTextField" customModule="MinerBox" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="46" width="310.5" height="36"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="done" secureTextEntry="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="password"/>
+                                                            </textField>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jaB-AV-TFF">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="307"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="1vI-42-3Z0">
+                                                        <rect key="frame" x="118" y="64.5" width="178" height="178"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="1vI-42-3Z0" secondAttribute="height" id="HJy-n8-M4v"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="1vI-42-3Z0" firstAttribute="height" secondItem="jaB-AV-TFF" secondAttribute="height" multiplier="0.58" id="Pcf-RA-WxH"/>
+                                                    <constraint firstItem="1vI-42-3Z0" firstAttribute="centerY" secondItem="jaB-AV-TFF" secondAttribute="centerY" id="f4h-FB-Dpd"/>
+                                                    <constraint firstItem="1vI-42-3Z0" firstAttribute="centerX" secondItem="jaB-AV-TFF" secondAttribute="centerX" id="wHw-L8-wyK"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l8m-Xf-ShB">
+                                                <rect key="frame" x="0.0" y="511" width="414" height="307"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MqO-xI-8cN" customClass="BackgroundButton" customModule="MinerBox" customModuleProvider="target">
+                                                        <rect key="frame" x="129.5" y="59.5" width="155" height="35"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="35" id="F1b-uE-s0b"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Button"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8A9-NZ-ZMy" customClass="LoginButton" customModule="MinerBox" customModuleProvider="target">
+                                                        <rect key="frame" x="190" y="124.5" width="34" height="30"/>
+                                                        <state key="normal" title="login"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rds-ZQ-VdX" customClass="LoginButton" customModule="MinerBox" customModuleProvider="target">
+                                                        <rect key="frame" x="354" y="257" width="30" height="30"/>
+                                                        <state key="normal" title="skip"/>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="8A9-NZ-ZMy" firstAttribute="top" secondItem="MqO-xI-8cN" secondAttribute="bottom" constant="30" id="AKq-Ke-wUL"/>
+                                                    <constraint firstItem="MqO-xI-8cN" firstAttribute="centerX" secondItem="l8m-Xf-ShB" secondAttribute="centerX" id="DVs-pl-sLE"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Rds-ZQ-VdX" secondAttribute="bottom" constant="20" id="LEh-U0-fgS"/>
+                                                    <constraint firstItem="8A9-NZ-ZMy" firstAttribute="centerX" secondItem="l8m-Xf-ShB" secondAttribute="centerX" id="Uai-nc-nt4"/>
+                                                    <constraint firstItem="MqO-xI-8cN" firstAttribute="centerY" secondItem="l8m-Xf-ShB" secondAttribute="centerY" multiplier="0.5" id="mZH-sK-RMe"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Rds-ZQ-VdX" secondAttribute="trailing" constant="30" id="tV5-Jj-qgi"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="jaB-AV-TFF" secondAttribute="trailing" id="2OF-ro-J8L"/>
+                                            <constraint firstItem="l8m-Xf-ShB" firstAttribute="top" secondItem="2gV-Mt-jBf" secondAttribute="bottom" id="2UU-fk-Wfj"/>
+                                            <constraint firstItem="2gV-Mt-jBf" firstAttribute="width" secondItem="wfQ-Iw-k4Y" secondAttribute="width" multiplier="0.75" id="3JX-7c-aRd"/>
+                                            <constraint firstItem="jaB-AV-TFF" firstAttribute="leading" secondItem="wfQ-Iw-k4Y" secondAttribute="leading" id="5QM-9j-aZ3"/>
+                                            <constraint firstItem="2gV-Mt-jBf" firstAttribute="centerX" secondItem="wfQ-Iw-k4Y" secondAttribute="centerX" id="8TN-Qy-rZz"/>
+                                            <constraint firstAttribute="bottom" secondItem="l8m-Xf-ShB" secondAttribute="bottom" id="DGr-FW-iqc"/>
+                                            <constraint firstItem="2gV-Mt-jBf" firstAttribute="centerY" secondItem="wfQ-Iw-k4Y" secondAttribute="centerY" id="Len-oX-9kL"/>
+                                            <constraint firstItem="jaB-AV-TFF" firstAttribute="top" secondItem="wfQ-Iw-k4Y" secondAttribute="top" id="ZK7-Rs-NcU"/>
+                                            <constraint firstItem="l8m-Xf-ShB" firstAttribute="leading" secondItem="wfQ-Iw-k4Y" secondAttribute="leading" id="cEA-Yj-mYW"/>
+                                            <constraint firstItem="2gV-Mt-jBf" firstAttribute="top" secondItem="jaB-AV-TFF" secondAttribute="bottom" id="gMl-xe-ONj"/>
+                                            <constraint firstAttribute="trailing" secondItem="l8m-Xf-ShB" secondAttribute="trailing" id="sdo-I4-EnC"/>
+                                            <constraint firstItem="MqO-xI-8cN" firstAttribute="width" secondItem="FW9-Tk-HK2" secondAttribute="width" multiplier="0.5" id="xwT-hq-QbY"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="wfQ-Iw-k4Y" firstAttribute="width" secondItem="JFb-tn-Ulo" secondAttribute="width" id="5yw-BM-Yig"/>
+                                    <constraint firstAttribute="bottom" secondItem="wfQ-Iw-k4Y" secondAttribute="bottom" id="FLA-55-2yE"/>
+                                    <constraint firstAttribute="trailing" secondItem="wfQ-Iw-k4Y" secondAttribute="trailing" id="Rne-f4-4bP"/>
+                                    <constraint firstItem="wfQ-Iw-k4Y" firstAttribute="leading" secondItem="JFb-tn-Ulo" secondAttribute="leading" id="jCT-0l-n0h"/>
+                                    <constraint firstItem="wfQ-Iw-k4Y" firstAttribute="top" secondItem="JFb-tn-Ulo" secondAttribute="top" id="s5E-Yw-56M"/>
+                                    <constraint firstItem="wfQ-Iw-k4Y" firstAttribute="height" secondItem="JFb-tn-Ulo" secondAttribute="height" id="vhV-Rt-hal"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GhQ-9u-Ed7"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="JFb-tn-Ulo" firstAttribute="top" secondItem="GhQ-9u-Ed7" secondAttribute="top" id="FbS-B7-qJ9"/>
+                            <constraint firstItem="GhQ-9u-Ed7" firstAttribute="bottom" secondItem="JFb-tn-Ulo" secondAttribute="bottom" id="dtw-Pr-XSA"/>
+                            <constraint firstItem="GhQ-9u-Ed7" firstAttribute="trailing" secondItem="JFb-tn-Ulo" secondAttribute="trailing" id="e8d-w1-Jlu"/>
+                            <constraint firstItem="JFb-tn-Ulo" firstAttribute="leading" secondItem="GhQ-9u-Ed7" secondAttribute="leading" id="qGp-ve-B6j"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="JoT-dY-4rR" id="7Jv-K5-tmk"/>
+                        <outlet property="loginButton" destination="8A9-NZ-ZMy" id="Cyd-Pi-6g1"/>
+                        <outlet property="logo" destination="1vI-42-3Z0" id="97g-Yx-yMF"/>
+                        <outlet property="passwordTextField" destination="3d9-NL-V0P" id="jrc-Br-s5B"/>
+                        <outlet property="registerButton" destination="MqO-xI-8cN" id="wfF-KJ-EVP"/>
+                        <outlet property="retypePasswordTextField" destination="FW9-Tk-HK2" id="gdq-MJ-Mi5"/>
+                        <outlet property="scrollView" destination="JFb-tn-Ulo" id="rxu-et-iXf"/>
+                        <outlet property="skipButton" destination="Rds-ZQ-VdX" id="AdA-Zf-4Rg"/>
+                        <outlet property="usernameTextField" destination="TZR-3c-6LM" id="RTd-DX-k0k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dSM-JO-bQ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2406" y="-521"/>
+        </scene>
+        <!--Base Navigation Controller-->
+        <scene sceneID="Lke-bX-SWK">
+            <objects>
+                <navigationController storyboardIdentifier="LoginNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="RP4-bs-BKu" customClass="BaseNavigationController" customModule="MinerBox" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DH7-R6-nwh">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="d6L-fy-BCN" kind="relationship" relationship="rootViewController" id="Y7n-OR-srl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="reJ-B6-Xe9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="373.91304347826087" y="-169.41964285714286"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="0dY-ca-iSU">
+            <size key="intrinsicContentSize" width="32" height="34"/>
+        </designable>
+        <designable name="3d9-NL-V0P">
+            <size key="intrinsicContentSize" width="32" height="34"/>
+        </designable>
+        <designable name="723-h5-PfQ">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+        <designable name="79n-7B-wix">
+            <size key="intrinsicContentSize" width="32" height="34"/>
+        </designable>
+        <designable name="83O-at-NXb">
+            <size key="intrinsicContentSize" width="32" height="34"/>
+        </designable>
+        <designable name="8A9-NZ-ZMy">
+            <size key="intrinsicContentSize" width="34" height="30"/>
+        </designable>
+        <designable name="8ab-ZO-Qn7">
+            <size key="intrinsicContentSize" width="116" height="30"/>
+        </designable>
+        <designable name="CmI-xr-NVB">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+        <designable name="FW9-Tk-HK2">
+            <size key="intrinsicContentSize" width="32" height="34"/>
+        </designable>
+        <designable name="JoT-dY-4rR">
+            <size key="intrinsicContentSize" width="32" height="34"/>
+        </designable>
+        <designable name="MqO-xI-8cN">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+        <designable name="OSI-8J-Hwk">
+            <size key="intrinsicContentSize" width="32" height="34"/>
+        </designable>
+        <designable name="Rds-ZQ-VdX">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="TZR-3c-6LM">
+            <size key="intrinsicContentSize" width="32" height="34"/>
+        </designable>
+        <designable name="e7Q-kl-LTw">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+        <designable name="rGU-qD-5wO">
+            <size key="intrinsicContentSize" width="30" height="28"/>
+        </designable>
+        <designable name="vbT-op-4Dt">
+            <size key="intrinsicContentSize" width="41" height="33"/>
+        </designable>
+        <designable name="w2i-cX-LWV">
+            <size key="intrinsicContentSize" width="55" height="30"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="logo" width="141" height="138"/>
+    </resources>
+</document>

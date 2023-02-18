@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Medium.otf">
+            <string>SFProText-Medium</string>
+        </array>
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+        <array key="SF-Pro-Text-Semibold.otf">
+            <string>SFProText-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ActivateAlertViewController" customModule="MinerBox" customModuleProvider="target">
+            <connections>
+                <outlet property="activateButton" destination="7KR-7E-gSF" id="enI-Ob-ga7"/>
+                <outlet property="activateLabel" destination="jHs-de-kHB" id="Dgr-kH-fpZ"/>
+                <outlet property="cancelButton" destination="x4O-jo-ALE" id="R3a-se-OEo"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="warningText" destination="BTe-xp-Ftb" id="C8r-2L-P5B"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JHI-zV-c1d" customClass="BaseView" customModule="MinerBox" customModuleProvider="target">
+                    <rect key="frame" x="37.5" y="240" width="300" height="187.5"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nxo-HA-Ncm">
+                            <rect key="frame" x="98.5" y="15" width="103.5" height="26"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="activate_account" translatesAutoresizingMaskIntoConstraints="NO" id="xtO-en-y9t">
+                                    <rect key="frame" x="0.0" y="0.0" width="26" height="26"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="xtO-en-y9t" secondAttribute="height" id="NkO-Ij-l4N"/>
+                                        <constraint firstAttribute="height" constant="26" id="hZm-FI-1K6"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Activate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jHs-de-kHB" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                                    <rect key="frame" x="36" y="2.5" width="67.5" height="20.5"/>
+                                    <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="xtO-en-y9t" secondAttribute="bottom" id="0QZ-7b-CY4"/>
+                                <constraint firstItem="jHs-de-kHB" firstAttribute="leading" secondItem="xtO-en-y9t" secondAttribute="trailing" constant="10" id="Qrn-mn-Kra"/>
+                                <constraint firstItem="xtO-en-y9t" firstAttribute="leading" secondItem="nxo-HA-Ncm" secondAttribute="leading" id="Yg2-1W-bDA"/>
+                                <constraint firstItem="jHs-de-kHB" firstAttribute="centerY" secondItem="xtO-en-y9t" secondAttribute="centerY" id="euj-xd-Unf"/>
+                                <constraint firstItem="xtO-en-y9t" firstAttribute="top" secondItem="nxo-HA-Ncm" secondAttribute="top" id="mbM-6G-9Mg"/>
+                                <constraint firstAttribute="trailing" secondItem="jHs-de-kHB" secondAttribute="trailing" id="ut2-l4-Zfz"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only one account can be activated! Active account should be deleted for activing other one." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BTe-xp-Ftb" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                            <rect key="frame" x="20" y="51" width="260" height="81.5"/>
+                            <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZfD-X6-Sp4">
+                            <rect key="frame" x="0.0" y="142.5" width="300" height="45"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="633-0c-loO">
+                                    <rect key="frame" x="0.0" y="1" width="300" height="44"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4O-jo-ALE" customClass="AlertControllerButton" customModule="MinerBox" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="149.5" height="44"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="17"/>
+                                            <state key="normal" title="Cancel">
+                                                <color key="titleColor" red="0.11764705882352941" green="0.59607843137254901" blue="0.60784313725490191" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="cancelButtonAction:" destination="-1" eventType="touchUpInside" id="Xk2-c9-fzz"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7KR-7E-gSF" customClass="AlertControllerButton" customModule="MinerBox" customModuleProvider="target">
+                                            <rect key="frame" x="150.5" y="0.0" width="149.5" height="44"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" name="SFProText-Semibold" family="SF Pro Text" pointSize="17"/>
+                                            <state key="normal" title="Activate">
+                                                <color key="titleColor" red="0.11764705882352941" green="0.59607843137254901" blue="0.60784313725490191" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="activateButtonAction:" destination="-1" eventType="touchUpInside" id="z3Y-u2-ryJ"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="placeholderTextColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="44" id="x7s-Uc-3nL"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="placeholderTextColor"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="633-0c-loO" secondAttribute="bottom" id="6sJ-NQ-v0z"/>
+                                <constraint firstItem="633-0c-loO" firstAttribute="leading" secondItem="ZfD-X6-Sp4" secondAttribute="leading" id="Rpm-Fa-T1S"/>
+                                <constraint firstAttribute="trailing" secondItem="633-0c-loO" secondAttribute="trailing" id="SAt-Fl-b9r"/>
+                                <constraint firstItem="633-0c-loO" firstAttribute="top" secondItem="ZfD-X6-Sp4" secondAttribute="top" constant="1" id="YFB-Lc-oVh"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="ZfD-X6-Sp4" firstAttribute="top" secondItem="BTe-xp-Ftb" secondAttribute="bottom" constant="10" id="FZ4-Gd-AyS"/>
+                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="400" id="P8d-vi-hoZ"/>
+                        <constraint firstItem="nxo-HA-Ncm" firstAttribute="top" secondItem="JHI-zV-c1d" secondAttribute="top" constant="15" id="VP1-al-tcO"/>
+                        <constraint firstItem="BTe-xp-Ftb" firstAttribute="top" secondItem="nxo-HA-Ncm" secondAttribute="bottom" constant="10" id="a0F-Hm-neQ"/>
+                        <constraint firstAttribute="bottom" secondItem="ZfD-X6-Sp4" secondAttribute="bottom" id="d14-yq-PpH"/>
+                        <constraint firstAttribute="trailing" secondItem="ZfD-X6-Sp4" secondAttribute="trailing" id="erq-Ca-PkZ"/>
+                        <constraint firstItem="BTe-xp-Ftb" firstAttribute="leading" secondItem="JHI-zV-c1d" secondAttribute="leading" constant="20" id="h7F-ng-bMy"/>
+                        <constraint firstItem="ZfD-X6-Sp4" firstAttribute="leading" secondItem="JHI-zV-c1d" secondAttribute="leading" id="h9Q-fw-Akg"/>
+                        <constraint firstItem="nxo-HA-Ncm" firstAttribute="centerX" secondItem="JHI-zV-c1d" secondAttribute="centerX" id="hSZ-Vf-qyH"/>
+                        <constraint firstAttribute="trailing" secondItem="BTe-xp-Ftb" secondAttribute="trailing" constant="20" id="k54-BC-qJI"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="JHI-zV-c1d" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.8" priority="750" id="DfI-xB-JK1"/>
+                <constraint firstItem="JHI-zV-c1d" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="Otl-Jk-RCM"/>
+                <constraint firstItem="JHI-zV-c1d" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="zNS-vU-fry"/>
+            </constraints>
+            <point key="canvasLocation" x="138.40000000000001" y="152.47376311844079"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="7KR-7E-gSF">
+            <size key="intrinsicContentSize" width="69" height="33"/>
+        </designable>
+        <designable name="BTe-xp-Ftb">
+            <size key="intrinsicContentSize" width="737" height="20.5"/>
+        </designable>
+        <designable name="jHs-de-kHB">
+            <size key="intrinsicContentSize" width="67.5" height="20.5"/>
+        </designable>
+        <designable name="x4O-jo-ALE">
+            <size key="intrinsicContentSize" width="55" height="33"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="activate_account" width="23" height="26"/>
+        <systemColor name="placeholderTextColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,597 @@
+/*
+ Localizable.strings
+ MinerBox
+ 
+ Created by Ruben Nahatakyan on 2/7/19.
+ Copyright © 2019 WitPlex. All rights reserved.
+ */
+
+// MARK: - Alerts
+"active_workers_change"                                         = "적극적 노동자가 바뀝니다";
+"add_hashrate_alert"                                            = "보고 해시레이트 경고 추가";
+"add_hashrate_alerts"                                           = "보고 해시레이트 경고 추가";
+"add_reportedHashrate_alert"                                    = "Add reported hashrate alert";
+"add_reportedHashrate_alerts"                                   = "Add reported hashrate alerts";
+"add_payout_alerts"                                             = "지불 대금 알림 추가";
+"add_worker_alert"                                              = "작업자 경보 추가";
+"add_worker_alerts"                                             = "작업자 경고 추가";
+"alert_added"                                                   = "알림 추가되었습니다";
+"alert_category_auto"                                           = "오토매틱";
+"alert_category_manual"                                         = "수동으로";
+"alert_updated"                                                 = "알림 업데이트되었습니다";
+"count"                                                         = "세어보세요";
+"current_hashrate"                                              = "현재 해쉬 레이트";
+"current_reportedHashrate"                                      = "현재의 보고 해시레이트";
+"current_workers_count"                                         = "현재 작업자 수";
+"edit_alert"                                                    = "알림 수정";
+"edit_hashrate_alert"                                           = "해시 레이트 경보 편집";
+"edit_reportedHashrate_alert"                                   = "보고 해시레이트 경보 편집";
+"edit_worker_alert"                                             = "작업자 경고 편집";
+"enabled"                                                       = "사용";
+"hashrate_change_state"                                         = "On/Off 상태를 해시합니다";
+"reportedHashrate_change_state"                                 = "상태를 보고 해시합니다";
+"new_alert"                                                     = "새 알림";
+"notifications_will_delete"                                     = "알림이 삭제됩니다";
+"payout_detection"                                              = "지불 발각";
+"repeat"                                                        = "반복하다";
+"speed"                                                         = "속도";
+
+"Enter comparison"                                              = "입력 비교";
+"Enter valid value"                                             = "유효 값 입력";
+"maximum_count_reached!"                                        = "최대 개수에 도달했습니다!";
+"deleted"                                                       = "삭제됨";
+
+// MARK: - Animation
+"animation_retry"                                               = "재시도";
+
+// MARK: - Authorization
+"change_password"                                               = "비밀번호 변경";
+"change_username"                                               = "사용자 이름 변경";
+"login_email"                                                   = "이메일";
+"login_forgot_password"                                         = "비밀번호를 잊으 셨나요";
+"login_login"                                                   = "로그인";
+"login_sign_up"                                                 = "가입";
+"login_skip"                                                    = "건너뛰다";
+"new_password"                                                  = "새 비밀번호";
+"old_password"                                                  = "기존 비밀번호";
+"password"                                                      = "암호";
+"register"                                                      = "레지스터";
+"retype_password"                                               = "암호 다시 입력";
+"update"                                                        = "새롭게 하다";
+"username"                                                      = "사용자 이름";
+"username_optional"                                             = "사용자 이름 (선택 과목)";
+"email_sended"                                                  = "암호 회복을 위해 귀하의 이메일을 확인하시기 바랍니다";
+"incorrect_email"                                               = "잘못된 이메일";
+"receive_code"                                                  = "코드 받기";
+"verification_code"                                             = "확인 코드";
+"verify"                                                        = "확인";
+
+"Recover" = "다시 덮다";
+"Incorrect password" = "잘못된 비밀번호";
+
+// MARK: - Balance
+"balance"                                                       = "밸런스";
+"confirmed"                                                     = "확인된";
+"orphaned"                                                      = "고아의";
+"paid"                                                          = "유급의";
+"unconfirmed"                                                   = "확인되지 않은";
+"unpaid"                                                        = "지불하지 않은";
+"credit"                                                        = "크레딧";
+"totalBalance"                                                  = "총잔액";
+"paid24h"                                                       = "유료 24시간";
+"coins"                                                         = "동전";
+"payoutThreshold"                                               = "지불 임계값";
+"none"                                                          = "없음";
+"reward24h"                                                     = "리워드 24h";
+"immatureReward"                                                = "미숙한 보상";
+
+// Filter
+"filter"                                                        = "필터";
+"coin_sort_coin"                                                = "동전";
+"coin_sort_change"                                              = "변화";
+"coin_sort_price"                                               = "가격";
+"coin_sort_rank"                                                = "계급";
+"from_textfield"                                                = "부터";
+"to_textfield"                                                  = "로";
+
+// Page type
+"coin_price_all"                                                = "모든";
+"coin_price_favorites"                                          = "즐겨 찾기";
+"coin_price_alerts"                                             = "알리미";
+
+// Change
+"coin_price_change_1_hour"                                      = "1시간";
+"coin_price_change_24_hours"                                    = "24시간";
+"coin_price_change_7_days"                                      = "1주";
+
+"coin_alert_deleted"                                            = "동전 알림 삭제되었습니다";
+"market_cap_usd"                                                = "시가 총액 USD";
+
+"Enter value" = "값 입력";
+"Select coin" = "동전 선택";
+"Coin Alert Added" = "동전 알림 추가됨";
+"added_to_favorite" = "즐겨 찾기에 추가됨";
+"deleted_from_favorite" = "즐겨 찾기에서 삭제되었습니다";
+"add_favorite"                                                  = "즐겨 찾기 추가";
+
+"volume"                                                        = "볼륨";
+"max_supply"                                                    = "최대 공급량";
+"total_supply"                                                  = "총 공급량";
+"explorers"                                                     = "탐험가";
+
+// MARK: - Coin graph
+"choose_coin"                                                   = "동전 선택";
+"coin_settings_analize"                                         = "분석";
+"coin_settings_axis"                                            = "중심선";
+"coin_settings_comparision"                                     = "비교";
+"coin_settings_graph"                                           = "그래프";
+"coin_settings_horizontal"                                      = "수평";
+"coin_settings_indicators"                                      = "지표";
+"coin_settings_line"                                            = "선";
+"coin_settings_mountain"                                        = "산";
+"coin_settings_vertical"                                        = "수직의";
+
+// MARK: - Comparision
+"comparision_greather_than"                                     = "미만 큰";
+"comparision_less_than"                                         = "미만";
+
+// MARK: - Default
+"id"                                                            = "ID";
+"ask_for_delete"                                                = "지우시겠습니까?";
+"cancel"                                                        = "취소";
+"delete"                                                        = "지우다";
+"done"                                                          = "끝난";
+"edit"                                                          = "편집하다";
+"last_updated"                                                  = "마지막 업데이트";
+"payment_method"                                                = "결제 방법";
+"later"                                                         = "이따가";
+"loading"                                                       = "로드 중";
+"no_chart_data"                                                 = "차트 데이터 없음";
+"ok"                                                            = "승인";
+"save"                                                          = "저장";
+"search"                                                        = "수색";
+"sent"                                                          = "보낸";
+"state"                                                         = "상태";
+"update_info"                                                   = "새로운 버전 사용 가능";
+"areSure"                                                       = "확실해?";
+"temperature"                                                   = "온도";
+"load"                                                          = "짐";
+"next_payout_time"                                              = "다음 지불 시간";
+
+// MARK: - Analytics
+"more_analytics"                                                     = "분석";
+"more_help"                                                          = "도움말";
+"others"                                                             = "다른이들";
+
+// MARK: - Details
+"account_alerts"                                                = "알리미";
+"account_details"                                               = "세부";
+"account_estimations"                                           = "견적";
+"account_rewards"                                               = "포상금";
+"account_payouts"                                               = "지불";
+"account_pool_info"                                             = "풀 정보";
+"Total"                                                         = "총";
+"time"                                                          = "시간";
+"includeElectricityCost"                                        = "전기 요금을 포함하다";
+"electricityConsumption"                                        = "전기 소비량";
+"electricityPrice"                                              = "전기요금(1kWh)";
+// MARK: - Errors
+"cant_select_more_than_5_items"                                 = "5 항목 이상을 선택할 수 없습니다.";
+"check_network_connection"                                      = "네트워크 연결 확인";
+"no_items_available"                                            = "사용 가능한 항목이 없습니다";
+"mail_not_configured"                                           = "이메일이 설정되어 있지 않습니다!";
+"incorrect_repeat_password"                                     = "새 암호가 일치하지 않습니다!";
+"incorrect_symbol"                                              = "입력 할 수없는 문자가 있습니다!";
+"input_4_and_more_characters"                                   = "4 자 이상 입력";
+"input_6_and_more_characters"                                   = "6 자 이상 입력";
+"unknown_error"                                                 = "문제가있었습니다";
+
+"Try again later" = "나중에 다시 시도하십시오";
+"Enter valid ID/key" = "유효한 ID / 키를 입력하십시오";
+"Incorrect pass code" = "잘못된 패스 코드입니다";
+"Name Already Exist!" = "이름은 이미 존재합니다!";
+"Pool Address Invalid!" = "풀 주소가 잘못되었습니다!";
+"The request timed out." = "요청 시간이 초과되었습니다.";
+"it's incorrect account" = "계정이 잘못되었습니다";
+"Can't check your payment" = "지불을 확인할 수 없습니다";
+"Could not connect to the server." = "서버에 연결할 수 없습니다.";
+"You need to add something in favorites" = "즐겨찾기에 동전 추가";
+"The Internet connection appears to be offline." = "인터넷 연결이 오프라인 보인다.";
+
+// Backend
+"Sorry, internal server error!" = "죄송 내부 서버 오류!";
+"Server is overloaded, please try again later!" = "서버가 과부하입니다. 잠시 후 다시 시도하세요!";
+"Email Already Exist!" = "이메일은 이미 존재합니다!";
+"Invalid Parameter!" = "잘못된 매개 변수!";
+"Failed Authentication!" = "인증 실패!";
+"Access Denied!" = "액세스가 거부되었습니다!";
+"User not exist!" = "사용자가 존재하지 않습니다!";
+"Password does not match!" = "비밀번호가 일치하지 않습니다!";
+"Password is invalid!" = "암호가 잘못되었습니다!";
+"You can resend the request after a while!" = "잠시 후 요청을 다시 보낼 수 있습니다!";
+"You can request after xxx sec!"            = "xxx 초후 요청 가능!";
+"Verification code is invalid. Please try again!" = "확인 코드가 잘못되었습니다. 다시 시도하십시오!";
+"Coin Favorite Already Exist!" = "동전의 즐겨 찾기는 이미 존재합니다!";
+"Pool Account Already Exist!" = "풀 계정은 이미 존재합니다!";
+"Pool Account Not Exist!" = "풀 계정이 존재하지 않습니다!";
+"Pool Account Data Not Exist!" = "풀 계정 데이터가 존재하지 않습니다!";
+"Reached Max Pool Account Count!" = "최대 풀 계정 수에 도달했습니다!";
+"Max Active Account Already Exist!" = "최대 활성 계정이 이미 있습니다!";
+"Pool Statistics Not Exist!" = "수영장 통계가 존재하지 않습니다!";
+"Pool Information Not Exist!" = "존재하지 않는 풀 정보!";
+"Coin Alert Already Exist!" = "동전 경고는 이미 존재합니다!";
+"Coin Alert Not Exist!" = "동전 경고가 존재하지 않습니다!";
+"Cost Not Exist!" = "존재하지 않는 비용!";
+"Coin Not Exist!" = "존재하지 않는 비용!";
+"Pool Alert Already Exist!" = "수영장 경고는 이미 존재합니다!";
+"Pool Alert Not Exist!" = "수영장 경보가 존재하지 않습니다!";
+"Adding Pool Alert Not Allowed!" = "풀 경고 추가 허용 안 됨!";
+"Failed to Add Subscription!" = "구독을 추가하지 못했습니다!";
+
+// MARK: - Hashrate
+"active"                                                        = "활동적인";
+"inactive"                                                      = "비활성";
+"average"                                                       = "평균";
+"current"                                                       = "현행의";
+"hashrate"                                                      = "해시 레이트";
+"hashrates"                                                     = "해시 레이트";
+"real"                                                          = "레알";
+"reported"                                                      = "보고 됨";
+"reportedHashrate"                                             = "보고 해시레이트";
+"Selected hashrate" = "선택된 해시 레이트";
+
+// MARK: - Menu
+"accounts"                                                      = "계정";
+"coin_price"                                                    = "코인 가격";
+"more"                                                          = "더";
+"notifications"                                                 = "알림";
+
+"Account" = "계정";
+"Settings" = "설정";
+
+// MARK: - More
+"more_about_app"                                                = "신청에 관하여";
+"more_darkMode"                                                 = "어두운 모드";
+"more_join_community"                                           = "커뮤니티 가입";
+"more_languages"                                                = "언어";
+"more_toolbar"                                                  = "도구 모음";
+"toolBarPages"                                                  = "도구 모음 페이지";
+"more_login_signup"                                             = "로그인 / 가입";
+"more_manage_subscription"                                      = "구독 관리";
+"more_profile"                                                  = "옆모습";
+"more_security"                                                 = "보안";
+"more_widget"                                                   = "위젯";
+"more_converter"                                                = "변환기입니다";
+"more_faq"                                                      = "FAQ";
+"profile_log_out"                                               = "로그 아웃";
+"delete_account"                                                = "계정 삭제";
+"community_facebook"                                            = "페이스 북에서 좋아요를 눌러주세요";
+"community_reddit"                                              = "Reddit에서 팔로우하기";
+"community_telegram"                                            = "우리의 전보 그룹에 가입하십시오";
+"community_twitter"                                             = "Twitter에서 팔로우하기";
+
+"about_app_feedback"                                            = "피드백";
+"about_app_share"                                               = "앱 공유";
+"about_app_rate"                                                = "앱 평가";
+"about_app_version"                                             = "앱 버전";
+
+"about_app_share_text"                                          = "안녕하세요, 가상화 방화벽을 관리/추적하고 있습니다.이 위대한 응용 프로그램을 사용하여 마이닝!\n무료로 다운로드하십시오.\nAndroid: android_app_link\niOS: ios_app_link";
+
+"Select accounts" = "계정 선택";
+
+"fiat"                                                          = "피아트의";
+"choose_email"                                                  = "Choose email";
+"income"                                                        = "소득";
+"hide_0"                                                        = "0 숨기기";
+"show_0"                                                        = "0 표시";
+
+// MARK: - Notificaiton
+"new_payout_detected"                                           = "새 결제가 감지되었습니다 (xxx)!";
+
+"notifications_coin_alerts"                                     = "동전";
+"notifications_info_alerts"                                     = "정보";
+"notifications_payout_alerts"                                   = "지불";
+"notifications_pool_alerts"                                     = "수영장";
+
+"notificaiton_auto_hashrate_changed"                            = "해시 레이트 변화가 감지되었습니다 xxx->yyy!";
+"notificaiton_auto_repHashrate_changed"                         = "보고 해시레이트 변화가 감지되었습니다";
+"notification_repHashrate_greater_than"                         = "보고 해시레이트 비율이 xxx 에서 증가했습니다 (xxx)!";
+"notification_repHashrate_less_than"                            = "보고 해시레이트가 xxx에서 떨어졌습니다 (xxx)!";
+"notificaiton_auto_worker_changed"                              = "작업자 수가 변경되었습니다 xxx->yyy!";
+
+"notification_coin_greater_than"                                = "가격은 xxx 에서 증가했습니다 (yyy)!";
+"notification_coin_less_than"                                   = "가격이 xxx 에서 떨어졌습니다 (yyy)!";
+"notification_hashrate_greater_than"                            = "해시 비율이 xxx 에서 증가했습니다 (yyy)!";
+"notification_hashrate_less_than"                               = "해시 레이트가 xxx 에서 떨어졌습니다 (yyy)!";
+"notification_workers_greater_than"                             = "근로자 수는 xxx 명에서 증가하고 있습니다 (yyy)!";
+"notification_workers_less_than"                                = "근로자 수가 xxx 명에서 감소했습니다 (yyy)!";
+"add_coin_alert"                                                = "코인 알림 추가";
+"for_coin_alert"                                                = "가격 변경에 대한 알림을 받으려면";
+"add_pool_account"                                              = "풀 계정 추가";
+"for_pool_notifications"                                        = "통지에 대한";
+"add_pool_account_alerts"                                       = "풀 계정 알림 추가";
+"for_receiving_notifications"                                   = "통지를 수신하기 위한";
+
+// MARK: - Pool account
+"activate"                                                      = "활성화";
+"edit_account"                                                  = "계정 수정";
+"enter_new_pool_name"                                           = "새 풀 이름 입력";
+"input"                                                         = "입력";
+"Watcher link"                                                  = "감시자 링크입니다";
+"Wallet address"                                                = "지갑 주소입니다";
+"Observer link"                                                 = "관찰자 링크입니다";
+"input_label"                                                   = "입력 레이블";
+"input_puid"                                                    = "입력 PUID";
+"new_account"                                                   = "새 계정";
+"request_new_pool"                                              = "새 풀 요청";
+"save_account"                                                  = "계정 저장";
+"select_pool"                                                   = "풀 선택";
+"status_check"                                                  = "상태 확인";
+"successfully_added"                                            = "성공적으로 추가되었습니다";
+"successfully_updated"                                          = "성공적으로 업데이트되었습니다";
+
+"one_account_can_be_activated"                                  = "최대 활성 계정 수에 도달했습니다. 다른 계정을 시작하려면 활성 계정을 삭제해야합니다.";
+"xxx_account_can_be_activated"                                  = "활성화 할 수있는 계정은 XXX 개뿐입니다. 다른 계정을 시작하려면 활성 계정을 삭제해야합니다.";
+"Alerts" = "알리미";
+"Miner ID" = "마이너 ID";
+"optional_input_label"                                          = "입력 레이블 (선택 과목)";
+"optional"                                                      = "(선택 과목)";
+"Input API key" = "입력 API 키";
+"Input Miner ID" = "마이너 ID 입력";
+"Select group pool" = "그룹 풀 선택";
+"Press the + button to add an account" = "계정을 추가하려면 + 버튼을 누릅니다";
+"MAINTENANCE"                                                   = "유지 관리 중!";
+"Sponsored"                                                     = "스폰서가 있는";
+"out_of_date"                                                   = "구식의!";
+
+
+// MARK: - Pool info
+"amount"                                                        = "금액";
+"block"                                                         = "차단";
+"coinAddress"                                                  = "동전 주소";
+"confirmations"                                                 = "확정";
+"mixin"                                                         = "Mixin";
+"paidOn"                                                       = "유료";
+"period"                                                        = "기간";
+"price_usd"                                                     = "가격 USD";
+"price_btc"                                                     = "가격 BTC";
+"status"                                                        = "지위";
+"tx"                                                            = "Tx";
+"txId"                                                         = "Tx ID";
+"type"                                                          = "유형";
+
+"active_miners"                                                 = "적극적인 광부";
+"active_workers"                                                = "적극적인 노동자";
+"ago"                                                           = "전에";
+"blocks_per_hour"                                               = "시간당 블록";
+"coin_name"                                                     = "동전 이름";
+"coinId"                                                        = "Coin Id";
+"currency"                                                      = "통화";
+"current_block"                                                 = "현재 블록";
+"fees"                                                          = "수수료";
+"fee"                                                           = "수수료";
+"networkFee"                                                    = "네트워크 요금";
+"name"                                                          = "이름";
+"last_mined_block"                                              = "마지막으로 채광 한 블록";
+"last_mined_block_time"                                         = "마지막 채광 블록 시간";
+"max_ap_threshold"                                              = "Max ap 문지방";
+"min_ap_threshold"                                              = "Min ap 문지방";
+"network_block_time"                                            = "네트워크 차단 시간";
+"network_retarget_time"                                         = "리타겟팅할 네트워크 시간";
+"network_difficulty"                                            = "네트워크 난이도";
+"network_next_difficulty"                                       = "네트워크 다음 난이도";
+"network_hashrate"                                              = "네트워크 해시 비율";
+"network_time"                                                  = "네트워크 시간";
+"next_block"                                                    = "다음 블록";
+"payout_system"                                                 = "지불 시스템";
+"price"                                                         = "가격";
+"reward_type"                                                   = "보상 유형";
+"total_alt_blocks_found"                                        = "총 alt 블록 발견";
+"luck"                                                          = "복";
+"current_round_duration"                                        = "현재 라운드 기간";
+"total_blocks_found"                                            = "발견 된 총 블록";
+"txFee"                                                         = "Tx 수수료";
+"txFee_auto"                                                    = "Tx 수수료 자동";
+"txFee_manual"                                                  = "Tx 수수료 매뉴얼";
+"currentBlockNumber"                                            = " 현재 블록";
+"nextNetBlockNumber"                                            = "다음블로그";
+"blockTime"                                                    = "블록 시간";
+"blockReward"                                                   = "광부 보상";
+"blocksPending"                                                 = "보류 중인 블록";
+"blocksOrphaned"                                                = "고아 블록";
+"blocksConfirmed"                                               = "확정 블록";
+"minerReward"                                                   = "블록 타임";
+"totalPaid"                                                     = "지불 총액";
+// MARK: - Recent credits
+"matured"                                                       = "성숙한";
+"immature"                                                      = "미 성숙한";
+
+// MARK: - Security
+"create_pin"                                                    = "PIN 생성";
+"enter_pin"                                                     = "PIN 입력";
+"pin_lock"                                                      = "PIN 잠금";
+"retype_pin"                                                    = "재 입력";
+"use_pin"                                                       = "사용";
+
+// MARK: - Shares
+"choose_shares"                                                 = "공유 선택";
+"invalid"                                                       = "무효";
+"shares"                                                        = "주식";
+"stale"                                                         = "탁한";
+"valid"                                                         = "강건한";
+"round"                                                         = "둥글다";
+"expired"                                              = "만료됨";
+// MARK: - Difficulty
+"diff"                                                          = "어려움";
+
+// MARK: - Luck
+"luckHours"                                                     = "복";
+
+// MARK: - Subscription
+"subscribe"                                                     = "구독하다";
+"re_subscribe"                                                  = "재가입";
+"remove_ads_more"                                                    = "광고 제거";
+"add_up_to_xxx_accounts"                                         = "최대 xxx 개의 계정 추가";
+"add_widget"                                                    = "계정 위젯 추가";
+"premium_plan"                                                  = "프리미엄 플랜";
+"premium_promo_user"                                            = "프리미엄 프로모션";
+"privacy_policy"                                                = "개인 정보 정책";
+"restore_subscription"                                          = "구독 복원";
+"standard_plan"                                                 = "표준 플랜";
+"standard_promo_user"                                           = "표준 프로모션 사용자";
+"terms_of_use"                                                  = "이용 약관";
+"then_xxx_monthly"                                              = "그때 xxx 매월의";
+"try_7_days"                                                    = "3 일 무료 체험\n그러면 주당 xxx";
+"cancel_anytime"                                                = "자동 갱신, 언제든지 취소";
+"continue"                                                      = "계속하다";
+"premium"                                                       = "프리미엄";
+"standart"                                                      = "표준";
+"billing_retry"                                                 = "결제 문제: 결제 재시도 상태, 가입 재개를 위해 신용카드 정보를 업데이트하십시오.";
+"payment_problem"                                               = "지불 문제 : 계정은 여전히 유효하지만, 일시 정지를 피하기 위해 신용 카드 정보를 업데이트하십시오.";
+"subscription_cancelled"                                        = "구독은 취소되었습니다. 일시 정지를 피하기 위해 RE-SUBSCRIBE하십시오.";
+"subscripted_from_play_store"                                   = "Play 스토어에서 구독";
+"subscription_info"                                             = "3 일 무료 평가판을 사용하면 1달당 구독료가 자동 갱신됩니다, 시험 기간이 종료되기 적어도 24 시간 전에 취소되지 않는 한. 사용자가 MinerBox 가입을 구매할 때 무료 평가판 사용 기간이 취소됩니다. 현재 기간이 끝나기 최소 24 시간 전에 자동 갱신이 꺼져 있지 않으면 구독이 자동으로 갱신됩니다. 결제는 구매 확인시 App Store 계정으로 청구됩니다. 당신의 계정은 현재 기간이 끝나기 전에 24 시간 이내에 갱신 비용이 청구되며, 업데이트 비용을 식별합니다. 가입은 구입 후 계정 설정에서 관리 및 취소 할 수 있습니다.";
+
+
+"Subscriptions" = "서명 승낙";
+"User authorization needed" = "사용자 인증이 필요";
+"Subscripted from other user" = "다른 사용자로부터 구독";
+"12_months_as_mo"                                               = "x/mo로 12개월입니다";
+"SAVE"                                                          = "저장";
+
+//Widget
+"need_subscription"                                             = "구독 필요";
+"please_check_acounts"                                          = "MinerBox -> Settings -> Widget에서 계정을 확인하십시오.";
+"update_widget_settings"                                        = "위젯 설정 업데이트";
+"single_Coin_Widget"                                            = "단일 코인 위젯";
+"single_Account_Widget"                                         = "단일 계정 위젯";
+"multi_Coin_Widget"                                             = "멀티 코인 위젯";
+"account_Balance_Widget"                                        = "계정 잔액 위젯";
+"multi_Account_Widget"                                          = "다중 계정 위젯";
+"single_coin_description"                                       = "동전 정보 추적";
+"single_account_description"                                    = "동전 정보 추적";
+"multi_coin_description"                                        = "동전 정보 추적";
+"multi_account_description"                                     = "동전 정보 추적";
+"account_balance_description"                                   = "계정 정보 추적";
+// MARK: - Time
+"date_from"                                                     = "에서 날짜";
+"date_to"                                                       = "날짜";
+"duration"                                                      = "지속";
+
+"date"                                                          = "날짜";
+"day"                                                           = "일";
+"hour"                                                          = "시간";
+"minute"                                                        = "분";
+"month"                                                         = "달";
+"week"                                                          = "주";
+"year"                                                          = "년";
+
+"all"                                                           = "모든";
+"1m"                                                            = "1달";
+"1w"                                                            = "1주";
+"1y"                                                            = "1년";
+"3m"                                                            = "3달";
+"6m"                                                            = "6달";
+"24h"                                                           = "24시간";
+
+"change_1_hour"                                                 = "1 시간 변경";
+"change_24_hour"                                                = "24시간 변경하세요";
+"change_7_day"                                                  = "1 주 변경";
+
+"M"                                                             = "달";
+"D"                                                             = "월";
+"hr"                                                            = "시간";
+"min"                                                           = "분";
+"sec"                                                           = "초";
+
+"yearly"                                                        = "매년";
+"monthly"                                                       = "매월의";
+
+// MARK: - What to mine
+//"enter_name"                                                    = "이름을 입력하십시오";
+//"add_new_profile"                                               = "새 프로필 추가";
+"what_to_mine"                                                  = "무엇 2 마인";
+"models"                                                        = "모형";
+"algorithms"                                                    = "알고리즘";
+"coin_details"                                                  = "동전 정보";
+"algorithm"                                                     = "알고리즘";
+//"block_time"                                                    = "블록 시간";
+//"block_reward"                                                  = "블록 보상";
+"difficulty"                                                    = "어려움";
+//"difficulty_change"                                             = "난이도 변경";
+//"estimated_rewards"                                             = "예상 보상";
+//"exchange_rate"                                                 = "환율";
+//"exchange_rate_change"                                          = "환율 변경";
+"revenue"                                                       = "수익";
+"profit"                                                        = "이익";
+"electricityCost"                                               = "전기 비용";
+"3d"                                                            = "3월";
+"7d"                                                            = "7월";
+"no_item_selected"                                              = "선택한 항목이 없습니다";
+"clear"                                                         = "뚜렷하다";
+
+// MARK: - Worker
+"choose_workers"                                                = "작업자 선택";
+"select"                                                        = "선택하다";
+"groups"                                                        = "그룹";
+"groups_workers"                                                = "그룹 / 노동자";
+"monitor"                                                       = "모니터";
+"worker"                                                        = "작업자";
+"worker_name"                                                   = "작업자 이름";
+"workers"                                                       = "작업자";
+"workers_count"                                                 = "작업자 수";
+"first_connection"                                              = "첫 번째 연결";
+"participation"                                                 = "참여";
+"mode"                                                          = "방법";
+"worker_id"                                                     = "작업자 ID";
+"efficiency"                                                    = "능률";
+
+//"disabled"                                                      = "사용 안 함";
+//"all_workers"                                                   = "모든 작업자";
+//"selected_workers_count"                                        = "선택 작업자 수";
+
+// MARK: - Blocks
+"blocks"                                                        = "블록";
+"block"                                                         = "블록";
+"luck"                                                          = "복";
+"height"                                                        = "블록수";
+"reward"                                                        = "복";
+"uncle"                                                         = "포상금";
+
+// MARK: - News
+"news"                                                          = "뉴스";
+"my_feed"                                                       = "마이 피드";
+"top_news"                                                      = "주요 뉴스";
+"all_news"                                                      = "모든 뉴스";
+"added_sources"                                                 = "추가된 소스";
+"all_sources"                                                   = "모든 소스";
+"bookmark"                                                      = "북마크";
+"add_sources"                                                   = "소스 추가";
+"top"                                                           = "맨 위";
+"bookmarks"                                                     = "책갈피";
+"sources"                                                       = "원천";
+
+// MARK: - Wallet -
+"addresses"                                                     = "주소";
+"wallets"                                                       = "지갑";
+"show_all"                                                      = "모두 표시";
+"invalid_credentials!"                                          = "잘못된 자격 증명!";
+"edit_wallet"                                                   = "지갑 편집";
+"add_wallet"                                                    = "지갑 추가";
+"add_coin"                                                      = "동전 추가";
+"address"                                                       = "주소";
+"description"                                                   = "설명";
+"download_QR"                                                   = "QR 코드 다운로드";
+"equity_value"                                                  = "자기자본가치";
+"deposit"                                                       = "보증금";
+"more_wallet"                                                   = "지갑";
+"network"                                                       = "네트워크";
+"history"                                                       = "역사";
+
+
+
+
+
+
+
+

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="50" id="KGk-i7-Jjw" customClass="ConverterFlagCell" customModule="MinerBox" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ald-aa-EzZ">
+                        <rect key="frame" x="16" y="7.5" width="82.5" height="35"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7qU-Tq-piU">
+                                <rect key="frame" x="5" y="5.5" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="7qU-Tq-piU" secondAttribute="height" id="HDF-Io-P2P"/>
+                                    <constraint firstAttribute="width" constant="24" id="dBu-ta-6EC"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EUR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mee-5T-2KJ" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                                <rect key="frame" x="45" y="7" width="32.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Mee-5T-2KJ" firstAttribute="centerY" secondItem="ald-aa-EzZ" secondAttribute="centerY" id="3wf-91-l7u"/>
+                            <constraint firstItem="7qU-Tq-piU" firstAttribute="leading" secondItem="ald-aa-EzZ" secondAttribute="leading" constant="5" id="Bed-Vc-V5a"/>
+                            <constraint firstItem="7qU-Tq-piU" firstAttribute="centerY" secondItem="ald-aa-EzZ" secondAttribute="centerY" id="Cxh-Cg-acH"/>
+                            <constraint firstItem="Mee-5T-2KJ" firstAttribute="leading" secondItem="7qU-Tq-piU" secondAttribute="trailing" constant="16" id="jxa-RE-QhJ"/>
+                            <constraint firstAttribute="trailing" secondItem="Mee-5T-2KJ" secondAttribute="trailing" constant="5" id="nwk-xu-bdB"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 BTC" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="2Hd-ss-QMn" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                        <rect key="frame" x="201" y="14.5" width="103" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kq1-DI-Epx">
+                        <rect key="frame" x="16" y="49.5" width="304" height="0.5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="ARx-yh-O49"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="kq1-DI-Epx" secondAttribute="trailing" id="2sU-VP-RR3"/>
+                    <constraint firstItem="2Hd-ss-QMn" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="4VK-Un-ROM"/>
+                    <constraint firstItem="ald-aa-EzZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="EIo-oi-HFk"/>
+                    <constraint firstItem="kq1-DI-Epx" firstAttribute="leading" secondItem="ald-aa-EzZ" secondAttribute="leading" id="GGQ-VS-jbv"/>
+                    <constraint firstAttribute="trailing" secondItem="2Hd-ss-QMn" secondAttribute="trailing" constant="16" id="RPH-TQ-Aab"/>
+                    <constraint firstAttribute="bottom" secondItem="kq1-DI-Epx" secondAttribute="bottom" id="aor-wJ-txR"/>
+                    <constraint firstItem="2Hd-ss-QMn" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ald-aa-EzZ" secondAttribute="trailing" constant="50" id="i56-G0-Wna"/>
+                    <constraint firstItem="ald-aa-EzZ" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.7" id="lrk-fX-Yjz"/>
+                    <constraint firstItem="ald-aa-EzZ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="p2D-E8-D1W"/>
+                    <constraint firstItem="ald-aa-EzZ" firstAttribute="width" secondItem="2Hd-ss-QMn" secondAttribute="width" multiplier="0.8" id="spN-yf-C0h"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="borderBottomView" destination="kq1-DI-Epx" id="zND-2q-Wb3"/>
+                <outlet property="criptoNameLabel" destination="Mee-5T-2KJ" id="5yM-Co-ie8"/>
+                <outlet property="criptoValueLabel" destination="2Hd-ss-QMn" id="Qc5-VL-a0s"/>
+                <outlet property="flagContentView" destination="ald-aa-EzZ" id="bUy-Va-LrK"/>
+                <outlet property="flagImageView" destination="7qU-Tq-piU" id="ocs-Af-0eZ"/>
+            </connections>
+            <point key="canvasLocation" x="255" y="102"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="2Hd-ss-QMn">
+            <size key="intrinsicContentSize" width="44.5" height="20.5"/>
+        </designable>
+        <designable name="Mee-5T-2KJ">
+            <size key="intrinsicContentSize" width="32.5" height="20.5"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

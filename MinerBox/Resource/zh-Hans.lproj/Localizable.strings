@@ -1,0 +1,602 @@
+/*
+ Localizable.strings
+ MinerBox
+ 
+ Created by Ruben Nahatakyan on 2/7/19.
+ Copyright © 2019 WitPlex. All rights reserved.
+ */
+
+// MARK: - Alerts
+"active_workers_change"                                         = "积极的矿工变化";
+"add_hashrate_alert"                                            = "添加哈希率警报";
+"add_hashrate_alerts"                                           = "添加哈希率警报";
+"add_reportedHashrate_alert"                                    = "添加报告的哈希率警报";
+"add_reportedHashrate_alerts"                                   = "添加报告的哈希率警报";
+"add_payout_alerts"                                             = "添加支付警报";
+"add_worker_alert"                                              = "添加矿工警报";
+"add_worker_alerts"                                             = "添加矿工警报";
+"alert_added"                                                   = "警报已添加";
+"alert_category_auto"                                           = "自动";
+"alert_category_manual"                                         = "手动";
+"alert_updated"                                                 = "警报已更新";
+"count"                                                         = "计数";
+"current_hashrate"                                              = "当前哈希率";
+"current_reportedHashrate"                                      = "当前报告的哈希率";
+"current_workers_count"                                         = "目前的矿工数量";
+"edit_alert"                                                    = "编辑警报";
+"edit_hashrate_alert"                                           = "编辑哈希率警报";
+"edit_reportedHashrate_alert"                                   = "编辑报告的哈希率警报";
+"edit_worker_alert"                                             = "编辑矿工警报";
+"enabled"                                                       = "启用";
+"hashrate_change_state"                                         = "哈希率开/关状态";
+"reportedHashrate_change_state"                                 = "报告的哈希率开/关状态";
+"new_alert"                                                     = "新警报";
+"notifications_will_delete"                                     = "通知将被删除";
+"payout_detection"                                              = "支付检测";
+"repeat"                                                        = "重复";
+"speed"                                                         = "速度";
+
+"Enter comparison"                                              = "输入比较";
+"Enter valid value"                                             = "输入有效值";
+"maximum_count_reached!"                                        = "达到最大数量!";
+"deleted"                                                       = "删除";
+
+// MARK: - Animation
+"animation_retry"                                               = "重试";
+
+// MARK: - Authorization
+"change_password"                                               = "更改密码";
+"change_username"                                               = "通知将被删除";
+"email_sended"                                                  = "检查邮件是否有恢复密码";
+"incorrect_email"                                               = "不正确的电子邮件";
+"login_email"                                                   = "电子邮件";
+"login_forgot_password"                                         = "忘记密码";
+"login_login"                                                   = "登录";
+"login_sign_up"                                                 = "注册";
+"login_skip"                                                    = "跳过";
+"new_password"                                                  = "新密码";
+"old_password"                                                  = "旧密码";
+"password"                                                      = "密码";
+"receive_code"                                                  = "接收代码";
+"register"                                                      = "注册";
+"retype_password"                                               = "重新输入密码";
+"update"                                                        = "更新";
+"username"                                                      = "用户名";
+"username_optional"                                             = "用户名 (可选的)";
+"verification_code"                                             = "验证码";
+"verify"                                                        = "校验";
+
+"Recover" = "恢复";
+"Incorrect password" = "密码错误";
+
+// MARK: - Balance
+"balance"                                                       = "余额";
+"confirmed"                                                     = "确认";
+"orphaned"                                                      = "孤";
+"paid"                                                          = "付费";
+"unconfirmed"                                                   = "未经证实";
+"unpaid"                                                        = "未支付";
+"credit"                                                        = "报酬";
+"paid24h"                                                       = "24小时支付";
+"totalBalance"                                                  = "总余额";
+"coins"                                                         = "币种";
+"payoutThreshold"                                               = "支付门槛";
+"none"                                                          = "毫无";
+"reward24h"                                                     = "奖赏24小时";
+"immatureReward"                                                = "不成熟的奖励";
+
+// MARK: - Coin price
+
+// Filter
+"filter"                                                        = "筛选";
+"coin_sort_coin"                                                = "货币";
+"coin_sort_change"                                              = "更改";
+"coin_sort_price"                                               = "价格";
+"coin_sort_rank"                                                = "排名";
+"from_textfield"                                                = "从";
+"to_textfield"                                                  = "到";
+
+// Page type
+"coin_price_all"                                                = "所有";
+"coin_price_favorites"                                          = "嬖";
+"coin_price_alerts"                                             = "警报";
+
+// Change
+"coin_price_change_1_hour"                                      = "1小时变动";
+"coin_price_change_24_hours"                                    = "24小时变动";
+"coin_price_change_7_days"                                      = "1周变动";
+
+"coin_alert_deleted"                                            = "货币警报已删除";
+"market_cap_usd"                                                = "市值 USD";
+
+"Enter value" = "输入值";
+"Select coin" = "选择货币";
+"Coin Alert Added" = "货币警报已添加";
+"added_to_favorite" = "添加到收藏";
+"deleted_from_favorite" = "从收藏中删除";
+"add_favorite"                                                  = "加入收藏";
+
+"volume"                                                        = "音量";
+"max_supply"                                                    = "最大供应量";
+"total_supply"                                                  = "总供应量";
+"explorers"                                                     = "浏览器";
+
+// MARK: - Coin graph
+"choose_coin"                                                   = "选择货币";
+"coin_settings_analize"                                         = "分析";
+"coin_settings_axis"                                            = "坐标轴";
+"coin_settings_comparision"                                     = "比较";
+"coin_settings_graph"                                           = "图形";
+"coin_settings_horizontal"                                      = "横轴";
+"coin_settings_indicators"                                      = "指标";
+"coin_settings_line"                                            = "线";
+"coin_settings_mountain"                                        = "山";
+"coin_settings_vertical"                                        = "纵轴";
+
+// MARK: - Comparision
+"comparision_greather_than"                                     = "多于";
+"comparision_less_than"                                         = "少于";
+
+// MARK: - Default
+"id"                                                            = "ID";
+"ask_for_delete"                                                = "你确定你想删除？";
+"cancel"                                                        = "取消";
+"delete"                                                        = "删除";
+"done"                                                          = "完成";
+"edit"                                                          = "编辑";
+"last_updated"                                                  = "上次更新时间";
+"payment_method"                                                = "付款方法";
+"later"                                                         = "后来";
+"loading"                                                       = "载入中";
+"no_chart_data"                                                 = "没有图表数据";
+"ok"                                                            = "好的";
+"save"                                                          = "保存";
+"search"                                                        = "搜索";
+"sent"                                                          = "发送";
+"state"                                                         = "状态";
+"update_info"                                                   = "新版本可用";
+"areSure"                                                       = "你确定吗?";
+"temperature"                                                   = "温度";
+"load"                                                          = "加载";
+"next_payout_time"                                              = "下一次支付时间";
+
+// MARK: - Analytics
+"more_analytics"                                                     = "分析";
+"more_help"                                                          = "帮助<";
+"others"                                                             = "其他";
+
+// MARK: - Details
+"account_alerts"                                                = "警报";
+"account_details"                                               = "细节";
+"account_estimations"                                           = "估计";
+"account_rewards"                                               = "奖励";
+"account_payouts"                                               = "付款";
+"account_pool_info"                                             = "矿池信息";
+"Total"                                                         = "总计";
+"time"                                                          = "时间";
+"includeElectricityCost"                                        = "包括电费";
+"electricityConsumption"                                        = "用电量";
+"electricityPrice"                                              = "电价（1千瓦时";
+// MARK: - Errors
+"cant_select_more_than_5_items"                                 = "您不能选择超过5个项目。";
+"check_network_connection"                                      = "检查网络连接";
+"mail_not_configured"                                           = "电子邮件未配置!";
+"no_items_available"                                            = "没有可用的物品";
+"incorrect_repeat_password"                                     = "新密码不匹配！";
+"incorrect_symbol"                                              = "不允许输入某些字符！";
+"input_4_and_more_characters"                                   = "输入4个以上的字符";
+"input_6_and_more_characters"                                   = "输入6个以上的字符";
+"unknown_error"                                                 = "出了点问题";
+
+"Try again later" = "稍后再试";
+"Enter valid ID/key" = "输入有效的ID /密钥";
+"Incorrect pass code" = "传递代码不正确";
+"Name Already Exist!" = "名字已经存在!";
+"Pool Address Invalid!" = "矿池地址无效!";
+"The request timed out." = "请求超时。";
+"it's incorrect account" = "这是一个不正确的帐户";
+"Can't check your payment" = "无法检查您的付款";
+"Could not connect to the server." = "无法连接到服务器";
+"You need to add something in favorites" = "将货币添加到收藏夹。";
+"The Internet connection appears to be offline." = "Internet连接似乎处于脱机状态。";
+
+// Backend
+"Sorry, internal server error!" = "抱歉，内部服务器错误!";
+"Server is overloaded, please try again later!" = "服务器超载，请稍后再试!";
+"Email Already Exist!" = "电子邮件已经存在!";
+"Invalid Parameter!" = "无效参数!";
+"Failed Authentication!" = "身份验证失败!";
+"Access Denied!" = "拒绝访问!";
+"User not exist!" = "用户不存在!";
+"Password does not match!" = " 密码不匹配!";
+"Password is invalid!" = " 密码无效!";
+"You can resend the request after a while!" = "您可以稍后重新发送请求!";
+"You can request after xxx sec!"            = "你可以在 xxx 秒后请求。";
+"Verification code is invalid. Please try again!" = "验证码无效。请再试一次!";
+"Coin Favorite Already Exist!" = "货币收藏已经存在!";
+"Pool Account Already Exist!" = "矿池帐户已经存在!";
+"Pool Account Not Exist!" = "矿池帐户不存在！";
+"Pool Account Data Not Exist!" = "矿池帐户数据不存在！";
+"Reached Max Pool Account Count!" = "达到最大矿池帐户数量！";
+"Max Active Account Already Exist!" = "已存在最大活跃帐户";
+"Pool Statistics Not Exist!" = "矿池统计不存在！";
+"Pool Information Not Exist!" = "矿池信息不存在！";
+"Coin Alert Already Exist!" = "货币警报已经存在！";
+"Coin Alert Not Exist!" = "货币警报不存在！";
+"Coin Not Exist!" = "货币不存在！";
+"Pool Alert Already Exist!" = "矿池警报已经存在！";
+"Pool Alert Not Exist!" = "矿池警报不存在！";
+"Adding Pool Alert Not Allowed!" = "添加池警报不允许";
+"Failed to Add Subscription!" = "无法添加订阅";
+
+// MARK: - Hashrate
+"active"                                                        = "活性";
+"inactive"                                                      = "不活跃";
+"average"                                                       = "平均";
+"current"                                                       = "当前";
+"hashrate"                                                      = "哈希率";
+"hashrates"                                                     = "哈希率";
+"real"                                                          = "真实";
+"reported"                                                      = "报告";
+"reportedHashrate"                                             = "当前报告的哈希率";
+"Selected hashrate" = "选择哈希率";
+
+// MARK: - Menu
+"accounts"                                                      = "帐号";
+"coin_price"                                                    = "货币价格";
+"more"                                                          = "更多";
+"notifications"                                                 = "通知";
+
+"Account" = "帐户";
+"Settings" = "设置";
+
+// MARK: - More
+"more_about_app"                                                = "关于应用";
+"more_darkMode"                                                 = "黑暗模式";
+"more_join_community"                                           = "加入社区";
+"more_languages"                                                = "语言";
+"more_toolbar"                                                  = "工具栏";
+"toolBarPages"                                                  = "工具栏页面";
+"more_login_signup"                                             = "登录 / 注册";
+"more_manage_subscription"                                      = "管理订阅";
+"more_profile"                                                  = "个人资料";
+"more_security"                                                 = "安全";
+"more_widget"                                                   = "窗口小部件";
+"more_converter"                                                = "转换器";
+"more_faq"                                                      = "FAQ";
+"profile_log_out"                                               = "登出";
+"delete_account"                                                = "删除帐户";
+"community_facebook"                                            = "在Facebook上喜欢我们";
+"community_reddit"                                              = "跟随我们Reddit";
+"community_telegram"                                            = "加入我们的Telegram小组";
+"community_twitter"                                             = "跟随我们Twitter";
+
+"about_app_feedback"                                            = "反馈";
+"about_app_share"                                               = "份额";
+"about_app_rate"                                                = "评价应用";
+"about_app_version"                                             = "应用版本";
+
+"about_app_share_text"                                          = "嘿，我通过使用这个伟大的应用程序来管理/跟踪我的 加密货币 挖掘！\n免费下载 \nAndroid：android_app_link\niOS：iOS_app_link";
+
+"Select accounts" = "选择帐户";
+
+"fiat"                                                          = "法币";
+"choose_email"                                                  = "Choose email";
+"income"                                                        = "收入";
+"hide_0"                                                        = "隐藏0 ";
+"show_0"                                                        = "显示0 ";
+
+// MARK: - Notificaiton
+"new_payout_detected"                                           = "检测到新的付款 (xxx)!";
+
+"notifications_coin_alerts"                                     = "硬币";
+"notifications_info_alerts"                                     = "信息";
+"notifications_payout_alerts"                                   = "付款";
+"notifications_pool_alerts"                                     = "矿池";
+
+"notificaiton_auto_hashrate_changed"                            = "检测到哈希率变化 xxx->yyy!";
+"notificaiton_auto_worker_changed"                              = "工人数量发生变化 xxx->yyy!";
+
+"notification_coin_greater_than"                                = "价格从 xxx 增长 (yyy)!";
+"notification_coin_less_than"                                   = "价格从 xxx 下降 (yyy)!";
+"notification_hashrate_greater_than"                            = "哈希率从 xxx 增长 (yyy)!";
+"notification_hashrate_less_than"                               = "哈希率从 xxx 下降 (yyy)!";
+"notificaiton_auto_repHashrate_changed"                         = "检测到报告的哈希率变化 xxx->yyy!";
+"notification_repHashrate_greater_than"                         = "报告的哈希率从xxx增长 xxx (yyy)!";
+"notification_repHashrate_less_than"                            = "报告的哈希率从xxx下降 xxx (yyy)!";
+"notification_workers_greater_than"                             = "矿机数从 xxx 增长 (yyy)!";
+"notification_workers_less_than"                                = "矿机数量从 xxx 下降 (yyy)!";
+"add_coin_alert"                                                = "添加货币警报";
+"for_coin_alert"                                                = "获取有关价格变化的提醒";
+"add_pool_account"                                              = "添加矿池帐户";
+"for_pool_notifications"                                        = "添加矿池帐户";
+"add_pool_account_alerts"                                       = "添加矿池帐户警报";
+"for_receiving_notifications"                                   = "以接收通知";
+
+// MARK: - Pool account
+"activate"                                                      = "激活";
+"edit_account"                                                  = "编辑账户";
+"enter_new_pool_name"                                           = "输入新矿池名称";
+"input"                                                         = "输入";
+"Watcher link"                                                  = "观察者链接";
+"Wallet address"                                                = "钱包地址";
+"Observer link"                                                 = "观察者链接";
+"input_label"                                                   = "输入标签";
+"input_puid"                                                    = "输入 PUID";
+"new_account"                                                   = "新账户";
+"request_new_pool"                                              = "请求新矿池";
+"save_account"                                                  = "保存帐户";
+"select_pool"                                                   = "选择矿池";
+"status_check"                                                  = "状态检查";
+"successfully_added"                                            = "成功添加";
+"successfully_updated"                                          = "成功更新";
+
+"one_account_can_be_activated"                                  = "已达到最大活动帐户数。 应删除活动帐户以激活其他帐户。";
+"xxx_account_can_be_activated"                                  = "只能激活XXX个帐户！ 应删除活动帐户以激活其他帐户.";
+"Alerts" = "警报";
+"Miner ID" = "矿工ID";
+"optional_input_label"                                          = "输入标签 (可选的)";
+"optional"                                                      = "(可选的)";
+"Input API key" = "输入API密钥";
+"Input Miner ID" = "输入矿工ID";
+"Select group pool" = "选择矿池组";
+"Press the + button to add an account" = "按+按钮添加帐户";
+"MAINTENANCE"                                                   = "维修中!";
+"Sponsored"                                                     = "赞助商";
+"out_of_date"                                                   = "超时";
+
+
+// MARK: - Pool info
+"amount"                                                        = "数量";
+"block"                                                         = "块";
+"coinAddress"                                                  = "硬币地址";
+"confirmations"                                                 = "确认";
+"mixin"                                                         = "Mixin";
+"paidOn"                                                       = "已支付";
+"period"                                                        = "时间段";
+"price_usd"                                                     = "价格 USD";
+"price_btc"                                                     = "价格 BTC";
+"status"                                                        = "状态";
+"tx"                                                            = "Tx";
+"txId"                                                         = "Tx ID";
+"type"                                                          = "类型";
+
+"active_miners"                                                 = "活跃的矿工";
+"active_workers"                                                = "活矿机数";
+"ago"                                                           = "前";
+"blocks_per_hour"                                               = "每小时块数";
+"coin_name"                                                     = "货币名称";
+"coinId"                                                        = "Coin Id";
+"currency"                                                      = "代币";
+"current_block"                                                 = "当前块";
+"fees"                                                          = "费用";
+"fee"                                                           = "费用";
+"networkFee"                                                    = "网络费";
+"name"                                                          = "姓名";
+"last_mined_block"                                              = "最后挖掘的块";
+"last_mined_block_time"                                         = "最后挖掘的块时间";
+"max_ap_threshold"                                              = "最大ap阈值";
+"min_ap_threshold"                                              = "最小ap阈值";
+"network_block_time"                                            = "网络出块时间";
+"network_retarget_time"                                         = "重新定位的网络时间";
+"network_difficulty"                                            = "网络难度";
+"network_next_difficulty"                                       = "网络下一个难点";
+"network_hashrate"                                              = "网络哈希率";
+"network_time"                                                  = "网络时间";
+"next_block"                                                    = "下一个块";
+"payout_system"                                                 = "支付系统";
+"price"                                                         = "价钱";
+"reward_type"                                                   = "奖励类型";
+"total_alt_blocks_found"                                        = "找到alt块总数";
+"luck"                                                          = "运气";
+"current_round_duration"                                        = "本轮持续时间";
+"total_blocks_found"                                            = "找到块总数";
+"txFee"                                                         = "TxFee";
+"txFee_auto"                                                    = "TxFee自动";
+"txFee_manual"                                                  = "TxFee手册";
+"currentBlockNumber"                                            = "当前块";
+"nextNetBlockNumber"                                            = "下一个块";
+"blockTime"                                                    = "块时间";
+"blockReward"                                                   = "矿工奖励";
+"blocksPending"                                                 = "待决区块 ";
+"blocksOrphaned"                                                = "孤儿块";
+"blocksConfirmed"                                               = "已确认的区块";
+"minerReward"                                                   = "区块时间";
+"totalPaid"                                                     = "付费总额";
+// MARK: - Recent credits
+"matured"                                                       = "成熟";
+"immature"                                                      = "未成熟的";
+
+// MARK: - Security
+"create_pin"                                                    = "创建 PIN";
+"enter_pin"                                                     = "输入  PIN";
+"pin_lock"                                                      = "销锁";
+"retype_pin"                                                    = "重新输入";
+"use_pin"                                                       = "使用";
+
+// MARK: - Shares
+"choose_shares"                                                 = "选择份额";
+"invalid"                                                       = "无效";
+"shares"                                                        = "分享";
+"stale"                                                         = "延迟";
+"valid"                                                         = "有效";
+"round"                                                         = "圆的";
+"expired"                                              = "已到期";
+// MARK: - Difficulty
+"diff"                                                          = "困难";
+
+// MARK: - Luck
+"luckHours"                                                     = "运气";
+
+// MARK: - Subscription
+"subscribe"                                                     = "订阅";
+"re_subscribe"                                                  = "重新订阅";
+"remove_ads_more"                                                    = "删除广告";
+"add_up_to_xxx_accounts"                                         = "最多可添加xxx个帐户";
+"add_widget"                                                    = "添加帐户小部件";
+"premium_plan"                                                  = "高级计划";
+"premium_promo_user"                                            = "高级促销";
+"privacy_policy"                                                = "隐私政策";
+"restore_subscription"                                          = "恢复订阅";
+"standard_plan"                                                 = "标准计划";
+"standard_promo_user"                                           = "标准促销用户";
+"terms_of_use"                                                  = "使用条款";
+"then_xxx_monthly"                                              = "然后 xxx 每月一次";
+"try_7_days"                                                    = "免费试用3天\n然后每周xxx";
+"cancel_anytime"                                                = "自动续订，随时取消";
+"continue"                                                      = "继续";
+"premium"                                                       = "高级计划";
+"standart"                                                      = "标准计划";
+"payment_problem"                                               = "付款问题：您的帐户仍然有效，但请更新您的信用卡信息以避免暂停。";
+"billing_retry"                                                 = "付款问题：计费重试状态，请更新您的信用卡信息以继续订阅。";
+"subscription_cancelled"                                        = "订阅已被取消，请重新订阅以避免暂停。";
+"subscripted_from_play_store"                                   = "从Play商店订阅";
+"subscription_info"                                             = "免费试用3天后， 订阅会自动续订每月，除非在试用期结束前至少24小时取消订阅。当用户购买 MinerBox 订阅时，免费试用期的任何未使用部分将被没收。除非在当前期间结束前至少24小时关闭自动续订，否则您的订阅会自动续订。 付款将在确认购买时通过App Store帐户收取。 您的帐户将在当前期间结束前24小时内收取续订费用，并确定续订费用。购买后，可以通过“帐户设置”管理和取消订阅。";
+
+
+"Subscriptions" = "订阅";
+"User authorization needed" = "需要用户授权";
+"Subscripted from other user" = "从其他用户订阅";
+"12_months_as_mo"                                               = "12个月x/mo";
+"SAVE"                                                          = "节省";
+
+//Widget
+"need_subscription"                                             = "小部件";
+"please_check_acounts"                                          =  "请在对话框->设置->小部件中选中帐户";
+"update_widget_settings"                                        = "更新小部件设置";
+"single_Coin_Widget"                                            = "单币小工具";
+"single_Account_Widget"                                         = "单一帐户小部件";
+"multi_Coin_Widget"                                             = "多币小工具";
+"account_Balance_Widget"                                        = "账户余额小部件";
+"multi_Account_Widget"                                          = "多帐户小部件";
+"single_coin_description"                                       = "跟踪硬币信息";
+"single_account_description"                                    = "跟踪您的帐户信息";
+"multi_coin_description"                                        = "跟踪硬币信息";
+"multi_account_description"                                     = "跟踪您的帐户信息";
+"account_balance_description"                                   = "跟踪您的帐户信息";
+// MARK: - Time
+"date_from"                                                     = "起始日期";
+"date_to"                                                       = "截止日期";
+"duration"                                                      = "持续时间";
+
+"date"                                                          = "日期";
+"day"                                                           = "天";
+"hour"                                                          = "小时";
+"minute"                                                        = "分钟";
+"month"                                                         = "月";
+"week"                                                          = "周";
+"year"                                                          = "年";
+
+"all"                                                           = "所有";
+"1m"                                                            = "1个月";
+"1w"                                                            = "1周";
+"1y"                                                            = "1年";
+"3m"                                                            = "3个月";
+"6m"                                                            = "6个月";
+"24h"                                                           = "24小时";
+
+"change_1_hour"                                                 = "改变1小时";
+"change_24_hour"                                                = "改变24小时";
+"change_7_day"                                                  = "改变1周";
+
+"M"                                                             = "月";
+"D"                                                             = "天";
+"hr"                                                            = "小时";
+"min"                                                           = "分";
+"sec"                                                           = "秒";
+
+"yearly"                                                        = "每年";
+"monthly"                                                       = "每月";
+
+// MARK: - What to mine
+//"enter_name"                                                    = "输入名字";
+//"add_new_profile"                                             = "添加新个人资料";
+"what_to_mine"                                                  = "挖什么";
+"models"                                                        = "型号";
+"algorithms"                                                    = "算法";
+"coin_details"                                                  = "货币详情";
+"algorithm"                                                     = "算法";
+//"block_time"                                                    = "块时间";
+//"block_reward"                                                  = "块奖励";
+"difficulty"                                                    = "难度";
+//"difficulty_change"                                             = "难度变化";
+//"estimated_rewards"                                             = "预计奖励";
+//"exchange_rate"                                                 = "汇率";
+//"exchange_rate_change"                                          = "汇率变动";
+"revenue"                                                       = "收入";
+"profit"                                                        = "利润";
+"electricityCost"                                               = "电费";
+"3d"                                                            = "3天";
+"7d"                                                            = "7天";
+"no_item_selected"                                              = "未选择任何项目";
+"clear"                                                         = "清除";
+
+// MARK: - Worker
+"choose_workers"                                                = "选择工人";
+"select"                                                        = "选择";
+"groups"                                                        = "组";
+"groups_workers"                                                = "组 / 工人";
+"monitor"                                                       = "监控";
+"worker"                                                        = "工人";
+"worker_name"                                                   = "矿工名字";
+"workers"                                                       = "矿工";
+"workers_count"                                                 = "矿工数";
+"first_connection"                                              = "第一连接";
+"participation"                                                 = "参与";
+"mode"                                                          = "模式";
+"worker_id"                                                     = "矿工编号";
+"efficiency"                                                    = "效率";
+
+
+//"disabled"                                                    = "残";
+//"all_workers"                                                   = "所有工人";
+//"selected_workers_count"                                        = "选定的工人数量";
+
+// MARK: - Blocks
+"blocks"                                                        = "区块";
+"block"                                                         = "块";
+"luck"                                                          = "幸运值";
+"height"                                                        = "高度";
+"reward"                                                        = "奖励";
+"uncle"                                                         = "叔";
+
+// MARK: - News
+"news"                                                          = "新闻";
+"my_feed"                                                       = "我的反馈";
+"top_news"                                                      = "头条新闻";
+"all_news"                                                      = "所有新闻";
+"added_sources"                                                 = "添加的来源";
+"all_sources"                                                   = "所有来源";
+"bookmark"                                                      = "书签";
+"add_sources"                                                   = "添加来源";
+"top"                                                           = "顶部";
+"bookmarks"                                                     = "书签";
+"sources"                                                       = "来源";
+
+// MARK: - Wallet -
+"addresses"                                                     = "地址";
+"wallets"                                                       = "钱包";
+"show_all"                                                      = "全部展示";
+"invalid_credentials!"                                          = "无效凭证";
+"edit_wallet"                                                   = "编辑钱包";
+"add_wallet"                                                    = "添加钱包";
+"add_coin"                                                      = "添加货币";
+"address"                                                       = "地址";
+"description"                                                   = "说明";
+"download_QR"                                                   = "下载二维码";
+"equity_value"                                                  = "股权价值";
+"deposit"                                                       = "订金";
+"more_wallet"                                                   = "钱包";
+"network"                                                       = "网络";
+"history"                                                       = "历史";
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+
+/* Class = "UIButton"; normalTitle = "Թարմացնել"; ObjectID = "3dc-fB-uiD"; */
+"3dc-fB-uiD.normalTitle" = "Թարմացնել";
+
+/* Class = "UIButton"; normalTitle = "Ստանալ կոդը"; ObjectID = "6s9-VJ-AKU"; */
+"6s9-VJ-AKU.normalTitle" = "Ստանալ կոդը";
+
+/* Class = "UITextField"; placeholder = "Էլ. փոստ"; ObjectID = "D2O-JW-Jaq"; */
+"D2O-JW-Jaq.placeholder" = "Էլ. փոստ";
+
+/* Class = "UITextField"; placeholder = "Էլ. փոստ"; ObjectID = "G5Q-ci-0RY"; */
+"G5Q-ci-0RY.placeholder" = "Էլ. փոստ";
+
+/* Class = "UIButton"; normalTitle = "Մուտք"; ObjectID = "K9Z-Mi-KFX"; */
+"K9Z-Mi-KFX.normalTitle" = "Մուտք";
+
+/* Class = "UITextField"; placeholder = "Էլ. փոստ"; ObjectID = "KqK-qk-FeP"; */
+"KqK-qk-FeP.placeholder" = "Էլ. փոստ";
+
+/* Class = "UITextField"; placeholder = "Կրկնեք նոր գաղտնաբառը"; ObjectID = "NPM-xT-nVb"; */
+"NPM-xT-nVb.placeholder" = "Կրկնեք նոր գաղտնաբառը";
+
+/* Class = "UIButton"; normalTitle = "Ստուգել"; ObjectID = "QLj-Jf-JKS"; */
+"QLj-Jf-JKS.normalTitle" = "Ստուգել";
+
+/* Class = "UIButton"; normalTitle = "Գաղտնաբառի հիշեցում"; ObjectID = "Rpb-J3-qKJ"; */
+"Rpb-J3-qKJ.normalTitle" = "Գաղտնաբառի հիշեցում";
+
+/* Class = "UITextField"; placeholder = "Ստուգման կոդը"; ObjectID = "SJR-hN-P34"; */
+"SJR-hN-P34.placeholder" = "Ստուգման կոդը";
+
+/* Class = "UITextField"; placeholder = "Հաստատել գաղտնաբառը"; ObjectID = "Ua5-L0-1Se"; */
+"Ua5-L0-1Se.placeholder" = "Հաստատել գաղտնաբառը";
+
+/* Class = "UITextField"; placeholder = "Գաղտնաբառ"; ObjectID = "XYd-73-9qY"; */
+"XYd-73-9qY.placeholder" = "Գաղտնաբառ";
+
+/* Class = "UITextField"; placeholder = "Գաղտնաբառ"; ObjectID = "YJX-uY-u3t"; */
+"YJX-uY-u3t.placeholder" = "Գաղտնաբառ";
+
+/* Class = "UINavigationItem"; title = "MinerBox"; ObjectID = "d3N-Ts-qd6"; */
+"d3N-Ts-qd6.title" = "MinerBox";
+
+/* Class = "UITextField"; placeholder = "Նոր գաղտնաբառ"; ObjectID = "dCh-Xw-dsY"; */
+"dCh-Xw-dsY.placeholder" = "Նոր գաղտնաբառ";
+
+/* Class = "UIButton"; normalTitle = "Գրանցվել"; ObjectID = "nU4-EG-iZ3"; */
+"nU4-EG-iZ3.normalTitle" = "Գրանցվել";
+
+/* Class = "UIButton"; normalTitle = "Գրանցվել"; ObjectID = "of9-bh-wIu"; */
+"of9-bh-wIu.normalTitle" = "Գրանցվել";
+
+/* Class = "UITextField"; placeholder = "Օգտատիրոջ անուն"; ObjectID = "udM-TF-HuG"; */
+"udM-TF-HuG.placeholder" = "Օգտատիրոջ անուն";

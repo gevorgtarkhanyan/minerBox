@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="331" id="KGk-i7-Jjw" customClass="MiningModesTableViewCell" customModule="MinerBox" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="379" height="275"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="379" height="275"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="eVY-WM-iJd">
+                        <rect key="frame" x="0.0" y="0.0" width="379" height="275"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OfS-1J-FGR">
+                                <rect key="frame" x="0.0" y="0.0" width="379" height="55"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqb-iz-Agw" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="17.5" width="41.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CnG-V5-9nD" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                                        <rect key="frame" x="337.5" y="17.5" width="41.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="vqb-iz-Agw" firstAttribute="centerY" secondItem="OfS-1J-FGR" secondAttribute="centerY" id="9t6-hb-YSC"/>
+                                    <constraint firstItem="vqb-iz-Agw" firstAttribute="leading" secondItem="OfS-1J-FGR" secondAttribute="leading" id="Sui-NQ-x8S"/>
+                                    <constraint firstItem="CnG-V5-9nD" firstAttribute="centerY" secondItem="OfS-1J-FGR" secondAttribute="centerY" id="Z7P-fK-Db3"/>
+                                    <constraint firstAttribute="trailing" secondItem="CnG-V5-9nD" secondAttribute="trailing" id="pjJ-f6-vVJ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kdm-fP-wUm">
+                                <rect key="frame" x="0.0" y="55" width="379" height="55"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T2K-uL-jaY" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                                        <rect key="frame" x="30" y="17.5" width="41.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTq-90-Nwy" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                                        <rect key="frame" x="307.5" y="17.5" width="41.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="MTq-90-Nwy" firstAttribute="centerY" secondItem="kdm-fP-wUm" secondAttribute="centerY" id="7aZ-Az-aTn"/>
+                                    <constraint firstItem="T2K-uL-jaY" firstAttribute="centerY" secondItem="kdm-fP-wUm" secondAttribute="centerY" id="QZt-NX-mAs"/>
+                                    <constraint firstAttribute="trailing" secondItem="MTq-90-Nwy" secondAttribute="trailing" constant="30" id="WE9-x7-pCJ"/>
+                                    <constraint firstItem="T2K-uL-jaY" firstAttribute="leading" secondItem="kdm-fP-wUm" secondAttribute="leading" constant="30" id="ppB-3g-fH6"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kKq-IZ-9sT">
+                                <rect key="frame" x="0.0" y="110" width="379" height="55"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QaQ-Mu-phl" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                                        <rect key="frame" x="307.5" y="17.5" width="41.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdp-16-oDj" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                                        <rect key="frame" x="30" y="17.5" width="41.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="fdp-16-oDj" firstAttribute="leading" secondItem="kKq-IZ-9sT" secondAttribute="leading" constant="30" id="SjF-Q5-su4"/>
+                                    <constraint firstAttribute="trailing" secondItem="QaQ-Mu-phl" secondAttribute="trailing" constant="30" id="d9H-YN-uzY"/>
+                                    <constraint firstItem="fdp-16-oDj" firstAttribute="centerY" secondItem="kKq-IZ-9sT" secondAttribute="centerY" id="gr2-bE-MSQ"/>
+                                    <constraint firstItem="QaQ-Mu-phl" firstAttribute="centerY" secondItem="kKq-IZ-9sT" secondAttribute="centerY" id="t6U-3s-X8C"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ktp-I1-7jz">
+                                <rect key="frame" x="0.0" y="165" width="379" height="55"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Cl-HU-rZC" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                                        <rect key="frame" x="30" y="17.5" width="41.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Wf-jN-Gez" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                                        <rect key="frame" x="307.5" y="17.5" width="41.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="6Wf-jN-Gez" firstAttribute="centerY" secondItem="Ktp-I1-7jz" secondAttribute="centerY" id="Flh-XT-MOB"/>
+                                    <constraint firstAttribute="trailing" secondItem="6Wf-jN-Gez" secondAttribute="trailing" constant="30" id="OhS-xE-Lek"/>
+                                    <constraint firstItem="9Cl-HU-rZC" firstAttribute="leading" secondItem="Ktp-I1-7jz" secondAttribute="leading" constant="30" id="l8O-Sc-FV0"/>
+                                    <constraint firstItem="9Cl-HU-rZC" firstAttribute="centerY" secondItem="Ktp-I1-7jz" secondAttribute="centerY" id="n2K-g6-cCd"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sa8-dJ-Nwn">
+                                <rect key="frame" x="0.0" y="220" width="379" height="55"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qsZ-cG-1eA" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                                        <rect key="frame" x="30" y="17.5" width="41.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A2q-bp-vaR" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                                        <rect key="frame" x="307.5" y="17.5" width="41.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="A2q-bp-vaR" secondAttribute="trailing" constant="30" id="EfR-bj-eS5"/>
+                                    <constraint firstItem="A2q-bp-vaR" firstAttribute="centerY" secondItem="Sa8-dJ-Nwn" secondAttribute="centerY" id="Syl-k3-6Sf"/>
+                                    <constraint firstItem="qsZ-cG-1eA" firstAttribute="leading" secondItem="Sa8-dJ-Nwn" secondAttribute="leading" constant="30" id="e2y-Pd-tBE"/>
+                                    <constraint firstItem="qsZ-cG-1eA" firstAttribute="centerY" secondItem="Sa8-dJ-Nwn" secondAttribute="centerY" id="fng-xX-0wC"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="eVY-WM-iJd" secondAttribute="trailing" id="LIb-qB-nnA"/>
+                    <constraint firstItem="eVY-WM-iJd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="XW2-ao-CLg"/>
+                    <constraint firstAttribute="bottom" secondItem="eVY-WM-iJd" secondAttribute="bottom" id="df2-dr-8Oi"/>
+                    <constraint firstItem="eVY-WM-iJd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="gud-Qr-Btj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="feeBackgroundView" destination="kdm-fP-wUm" id="Kfo-Au-Emv"/>
+                <outlet property="feeNameLabbel" destination="T2K-uL-jaY" id="pl6-3W-m3I"/>
+                <outlet property="feeValueLabbel" destination="MTq-90-Nwy" id="gJL-4n-r6t"/>
+                <outlet property="systemBackgroundVew" destination="OfS-1J-FGR" id="8UY-Jt-jVu"/>
+                <outlet property="systemNameLabbel" destination="vqb-iz-Agw" id="20c-pL-OvJ"/>
+                <outlet property="systemValueLabbel" destination="CnG-V5-9nD" id="frq-v9-uzE"/>
+                <outlet property="txFeeAutoBackgroundView" destination="Sa8-dJ-Nwn" id="q6e-8e-DOM"/>
+                <outlet property="txFeeAutoNameLabbel" destination="qsZ-cG-1eA" id="m2J-sQ-TLy"/>
+                <outlet property="txFeeAutoValueLabbel" destination="A2q-bp-vaR" id="yh7-ve-uuI"/>
+                <outlet property="txFeeBackgroundView" destination="kKq-IZ-9sT" id="Bep-gN-3zE"/>
+                <outlet property="txFeeManualBackgroundView" destination="Ktp-I1-7jz" id="B47-QW-40h"/>
+                <outlet property="txFeeManualNameLabbel" destination="9Cl-HU-rZC" id="N8v-Qg-qXZ"/>
+                <outlet property="txFeeManualValueLabbel" destination="6Wf-jN-Gez" id="Xk6-Se-nC8"/>
+                <outlet property="txFeeNameLabbel" destination="QaQ-Mu-phl" id="E7g-23-voT"/>
+                <outlet property="txFeeValueLabbel" destination="fdp-16-oDj" id="zTF-ZF-RIC"/>
+            </connections>
+            <point key="canvasLocation" x="-452.89855072463774" y="152.34375"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="A2q-bp-vaR">
+            <size key="intrinsicContentSize" width="41.5" height="20.5"/>
+        </designable>
+        <designable name="qsZ-cG-1eA">
+            <size key="intrinsicContentSize" width="41.5" height="20.5"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

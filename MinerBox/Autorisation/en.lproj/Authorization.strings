@@ -1,0 +1,54 @@
+
+/* Class = "UIButton"; normalTitle = "Update"; ObjectID = "3dc-fB-uiD"; */
+"3dc-fB-uiD.normalTitle" = "Update";
+
+/* Class = "UIButton"; normalTitle = "Receive code"; ObjectID = "6s9-VJ-AKU"; */
+"6s9-VJ-AKU.normalTitle" = "Receive code";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "D2O-JW-Jaq"; */
+"D2O-JW-Jaq.placeholder" = "Email";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "G5Q-ci-0RY"; */
+"G5Q-ci-0RY.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "K9Z-Mi-KFX"; */
+"K9Z-Mi-KFX.normalTitle" = "Login";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "KqK-qk-FeP"; */
+"KqK-qk-FeP.placeholder" = "Email";
+
+/* Class = "UITextField"; placeholder = "Retype new password"; ObjectID = "NPM-xT-nVb"; */
+"NPM-xT-nVb.placeholder" = "Retype new password";
+
+/* Class = "UIButton"; normalTitle = "Verify"; ObjectID = "QLj-Jf-JKS"; */
+"QLj-Jf-JKS.normalTitle" = "Verify";
+
+/* Class = "UIButton"; normalTitle = "Forgot password"; ObjectID = "Rpb-J3-qKJ"; */
+"Rpb-J3-qKJ.normalTitle" = "Forgot password";
+
+/* Class = "UITextField"; placeholder = "Verification code"; ObjectID = "SJR-hN-P34"; */
+"SJR-hN-P34.placeholder" = "Verification code";
+
+/* Class = "UITextField"; placeholder = "Retype password"; ObjectID = "Ua5-L0-1Se"; */
+"Ua5-L0-1Se.placeholder" = "Retype password";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "XYd-73-9qY"; */
+"XYd-73-9qY.placeholder" = "Password";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "YJX-uY-u3t"; */
+"YJX-uY-u3t.placeholder" = "Password";
+
+/* Class = "UINavigationItem"; title = "MinerBox"; ObjectID = "d3N-Ts-qd6"; */
+"d3N-Ts-qd6.title" = "MinerBox";
+
+/* Class = "UITextField"; placeholder = "New password"; ObjectID = "dCh-Xw-dsY"; */
+"dCh-Xw-dsY.placeholder" = "New password";
+
+/* Class = "UIButton"; normalTitle = "Signup"; ObjectID = "nU4-EG-iZ3"; */
+"nU4-EG-iZ3.normalTitle" = "Signup";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "of9-bh-wIu"; */
+"of9-bh-wIu.normalTitle" = "Register";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "udM-TF-HuG"; */
+"udM-TF-HuG.placeholder" = "Username";

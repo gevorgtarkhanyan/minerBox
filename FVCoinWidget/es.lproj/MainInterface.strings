@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "6jv-hL-vMF"; */
+"6jv-hL-vMF.normalTitle" = "Login";
+
+/* Class = "UILabel"; text = "Price BTC"; ObjectID = "8E4-gY-Mfz"; */
+"8E4-gY-Mfz.text" = "Price BTC";
+
+/* Class = "UILabel"; text = "Day"; ObjectID = "Hjw-LS-TwC"; */
+"Hjw-LS-TwC.text" = "Day";
+
+/* Class = "UILabel"; text = "PriceUSD"; ObjectID = "SRT-NC-pQZ"; */
+"SRT-NC-pQZ.text" = "PriceUSD";
+
+/* Class = "UILabel"; text = "Hour"; ObjectID = "bsZ-An-C3l"; */
+"bsZ-An-C3l.text" = "Hour";
+
+/* Class = "UILabel"; text = "Week"; ObjectID = "q9U-6I-7Hl"; */
+"q9U-6I-7Hl.text" = "Week";
+
+/* Class = "UILabel"; text = "CoinSymbol/Name"; ObjectID = "sy4-ga-dc6"; */
+"sy4-ga-dc6.text" = "CoinSymbol/Name";

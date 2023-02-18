@@ -1,0 +1,580 @@
+/*
+  Localizable.strings
+  MinerBox
+
+  Created by on 03/08/20.
+  Copyright © 2019 WitPlex. All rights reserved.
+*/
+
+// MARK: - Alerts
+"active_workers_change"                                         = "Les travailleurs actifs changent";
+"add_hashrate_alert"                                            = "Ajout d'une alerte au hashrate";
+"add_hashrate_alerts"                                           = "Ajouter des alertes de hashrate";
+"add_reportedHashrate_alert"                                    = "Ajout d'une alerte au rapporté hashrate";
+"add_reportedHashrate_alerts"                                   = "Ajout d'une alerte au rapporté hashrate";
+"add_payout_alerts"                                             = "Ajouter des alertes de paiement";
+"add_worker_alert"                                              = "Ajouter une alerte de travailleur";
+"add_worker_alerts"                                             = "Ajouter des alertes de travailleur";
+"alert_added"                                                   = "Alerte ajoutée";
+"alert_category_auto"                                           = "Auto";
+"alert_category_manual"                                         = "Manuel";
+"alert_updated"                                                 = "L'alerte est mise à jour";
+"count"                                                         = "Compter";
+"current_hashrate"                                              = "Hashrate actuel";
+"current_reportedHashrate"                                      = "Rapporté hashrate actuel";
+"current_workers_count"                                         = "Nombre de travailleurs actuels";
+"edit_alert"                                                    = "Modifier l'alerte";
+"edit_hashrate_alert"                                           = "Modifier l'alerte au hashratereported";
+"edit_reportedHashrate_alert"                                   = "Modifier l'alerte au apporté hashrate";
+"edit_worker_alert"                                             = "Modifier l'alerte du travailleur";
+"enabled"                                                       = "Activé";
+"hashrate_change_state"                                         = "Hashrate On/Off état";
+"reportedHashrate_change_state"                                 = "Rapporté hashrate On/Off état";
+"new_alert"                                                     = "Nouvelle alerte";
+"notifications_will_delete"                                     = "Les notifications seront supprimées";
+"payout_detection"                                              = "Détection des paiements";
+"repeat"                                                        = "Répéter";
+"speed"                                                         = "Vitesse";
+"Enter comparison"                                              = "Entrez la comparaison";
+"Enter valid value"                                             = "Entrez une valeur valide";
+"maximum_count_reached!"                                        = "Nombre maximum atteint!";
+"deleted"                                                       = "Supprimé";
+
+// MARK: - Animation
+"animation_retry"                                               = "Réessayer";
+
+// MARK: - Authorization
+"change_password"                                               = "Changer de mot de passe";
+"change_username"                                               = "Changer de nom d'utilisateur";
+"email_sended"                                                  = "Vérifiez votre courrier pour récupérer le mot de passe";
+"incorrect_email"                                               = "Courriel erroné";
+"login_email"                                                   = "Courriel";
+"login_forgot_password"                                         = "Mot de passe oublié";
+"login_login"                                                   = "Connexion";
+"login_sign_up"                                                 = "Inscription";
+"login_skip"                                                    = "Sauter";
+"new_password"                                                  = "Nouveau mot de passe";
+"old_password"                                                  = "Ancien mot de passe";
+"password"                                                      = "Mot de passe";
+"receive_code"                                                  = "Recevoir le code";
+"register"                                                      = "S'inscrire";
+"retype_password"                                               = "Retapez le mot de passe";
+"update"                                                        = "Mise à jour";
+"username"                                                      = "Nom d'utilisateur";
+"username_optional"                                             = "Nom d'utilisateur (Optionnell)";
+"verification_code"                                             = "Code de vérification";
+"verify"                                                        = "Vérifier";
+"Recover"                                                       = "Récupérer";
+"Incorrect password"                                            = "Mot de passe incorrect";
+
+// MARK: - Balance
+"balance"                                                       = "Balance";
+"confirmed"                                                     = "Confirmé";
+"orphaned"                                                      = "Orphelins";
+"paid"                                                          = "Payé";
+"unconfirmed"                                                   = "Non confirmé";
+"unpaid"                                                        = "Non rémunéré";
+"credit"                                                        = "Crédit";
+"paid24h"                                                       = "Payé en 24h";
+"totalBalance"                                                  = "Solde Total";
+"coins"                                                         = "Monnaie";
+"payoutThreshold"                                               = "Seuil de paiement";
+"none"                                                          = "Rien";
+"reward24h"                                                     = "Récompense 24h";
+"immatureReward"                                                = "Récompense Immatures";
+
+
+// MARK: - Coin price
+
+// Filter
+"filter"                                                        = "Filtre";
+"coin_sort_coin"                                                = "Monnaie";
+"coin_sort_change"                                              = "Changer";
+"coin_sort_price"                                               = "Prix";
+"coin_sort_rank"                                                = "Rang";
+"from_textfield"                                                = "De";
+"to_textfield"                                                  = "À";
+
+// Page type
+"coin_price_all"                                                = "Tous";
+"coin_price_favorites"                                          = "Favoris";
+"coin_price_alerts"                                             = "Alertes";
+
+// Change
+"coin_price_change_1_hour"                                      = "1h";
+"coin_price_change_24_hours"                                    = "24h";
+"coin_price_change_7_days"                                      = "1s";
+"coin_alert_deleted"                                            = "l'alerte monnaie est supprimée";
+"market_cap_usd"                                                = "Capitalisation boursière USD";
+"Enter value"                                                   = "Entrez la valeur";
+"Select coin"                                                   = "Choisir une monnaie";
+"Coin Alert Added"                                              = "Ajout d'une alerte sur les pièces de monnaie";
+"added_to_favorite"                                             = "Ajouté aux favoris";
+"deleted_from_favorite"                                         = "Supprimé des favoris";
+"add_favorite"                                                  = "Ajouter un favori";
+
+"volume"                                                        = "Volume";
+"max_supply"                                                    = "Approvisionnement maximal";
+"total_supply"                                                  = "Approvisionnement total";
+"explorers"                                                     = "Explorateurs";
+
+// MARK: - Coin graph
+"choose_coin"                                                   = "Choisir une monnaie";
+"coin_settings_analize"                                         = "Analyser";
+"coin_settings_axis"                                            = "Axe";
+"coin_settings_comparision"                                     = "Comparaison";
+"coin_settings_graph"                                           = "Graphique";
+"coin_settings_horizontal"                                      = "Horizontal";
+"coin_settings_indicators"                                      = "Indicateurs";
+"coin_settings_line"                                            = "Ligne";
+"coin_settings_mountain"                                        = "Montagne";
+"coin_settings_vertical"                                        = "Vertical";
+
+// MARK: - Comparision
+"comparision_greather_than"                                     = "Plus de";
+"comparision_less_than"                                         = "Moins de";
+
+// MARK: - Default
+"id"                                                            = "ID";
+"ask_for_delete"                                                = "Êtes-vous sûr de vouloir supprimer ?";
+"cancel"                                                        = "Annuler";
+"delete"                                                        = "Supprimer";
+"done"                                                          = "Terminé";
+"edit"                                                          = "Éditer";
+"last_updated"                                                  = "Dernière mise à jour";
+"payment_method"                                                = "Mode de paiement";
+"later"                                                         = "Plus tard";
+"loading"                                                       = "Chargement";
+"no_chart_data"                                                 = "Aucune donnée graphique";
+"ok"                                                            = "OK";
+"save"                                                          = "Sauvegarder";
+"search"                                                        = "Recherchez";
+"sent"                                                          = "Envoyé";
+"state"                                                         = "État";
+"update_info"                                                   = "Nouvelle version disponible";
+"areSure"                                                       = "Êtes-vous sûr ?";
+"temperature"                                                   = "Température";
+"load"                                                          = "Charge";
+"next_payout_time"                                              = "Prochaine heure de paiement";
+
+// MARK: - Analytics
+"more_analytics"                                                = "Analytique";
+"more_help"                                                          = "Aide";
+"others"                                                        = "Autres";
+
+// MARK: - Details
+"account_alerts"                                                = "Alertes";
+"account_details"                                               = "Détails";
+"account_estimations"                                           = "Estimation";
+"account_rewards"                                               = "Récompense";
+"account_payouts"                                               = "Paiements";
+"account_pool_info"                                             = "Piscine info";
+"Total"                                                         = "Total";
+"time"                                                          = "Temps";
+"includeElectricityCost"                                        = "Inclure le coût de l'électricité";
+"electricityConsumption"                                        = "Consommation d'électricité";
+"electricityPrice"                                              = "Prix de l'électricité (1kWh)";
+// MARK: - Errors
+"cant_select_more_than_5_items"                                 = "Vous ne pouvez pas sélectionner plus de 5 éléments";
+"check_network_connection"                                      = "Vérifier la connexion au réseau";
+"no_items_available"                                            = "Aucun article disponible";
+"mail_not_configured"                                           = "Le courrier électronique n'est pas configuré!";
+"incorrect_pass_code"                                           = "Code d'accès incorrect";
+"incorrect_repeat_password"                                     = "Le nouveau mot de passe ne correspond pas!";
+"incorrect_symbol"                                              = "Certains caractères saisis ne sont pas autorisés!";
+"input_4_and_more_characters"                                   = "Saisie de 4 caractères et plus";
+"input_6_and_more_characters"                                   = "Saisie de 6 caractères et plus";
+"unknown_error"                                                 = "Quelque chose a mal tourné";
+
+"Try again later"                                               = "Réessayer plus tard";
+"Enter valid ID/key"                                            = "Saisir une ID/key valide";
+"Name Already Exist!"                                           = "Le nom existe déjà!";
+"Pool Address Invalid!"                                         = "L'adresse du pool est invalide!";
+"The request timed out."                                        = "La demande a expiré.";
+"it's incorrect account"                                        = "C'est un compte incorrect";
+"Can't check your payment"                                      = "Impossible de vérifier votre paiement";
+"Could not connect to the server."                              = "Impossible de se connecter au serveur.";
+"You need to add something in favorites"                        = "Ajouter des pièces aux favoris";
+"The Internet connection appears to be offline."                = "La connexion Internet semble être hors ligne.";
+
+// Backend
+"Sorry, internal server error!"                                 = "Désolé, erreur de serveur interne!";
+"Server is overloaded, please try again later!"                 = "Le serveur est surchargé, veuillez réessayer plus tard!";
+"Email Already Exist!"                                          = "Le courriel existe déjà!";
+"Invalid Parameter!"                                            = "Paramètre invalide!";
+"Failed Authentication!"                                        = "Authentification échouée!";
+"Access Denied!"                                                = "Accès refusé!";
+"User not exist!"                                               = "L'utilisateur n'existe pas!";
+"Password does not match!"                                      = "Le mot de passe ne correspond pas!";
+"Password is invalid!"                                          = "Le mot de passe n'est pas valide!";
+"You can resend the request after a while!"                     = "Vous pouvez renvoyer la demande après un certain temps!";
+"You can request after xxx sec!"                                = "Vous pouvez demander après xxx sec!";
+"Verification code is invalid. Please try again!"               = "Le code de vérification n'est pas valable. Veuillez réessayer!";
+"Coin Favorite Already Exist!"                                  = "Le monnaie de préférée existe déjà!";
+"Pool Account Already Exist!"                                   = "Le compte de pool existe déjà!";
+"Pool Account Not Exist!"                                       = "Le compte de pool n'existe pas!";
+"Pool Account Data Not Exist!"                                  = "Les données des comptes de pool n'existent pas!";
+"Reached Max Pool Account Count!"                               = "Le nombre de comptes de pool a atteint son maximum!";
+"Max Active Account Already Exist!"                             = "Le compte actif Max existe déjà!";
+"Pool Statistics Not Exist!"                                    = "Les statistiques sur les pools n'existent pas!";
+"Pool Information Not Exist!"                                   = "Les informations sur les pools n'existent pas!";
+"Coin Alert Already Exist!"                                     = "L'alerte monnaie existe déjà!";
+"Coin Alert Not Exist!"                                         = "L'alerte monnaie ñ'existe pas!";
+"Cost Not Exist!"                                               = "Le coût n'existe pas!";
+"Coin Not Exist!"                                               = "Le coût n'existe pas!";
+"Pool Alert Already Exist!"                                     = "L'alerte piscine existe déjà!";
+"Pool Alert Not Exist!"                                         = "L'alerte piscine n'existe pas!";
+"Adding Pool Alert Not Allowed!"                                = "l'ajout d'une alerte de pool n'est pas autorisé";
+"Failed to Add Subscription!"                                   = "Omission d'ajouter un abonnement!";
+
+// MARK: - Hashrate
+"active"                                                        = "Actif";
+"inactive"                                                      = "Inactif";
+"average"                                                       = "Moyenne";
+"current"                                                       = "Actuelle";
+"hashrate"                                                      = "Hashrate";
+"hashrates"                                                     = "Hashrates";
+"real"                                                          = "Réel";
+"reported"                                                      = "Signalé";
+"reportedHashrate"                                             = "Rapporté hashrate";
+"Selected hashrate"                                             = "Hashrate sélectionné";
+
+// MARK: - Menu
+"accounts"                                                      = "Comptes";
+"coin_price"                                                    = "Monnaie prix";
+"more"                                                          = "Plus";
+"notifications"                                                 = "Notification";
+"Account"                                                       = "Compte";
+"Settings"                                                      = "Paramètres";
+
+// MARK: - More
+"more_about_app"                                                = "Propos de l'App";
+"more_darkMode"                                                 = "Mode noir";
+"more_join_community"                                           = "Rejoindre Communauté";
+"more_languages"                                                = "Langue";
+"more_toolbar"                                                  = "Barre d'outils";
+"toolBarPages"                                                  = "Pages de la barre d'outils";
+"more_login_signup"                                             = "Connexion / Inscription";
+"more_manage_subscription"                                      = "Gestion abonnements";
+"more_profile"                                                  = "Profil";
+"more_security"                                                 = "Sécurité";
+"more_widget"                                                   = "Widget";
+"more_converter"                                                = "Convertisseur";
+"more_faq"                                                      = "FAQ";
+"profile_log_out"                                               = "Déconnexion";
+"delete_account"                                                = "Supprimer Compte";
+"community_facebook"                                            = "Aimez-nous sur Facebook";
+"community_reddit"                                              = "Suivez-nous sur Reddit";
+"community_telegram"                                            = "Rejoignez notre groupe Télégramme";
+"community_twitter"                                             = "Suivez-nous sur Twitter";
+"about_app_feedback"                                            = "Rétroaction";
+"about_app_share"                                               = "Partager App";
+"about_app_rate"                                                = "Taux d'application";
+"about_app_version"                                             = "Taux App";
+"about_app_share_text"                                          = "Hey, je gère / suivi de mon exploitation minière Cryptocurrencies en utilisant cette grande application!\nTélécharger gratuitement\nAndroid: android_app_link\niOS: ios_app_link";
+"Select accounts"                                               = "Choisissez des comptes";
+"fiat"                                                          = "Fiat";
+"choose_email"                                                  = "Choisissez e-mail";
+"income"                                                        = "Revenu";
+"hide_0"                                                        = "Cacher 0";
+"show_0"                                                        = "Afficher 0";
+
+// MARK: - Notificaiton
+"new_payout_detected"                                           = "Nouveau paiement détecté (xxx)!";
+"notifications_coin_alerts"                                     = "Monnaie";
+"notifications_info_alerts"                                     = "Info";
+"notifications_payout_alerts"                                   = "Paiement";
+"notifications_pool_alerts"                                     = "Piscine";
+"notificaiton_auto_hashrate_changed"                            = "Changement de Hashrate détecté xxx->yyy!";
+"notificaiton_auto_worker_changed"                              = "Les travailleurs comptent les changements détectent xxx->yyy!";
+"notification_coin_greater_than"                                = "Le prix a une croissance de xxx (yyy)!";
+"notification_coin_less_than"                                   = "Le prix a chuté de xxx (yyy)!";
+"notification_hashrate_greater_than"                            = "Hashrate a une croissance de xxx (yyy)!";
+"notification_hashrate_less_than"                               = "Hashrate a chuté de xxx (yyy)!";
+"notificaiton_auto_repHashrate_changed"                         = "Changement de Rapporté Hashrate détecté xxx->yyy!";
+"notification_repHashrate_greater_than"                         = "Rapporté Hashrate a une croissance de xxx (yyy)!";
+"notification_repHashrate_less_than"                            = "Rapporté Hashrate a chuté de xxx (yyy)!";
+"notification_workers_greater_than"                             = "Le nombre de travailleurs a une croissance xxx (yyy)!";
+"notification_workers_less_than"                                = "Le nombre de travailleurs a diminué xxx (yyy)!";
+"add_coin_alert"                                                = "Ajouter alerte monnai";
+"for_coin_alert"                                                = "pour être informé sur le changement de prix";
+"add_pool_account"                                              = "Ajouter compte de pool";
+"for_pool_notifications"                                        = "pour les notifications";
+"add_pool_account_alerts"                                       = "Ajouter alertes de comptes pool";
+"for_receiving_notifications"                                   = "pour la réception des notifications";
+
+// MARK: - Pool account
+"activate"                                                      = "Activer";
+"edit_account"                                                  = "Modifier le compte";
+"enter_new_pool_name"                                           = "Entrez un nouveau nom de pool";
+"input"                                                         = "Saisie";
+"Watcher link"                                                  = "Watcher lien";
+"Wallet address"                                                = "Adresse du portefeuille";
+"Observer link"                                                 = "Lien observateur";
+"input_label"                                                   = "étiquette de saisie";
+"input_puid"                                                    = "PUID de saisie";
+"new_account"                                                   = "Nouveau compte";
+"request_new_pool"                                              = "Demande nouvelle piscine";
+"save_account"                                                  = "Sauvegarder le compte";
+"select_pool"                                                   = "Sélectionnez la piscine";
+"status_check"                                                  = "Vérification de l'état";
+"successfully_added"                                            = "Ajouté avec succès";
+"successfully_updated"                                          = "Mise à jour avec succès";
+"one_account_can_be_activated"                                  = "Nombre maximum de comptes actifs atteint. Le compte actif doit être supprimé pour en obtenir un autre.";
+"xxx_account_can_be_activated"                                  = "XXX seul compte peut être activé! Le compte actif doit être supprimé pour en obtenir un autre.";
+"Alerts"                                                        = "Alertes";
+"Miner ID"                                                      = "Miner ID";
+"optional_input_label"                                          = "Étiquette de saisie (Optionnelle)";
+"optional"                                                      = "(Optionnell)";
+"Input API key"                                                 = "Clé API d'entrée";
+"Input Miner ID"                                                = "Entrée Miner ID";
+"Select group pool"                                             = "Sélectionner un pool de groupes";
+"Press the + button to add an account"                          = "Appuyez sur le bouton + pour ajouter un compte";
+"MAINTENANCE"                                                   = "Sous maintenance!";
+"Sponsored"                                                     = "Sponsorisé";
+"out_of_date"                                                   = "Périmé!";
+
+// MARK: - Pool info
+"amount"                                                        = "Montant";
+"block"                                                         = "Bloc";
+"coinAddress"                                                  = "Monnaie adresse";
+"confirmations"                                                 = "Confirmation";
+"mixin"                                                         = "Mixin";
+"paidOn"                                                       = "Payés sur";
+"period"                                                        = "Période";
+"price_usd"                                                     = "Prix USD";
+"price_btc"                                                     = "Prix BTC";
+"status"                                                        = "Statut";
+"tx"                                                            = "Tx";
+"txId"                                                         = "Tx ID";
+"type"                                                          = "Tapez";
+"active_miners"                                                 = "Actif miners";
+"active_workers"                                                = "Travailleurs actifs";
+"ago"                                                           = "il y a";
+"blocks_per_hour"                                               = "Blocs par heure";
+"coin_name"                                                     = "Nom de la monnaie";
+"coinId"                                                        = "Coin Id";
+"currency"                                                      = "Change";
+"current_block"                                                 = "Bloc actuel";
+"fees"                                                          = "Payant";
+"fee"                                                           = "Honoraire";
+"networkFee"                                                    = "Frais de réseau";
+"name"                                                          = "Nom";
+"last_mined_block"                                              = "Dernier bloc miné";
+"last_mined_block_time"                                         = "Dernier temps de bloc miné";
+"max_ap_threshold"                                              = "Max ap seuil";
+"min_ap_threshold"                                              = "Min ap seuil";
+"network_block_time"                                            = "Temps de bloc réseau";
+"network_retarget_time"                                         = "Temps de reciblage du réseau";
+"network_difficulty"                                            = "Difficulté du réseau";
+"network_next_difficulty"                                       = "Difficulté du réseau suivant";
+"network_hashrate"                                              = "Hashrate réseau";
+"network_time"                                                  = "De temps réseau";
+"next_block"                                                    = "Bloc suivant";
+"payout_system"                                                 = "Système de paiement";
+"price"                                                         = "Prix";
+"reward_type"                                                   = "Type de récompense";
+"total_alt_blocks_found"                                        = "Total blocs alt trouvés";
+"luck"                                                          = "Chance";
+"current_round_duration"                                        = "Durée du cycle actuel";
+"total_blocks_found"                                            = "Total blocs trouvés";
+"txFee"                                                         = "TxFee";
+"txFee_auto"                                                    = "TxFee auto";
+"txFee_manual"                                                  = "TxFee manual";
+"currentBlockNumber"                                            = "Bloc actuel";
+"nextNetBlockNumber"                                            = "Bloc suivant";
+"blockTime"                                                    = "Temps de bloc";
+"blockReward"                                                  = "Récompense des mineurs";
+"blocksPending"                                                 = "Blocs en attente";
+"blocksOrphaned"                                                = "Blocs orphelins";
+"blocksConfirmed"                                               = "Blocs confirmés";
+"minerReward"                                                   = "Temps de blocs";
+"totalPaid"                                                     = "Total payé";
+// MARK: - Recent credits
+"matured"                                                       = "Maturel";
+"immature"                                                      = "Immatures";
+
+// MARK: - Security
+"create_pin"                                                    = "Créer PIN";
+"enter_pin"                                                     = "Saisir PIN";
+"pin_lock"                                                      = "Serrure  PIN";
+"retype_pin"                                                    = "Retaper";
+"use_pin"                                                       = "Utiliser";
+
+// MARK: - Shares
+"choose_shares"                                                 = "Choisir parts";
+"invalid"                                                       = "Invalide";
+"shares"                                                        = "Partager";
+"stale"                                                         = "Rassis";
+"valid"                                                         = "Valable";
+"round"                                                         = "Ronde";
+"expired"                                              = "Expiré";
+// MARK: - Difficulty
+"diff"                                                          = "Difficulté";
+
+// MARK: - Luck
+"luckHours"                                                     = "Chance";
+// MARK: - Subscription
+"subscribe"                                                     = "S'abonner";
+"re_subscribe"                                                  = "Se réabonner";
+"remove_ads_more"                                                    = "Supprimer des annonces";
+"add_up_to_xxx_accounts"                                         = "Ajouter jusqu'à xxx comptes";
+"add_widget"                                                    = "Ajouter des widgets de compte";
+"premium_plan"                                                  = "Plan Premium";
+"premium_promo_user"                                            = "Promotion premium";
+"privacy_policy"                                                = "Politique de confidentialité";
+"restore_subscription"                                          = "Rétablir l'abonnement";
+"standard_plan"                                                 = "Plan Standard";
+"standard_promo_user"                                           = "Utilisateur promotion Standard";
+"terms_of_use"                                                  = "Conditions d'utilisation";
+"then_xxx_monthly"                                              = "puis xxx par mois";
+"try_7_days"                                                    = "ESSAYEZ GRATUITEMENT PENDANT 3 JOURS\npuis xxx par mois";
+"cancel_anytime"                                                = "Renouvellement automatique, annuler à tout moment
+[DE]
+";
+"continue"                                                      = "Continuer";
+"premium"                                                       = "Prime";
+"standart"                                                      = "Standard";
+"billing_retry"                                                 = "Problème de paiement : Billing Retry state, veuillez mettre à jour les informations de votre carte de crédit pour reprendre l'abonnement.";
+"payment_problem"                                               = "Problème de paiement : votre compte reste actif, mais veuillez mettre à jour les informations de votre carte de crédit pour éviter la suspension.";
+"subscription_cancelled"                                        = "L'abonnement a été annulé, veuillez vous RÉABONNER pour éviter la suspension.";
+"subscripted_from_play_store"                                   = "Abonnement au Play Store";
+"subscription_info"                                             = "Après les 3 jours d'essai gratuit, l'abonnement est automatiquement renouvelé pour un mois, sauf s'il est annulé au moins 24 heures avant la fin de la période d'essai. Toute partie non utilisée d'une période d'essai gratuite sera perdue lorsque l'utilisateur achètera un abonnement MinerBox. L'abonnement se renouvelle automatiquement, sauf si le renouvellement automatique est désactivé au moins 24 heures avant la fin de la période d'essai en cours. Le paiement sera débité du compte App Store lors de la confirmation de l'achat. Votre compte sera débité pour le renouvellement dans les 24 heures avant la fin de la période en cours et identifiera le coût du renouvellement. Les abonnements peuvent être gérés et annulés à partir des paramètres du compte après l'achat.";
+
+"Subscriptions"                                                 = "Abonnements";
+"User authorization needed"                                     = "Autorisation de l'utilisateur nécessaire";
+"Subscripted from other user"                                   = "Abonnement d'un autre utilisateur";
+"12_months_as_mo"                                               = "12 mois comme x/mo";
+"SAVE"                                                          = "Économisez";
+
+//Widget
+"need_subscription"                                             = "Besoin d'abonnement";
+"please_check_acounts"                                          = "Veuillez vérifier les comptes dans MinerBox -> Paramètres -> Widget";
+"update_widget_settings"                                        = "Mettre à jour les paramètres du widget";
+"single_Coin_Widget"                                            = "Widget à pièce unique";
+"single_Account_Widget"                                         = "Widget de compte unique";
+"multi_Coin_Widget"                                             = "Widget multi-pièces";
+"account_Balance_Widget"                                        = "Widget Solde du compte";
+"multi_Account_Widget"                                          = "Widget multi-comptes";
+"single_coin_description"                                       = "Gardez une trace des informations sur les pièces";
+"single_account_description"                                    = "Gardez une trace des informations de vos comptes";
+"multi_coin_description"                                        = "Gardez une trace des informations sur les pièces";
+"multi_account_description"                                     = "Gardez une trace des informations de vos comptes";
+"account_balance_description"                                   = "Gardez une trace des informations de vos comptes";
+// MARK: - Time
+"date_from"                                                     = "Date à partir";
+"date_to"                                                       = "Date jusqu'a";
+"duration"                                                      = "Durée";
+"date"                                                          = "Date";
+"day"                                                           = "Journée";
+"hour"                                                          = "Heure";
+"minute"                                                        = "Minute";
+"month"                                                         = "Mois";
+"week"                                                          = "Semaine";
+"year"                                                          = "An";
+"all"                                                           = "Tous";
+"1m"                                                            = "1m";
+"1w"                                                            = "1s";
+"1y"                                                            = "1a";
+"3m"                                                            = "3m";
+"6m"                                                            = "6m";
+"24h"                                                           = "24h";
+"change_1_hour"                                                 = "Changement 1 heure";
+"change_24_hour"                                                = "Changement 24 heure";
+"change_7_day"                                                  = "Changement 1 semaine";
+"yearly"                                                        = "annuel";
+"monthly"                                                       = "mensuel";
+"M"                                                             = "M";
+"D"                                                             = "J";
+"hr"                                                            = "hr";
+"min"                                                           = "min";
+"sec"                                                           = "sec";
+
+// MARK: - What to mine
+//"enter_name"                                                    = "Enter Name";
+//"add_new_profile"                                               = "Add new profile";
+"what_to_mine"                                                  = "Ce qui à la mienne";
+"models"                                                        = "Modèle";
+"algorithms"                                                    = "Algorithmes";
+"coin_details"                                                  = "Monnaie Détails";
+"algorithm"                                                     = "Algorithme";
+//"block_time"                                                    = "Block time";
+//"block_reward"                                                  = "Block reward";
+"difficulty"                                                    = "Difficulté";
+//"difficulty_change"                                             = "Difficulty change";
+//"estimated_rewards"                                             = "Estimated rewards";
+//"exchange_rate"                                                 = "Exchange rate";
+//"exchange_rate_change"                                          = "Exchange rate change";
+"revenue"                                                       = "Recette";
+"profit"                                                        = "Bénéfice";
+"electricityCost"                                               = "Coût de l'électricité";
+"3d"                                                            = "3j";
+"7d"                                                            = "7j";
+"no_item_selected"                                              = "Aucun élément sélectionné";
+"clear"                                                         = "Clair";
+
+// MARK: - Worker
+"choose_workers"                                                = "Choisir travailleurs";
+"select"                                                        = "Choisir";
+"groups"                                                        = "Groupes";
+"groups_workers"                                                = "Groupes / Travailleurs";
+"monitor"                                                       = "Moniteur";
+"worker"                                                        = "Travailleur";
+"worker_name"                                                   = "Nom travailleur";
+"workers"                                                       = "Travailleurs";
+"workers_count"                                                 = "Travailleurs comptent";
+"first_connection"                                              = "Première connexion";
+"participation"                                                 = "Participation";
+"mode"                                                          = "Mode";
+"worker_id"                                                     = "Travailleur ID";
+"efficiency"                                                    = "Efficacité";
+
+//"disabled"                                                      = "Disabled";
+//"all_workers"                                                   = "All workers";
+//"selected_workers_count"                                        = "Selected workers count";
+
+// MARK: - Blocks
+"blocks"                                                        = "Blocs";
+"block"                                                         = "Bloc";
+"luck"                                                          = "Chance";
+"height"                                                        = "Hauteur";
+"reward"                                                        = "Récompense";
+"uncle"                                                         = "Oncle";
+
+// MARK: - News
+"news"                                                          = "Nouvelles";
+"my_feed"                                                       = "Mon flux";
+"top_news"                                                      = "Top News";
+"all_news"                                                      = "Toutes les actualités";
+"added_sources"                                                 = "Sources ajoutées";
+"all_sources"                                                   = "Toutes les sources";
+"bookmark"                                                      = "Ajouter aux favoris";
+"add_sources"                                                   = "Ajouter des sources";
+"top"                                                           = "Top";
+"bookmarks"                                                     = "Signets";
+"sources"                                                       = "Sources";
+
+// MARK: - Wallet -
+"addresses"                                                     = "Adresses";
+"wallets"                                                       = "Portefeuilles";
+"show_all"                                                      = "Afficher tout";
+"invalid_credentials!"                                          = "Informations d'identification invalides !";
+"edit_wallet"                                                   = "Modifier le portefeuille";
+"add_wallet"                                                    = "Ajouter un portefeuille";
+"add_coin"                                                      = "Ajouter Monnaie";
+"address"                                                       = "Adresse";
+"description"                                                   = "Description";
+"download_QR"                                                   = "Télécharger le code QR";
+"equity_value"                                                  = "Valeur nette";
+"deposit"                                                       = "Déposer";
+"more_wallet"                                                   = "Portefeuille";
+"network"                                                       = "Réseau";
+"history"                                                       = "Histoire";
+
+
+
+
+
+
+
+

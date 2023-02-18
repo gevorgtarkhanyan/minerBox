@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="PoolInfoSecionView" customModule="MinerBox" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HrS-ju-pq0">
+                        <rect key="frame" x="10" y="11" width="16" height="22"/>
+                        <state key="normal" image="arrow_black"/>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aoF-q4-oyj">
+                        <rect key="frame" x="36" y="7" width="30" height="30"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="O1C-qr-PMD">
+                                <rect key="frame" x="1" y="1" width="28" height="28"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="FVn-L4-X3p"/>
+                            <constraint firstAttribute="trailing" secondItem="O1C-qr-PMD" secondAttribute="trailing" constant="1" id="Txq-8e-MBw"/>
+                            <constraint firstItem="O1C-qr-PMD" firstAttribute="top" secondItem="aoF-q4-oyj" secondAttribute="top" constant="1" id="WzD-9r-pvg"/>
+                            <constraint firstAttribute="bottom" secondItem="O1C-qr-PMD" secondAttribute="bottom" constant="1" id="aOY-8c-f9o"/>
+                            <constraint firstItem="O1C-qr-PMD" firstAttribute="centerY" secondItem="aoF-q4-oyj" secondAttribute="centerY" id="aPa-0O-TOT"/>
+                            <constraint firstAttribute="width" secondItem="aoF-q4-oyj" secondAttribute="height" id="oLM-JN-KoF"/>
+                            <constraint firstItem="O1C-qr-PMD" firstAttribute="leading" secondItem="aoF-q4-oyj" secondAttribute="leading" constant="1" id="p5z-Yh-dRP"/>
+                        </constraints>
+                    </view>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="dCF-K6-ODI">
+                        <rect key="frame" x="76" y="2.5" width="39.5" height="39"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fkd-Ac-mi3" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="39.5" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ufz-TC-av3" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="19.5" width="39.5" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vde-XL-Rge" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                        <rect key="frame" x="160" y="32" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iha-WO-J9Y" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                        <rect key="frame" x="310" y="32" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="el8-6i-IRs" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                        <rect key="frame" x="310" y="12.5" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="HrS-ju-pq0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="3eB-8Q-IJH"/>
+                    <constraint firstItem="aoF-q4-oyj" firstAttribute="leading" secondItem="HrS-ju-pq0" secondAttribute="trailing" constant="10" id="Lke-43-idY"/>
+                    <constraint firstItem="dCF-K6-ODI" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Mt5-PN-fmz"/>
+                    <constraint firstItem="vde-XL-Rge" firstAttribute="centerY" secondItem="ufz-TC-av3" secondAttribute="centerY" id="PkX-m1-rNK"/>
+                    <constraint firstItem="aoF-q4-oyj" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="TRv-kd-GGn"/>
+                    <constraint firstItem="aoF-q4-oyj" firstAttribute="width" secondItem="aoF-q4-oyj" secondAttribute="height" id="UoY-mk-5nG"/>
+                    <constraint firstItem="dCF-K6-ODI" firstAttribute="leading" secondItem="aoF-q4-oyj" secondAttribute="trailing" constant="10" id="VK1-Ci-AMD"/>
+                    <constraint firstItem="vde-XL-Rge" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Z5D-OL-ehb"/>
+                    <constraint firstAttribute="trailing" secondItem="el8-6i-IRs" secondAttribute="trailing" constant="10" id="a5q-ah-ugW"/>
+                    <constraint firstItem="Iha-WO-J9Y" firstAttribute="centerY" secondItem="vde-XL-Rge" secondAttribute="centerY" id="bmH-Ac-Jxi"/>
+                    <constraint firstAttribute="trailing" secondItem="Iha-WO-J9Y" secondAttribute="trailing" constant="10" id="cGP-tI-DNg"/>
+                    <constraint firstItem="HrS-ju-pq0" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="gLh-D9-pEq"/>
+                    <constraint firstItem="el8-6i-IRs" firstAttribute="centerY" secondItem="fkd-Ac-mi3" secondAttribute="centerY" id="j0n-Qj-Zdq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="algoMinersOrWorkersLabel" destination="Iha-WO-J9Y" id="qOB-m0-A21"/>
+                <outlet property="algosHashrateLabel" destination="el8-6i-IRs" id="gta-So-srn"/>
+                <outlet property="arrowButton" destination="HrS-ju-pq0" id="HBE-iM-Ms0"/>
+                <outlet property="coinCurrencyLabel" destination="ufz-TC-av3" id="mLV-o6-Fcj"/>
+                <outlet property="coinNameLabel" destination="fkd-Ac-mi3" id="dxb-HY-hTS"/>
+                <outlet property="logoBackgroundView" destination="aoF-q4-oyj" id="t07-b9-8uW"/>
+                <outlet property="logoImageView" destination="O1C-qr-PMD" id="jjy-W4-2DE"/>
+                <outlet property="logoWidthConstraits" destination="FVn-L4-X3p" id="A2a-p0-MdI"/>
+                <outlet property="sortedValueLabel" destination="vde-XL-Rge" id="h2D-8h-w1A"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="101.78571428571428"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="Iha-WO-J9Y"/>
+        <designable name="el8-6i-IRs"/>
+        <designable name="fkd-Ac-mi3">
+            <size key="intrinsicContentSize" width="39.5" height="19.5"/>
+        </designable>
+        <designable name="ufz-TC-av3">
+            <size key="intrinsicContentSize" width="28.5" height="13.5"/>
+        </designable>
+        <designable name="vde-XL-Rge"/>
+    </designables>
+    <resources>
+        <image name="arrow_black" width="16" height="16"/>
+    </resources>
+</document>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+        <array key="SF-Pro-Text-Semibold.otf">
+            <string>SFProText-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UpdateAppViewController" customModule="MinerBox" customModuleProvider="target">
+            <connections>
+                <outlet property="laterButton" destination="FoO-GB-jyc" id="Nt7-1u-vzf"/>
+                <outlet property="newUpdateTextLabel" destination="cez-TV-voL" id="THq-Yc-QSB"/>
+                <outlet property="updateButton" destination="ixo-2k-eNw" id="loa-Dm-cSu"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zyf-M9-XQz" customClass="BaseView" customModule="MinerBox" customModuleProvider="target">
+                    <rect key="frame" x="41.333333333333343" y="408.33333333333331" width="331.33333333333326" height="89.333333333333314"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b1T-Cg-4Nr">
+                            <rect key="frame" x="0.0" y="45" width="331.33333333333331" height="44.333333333333343"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="uOY-sy-bmR">
+                                    <rect key="frame" x="0.0" y="0.33333333333337123" width="331.33333333333331" height="44"/>
+                                    <subviews>
+                                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FoO-GB-jyc" customClass="AlertControllerButton" customModule="MinerBox" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="165.33333333333334" height="44"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="17"/>
+                                            <state key="normal" title="Later">
+                                                <color key="titleColor" red="0.1176470588" green="0.59607843140000005" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="inputButtonsClick:" destination="-1" eventType="touchUpInside" id="3y1-oX-SgZ"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ixo-2k-eNw" customClass="AlertControllerButton" customModule="MinerBox" customModuleProvider="target">
+                                            <rect key="frame" x="166" y="0.0" width="165.33333333333337" height="44"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" name="SFProText-Semibold" family="SF Pro Text" pointSize="17"/>
+                                            <state key="normal" title="Update">
+                                                <color key="titleColor" red="0.1176470588" green="0.59607843140000005" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="inputButtonsClick:" destination="-1" eventType="touchUpInside" id="cPF-D7-MX7"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="44" id="ult-t2-IQo"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstItem="uOY-sy-bmR" firstAttribute="leading" secondItem="b1T-Cg-4Nr" secondAttribute="leading" id="6zC-Zr-sPf"/>
+                                <constraint firstItem="uOY-sy-bmR" firstAttribute="top" secondItem="b1T-Cg-4Nr" secondAttribute="top" constant="0.5" id="GGK-dE-lMx"/>
+                                <constraint firstAttribute="trailing" secondItem="uOY-sy-bmR" secondAttribute="trailing" id="rhl-ac-BHw"/>
+                                <constraint firstAttribute="bottom" secondItem="uOY-sy-bmR" secondAttribute="bottom" id="zK3-jZ-vbb"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Update" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cez-TV-voL" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                            <rect key="frame" x="20" y="15" width="291.33333333333331" height="20"/>
+                            <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="cez-TV-voL" firstAttribute="top" secondItem="zyf-M9-XQz" secondAttribute="top" constant="15" id="8Oi-mL-FcV"/>
+                        <constraint firstItem="cez-TV-voL" firstAttribute="leading" secondItem="zyf-M9-XQz" secondAttribute="leading" constant="20" id="Cpr-RI-uDH"/>
+                        <constraint firstAttribute="bottom" secondItem="b1T-Cg-4Nr" secondAttribute="bottom" id="Dms-ip-A9O"/>
+                        <constraint firstAttribute="trailing" secondItem="b1T-Cg-4Nr" secondAttribute="trailing" id="Mwe-4q-UfU"/>
+                        <constraint firstAttribute="trailing" secondItem="cez-TV-voL" secondAttribute="trailing" constant="20" id="W7S-dn-LqV"/>
+                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="400" id="b95-uh-CN6"/>
+                        <constraint firstItem="b1T-Cg-4Nr" firstAttribute="top" secondItem="cez-TV-voL" secondAttribute="bottom" constant="10" id="fhl-s3-RRn"/>
+                        <constraint firstItem="b1T-Cg-4Nr" firstAttribute="leading" secondItem="zyf-M9-XQz" secondAttribute="leading" id="pVz-rL-oSs"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="zyf-M9-XQz" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.8" priority="750" id="HI2-GH-Efa"/>
+                <constraint firstItem="zyf-M9-XQz" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="SMe-z2-Aro"/>
+                <constraint firstItem="zyf-M9-XQz" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="iLz-bv-2Xb"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>

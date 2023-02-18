@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8FF4AE4E-C7C1-462E-8570-8B15071926FE"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C758457-FB74-4A4E-8C90-70103D95AEFE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MinerBox/UI/Menu/Coin price/Coin price page controller/Coin price view controller/Coin chart/CoinChartViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "699"
+            endingLineNumber = "699"
+            landmarkName = "drawGraph()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6C758457-FB74-4A4E-8C90-70103D95AEFE - e61b38669f20ac14"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MinerBox.CoinChartViewController.drawGraph() -&gt; ()"
+                  moduleName = "MinerBox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gevorgtarkhanyan/Desktop/proects/minerbox_ios/MinerBox/UI/Menu/Coin%20price/Coin%20price%20page%20controller/Coin%20price%20view%20controller/Coin%20chart/CoinChartViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "699"
+                  endingLineNumber = "699"
+                  offsetFromSymbolStart = "10732">
+               </Location>
+               <Location
+                  uuid = "6C758457-FB74-4A4E-8C90-70103D95AEFE - e61b38669f20ac14"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MinerBox.CoinChartViewController.drawGraph() -&gt; ()"
+                  moduleName = "MinerBox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gevorgtarkhanyan/Desktop/proects/minerbox_ios/MinerBox/UI/Menu/Coin%20price/Coin%20price%20page%20controller/Coin%20price%20view%20controller/Coin%20chart/CoinChartViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "699"
+                  endingLineNumber = "699"
+                  offsetFromSymbolStart = "11040">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4057649D-2B74-4482-B5C5-974888301D95"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MinerBox/UI/Menu/Accounts/Accounts view controller/Details/Details/Graph view controller/GraphViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "595"
+            endingLineNumber = "595"
+            landmarkName = "configLineChartView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4057649D-2B74-4482-B5C5-974888301D95 - 3142f4d42998a74b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MinerBox.GraphViewController.configLineChartView() -&gt; ()"
+                  moduleName = "MinerBox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gevorgtarkhanyan/Desktop/proects/minerbox_ios/MinerBox/UI/Menu/Accounts/Accounts%20view%20controller/Details/Details/Graph%20view%20controller/GraphViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "595"
+                  endingLineNumber = "595"
+                  offsetFromSymbolStart = "7872">
+               </Location>
+               <Location
+                  uuid = "4057649D-2B74-4482-B5C5-974888301D95 - 3142f4d42998a74b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MinerBox.GraphViewController.configLineChartView() -&gt; ()"
+                  moduleName = "MinerBox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gevorgtarkhanyan/Desktop/proects/minerbox_ios/MinerBox/UI/Menu/Accounts/Accounts%20view%20controller/Details/Details/Graph%20view%20controller/GraphViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "595"
+                  endingLineNumber = "595"
+                  offsetFromSymbolStart = "8172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

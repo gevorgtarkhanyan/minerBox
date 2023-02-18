@@ -1,0 +1,577 @@
+/*
+  Localizable.strings
+  MinerBox
+
+  Created by Yuro Mnatsakanyan on 23/12/19.
+  Copyright © 2019 WitPlex. All rights reserved.
+*/
+
+// MARK: - Alerts
+"active_workers_change"                                         = "Изменения активных воркеров";
+"add_hashrate_alert"                                            = "Добавить хешрейт уведомление";
+"add_hashrate_alerts"                                           = "Добавить хешрейт уведомления";
+"add_reportedHashrate_alert"                                    = "Добавить заявленный хешрейт уведомление";
+"add_reportedHashrate_alerts"                                   = "Добавить заявленный хешрейт уведомления";
+"add_payout_alerts"                                             = "Добавить уведомления выплат";
+"add_worker_alert"                                              = "Добавить уведомление воркера";
+"add_worker_alerts"                                             = "Добавить уведомления воркера";
+"alert_added"                                                   = "Уведомление добавлено";
+"alert_category_auto"                                           = "Авто";
+"alert_category_manual"                                         = "Мануально";
+"alert_updated"                                                 = "Уведомление обновлено";
+"count"                                                         = "Количество";
+"current_hashrate"                                              = "Текущий хешрейт";
+"current_reportedHashrate"                                      = "Текущий заявленный хешрейт";
+"current_workers_count"                                         = "Текущее кол-во воркеров";
+"edit_alert"                                                    = "Правка уведомления";
+"edit_hashrate_alert"                                           = "Правка хешрейт уведомления";
+"edit_reportedHashrate_alert"                                   = "Правка заявленный хешрейт уведомления";
+"edit_worker_alert"                                             = "Правка уведомления воркера";
+"enabled"                                                       = "Включить";
+"hashrate_change_state"                                         = "Хешрейт On/Off состояние";
+"reportedHashrate_change_state"                                 = "Заявленный хешрейт On/Off состояние";
+"new_alert"                                                     = "Новое уведомление";
+"notifications_will_delete"                                     = "Уведомления будут удалены";
+"payout_detection"                                              = "Обнаружение выплат";
+"repeat"                                                        = "Повторять";
+"speed"                                                         = "Скорость";
+"Enter comparison"                                              = "Введите сравнение";
+"Enter valid value"                                             = "Введите допустимое значение";
+"maximum_count_reached!"                                        = "Достигнуто максимальное количество!";
+"deleted"                                                       = "Удалено";
+
+// MARK: - Animation
+"animation_retry"                                               = "Повторить";
+
+// MARK: - Authorization
+"change_password"                                               = "Изменить пароль";
+"change_username"                                               = "Изменить имя пользователя";
+"email_sended"                                                  = "Проверьте свою почту для восстановления пароля";
+"incorrect_email"                                               = "Неверный адрес электронной почты";
+"login_email"                                                   = "Email";
+"login_forgot_password"                                         = "Забыли пароль";
+"login_login"                                                   = "Вход";
+"login_sign_up"                                                 = "Регистрация";
+"login_skip"                                                    = "Пропустить";
+"new_password"                                                  = "Новый пароль";
+"old_password"                                                  = "Старый пароль";
+"password"                                                      = "Пароль";
+"receive_code"                                                  = "Получить код";
+"register"                                                      = "Регистрация";
+"retype_password"                                               = "Повторите пароль";
+"update"                                                        = "Обновить";
+"username"                                                      = "Пользователь";
+"username_optional"                                             = "Пользователь (Необязательный)";
+"verification_code"                                             = "Код верификации";
+"verify"                                                        = "Сверить";
+"Recover"                                                       = "Восстановить";
+"Incorrect password"                                            = "Неверный пароль";
+
+// MARK: - Balance
+"balance"                                                       = "Баланс";
+"confirmed"                                                     = "Подтвержденный";
+"orphaned"                                                      = "Осиротевший";
+"paid"                                                          = "Выплаченный";
+"unconfirmed"                                                   = "Неподтвержденный";
+"unpaid"                                                        = "Неоплаченный";
+"credit"                                                        = "Кредит";
+"paid24h"                                                       = "Оплачено 24ч";
+"totalBalance"                                                  = "Общий баланс";
+"coins"                                                         = "Монеты";
+"payoutThreshold"                                               = "Порог выплаты";
+"none"                                                          = "Ничто";
+"reward24h"                                                     = "24-часовая награда";
+"immatureReward"                                                = "Незрелое вознаграждение";
+
+// MARK: - Coin price
+
+// Filter
+"filter"                                                        = "Фильтр";
+"coin_sort_coin"                                                = "Монета";
+"coin_sort_change"                                              = "Сдвиг";
+"coin_sort_price"                                               = "Цена";
+"coin_sort_rank"                                                = "Ранг";
+"from_textfield"                                                = "От";
+"to_textfield"                                                  = "До";
+
+// Page type
+"coin_price_all"                                                = "Все";
+"coin_price_favorites"                                          = "Избранное";
+"coin_price_alerts"                                             = "Уведомления";
+
+// Change
+"coin_price_change_1_hour"                                      = "1ч";
+"coin_price_change_24_hours"                                    = "24ч";
+"coin_price_change_7_days"                                      = "1н";
+"coin_alert_deleted"                                            = "Уведомление монеты удалено";
+"market_cap_usd"                                                = "Рыночная кап USD";
+"Enter value"                                                   = "Введите значение";
+"Select coin"                                                   = "Выберите монету";
+"Coin Alert Added"                                              = "Уведомление монеты добавлено";
+"added_to_favorite"                                             = "Добавлено в избранное";
+"deleted_from_favorite"                                         = "Удалено из избранного";
+"add_favorite"                                                  = "Добавить в избранное";
+
+"volume"                                                        = "Объем";
+"max_supply"                                                    = "Макс. Предложение";
+"total_supply"                                                  = "Общее предложение";
+"explorers"                                                     = "Исследователи";
+
+// MARK: - Coin graph
+"choose_coin"                                                   = "Выберите монету";
+"coin_settings_analize"                                         = "Анализировать";
+"coin_settings_axis"                                            = "Ось";
+"coin_settings_comparision"                                     = "Сравнение";
+"coin_settings_graph"                                           = "График";
+"coin_settings_horizontal"                                      = "Горизонтальный";
+"coin_settings_indicators"                                      = "Индикатор";
+"coin_settings_line"                                            = "Линия";
+"coin_settings_mountain"                                        = "Гора";
+"coin_settings_vertical"                                        = "Вертикальный";
+
+// MARK: - Comparision
+"comparision_greather_than"                                     = "Больше чем";
+"comparision_less_than"                                         = "Меньше чем";
+
+// MARK: - Default
+"id"                                                            = "ID";
+"ask_for_delete"                                                = "Вы уверены, что хотите удалить?";
+"cancel"                                                        = "Отмена";
+"delete"                                                        = "Удалить";
+"done"                                                          = "Готово";
+"edit"                                                          = "Правка";
+"last_updated"                                                  = "Последнее обновление";
+"payment_method"                                                = "Метод выплаты";
+"later"                                                         = "Позже";
+"loading"                                                       = "Загрузка";
+"no_chart_data"                                                 = "Нет данных диаграммы";
+"ok"                                                            = "OK";
+"save"                                                          = "Сохранить";
+"search"                                                        = "Поиск";
+"sent"                                                          = "Отправлено";
+"state"                                                         = "Состояние";
+"update_info"                                                   = "Доступна новая версия";
+"areSure"                                                       = "Вы уверены?";
+"temperature"                                                   = "Температура";
+"load"                                                          = "Нагрузка";
+"next_payout_time"                                              = "Время следующей выплаты";
+
+// MARK: - Analytics
+"more_analytics"                                                     = "Аналитика";
+"more_help"                                                          = "Помощь";
+"others"                                                             = "Другие";
+
+// MARK: - Details
+"account_alerts"                                                = "Уведомление";
+"account_details"                                               = "Подробно";
+"account_estimations"                                           = "Подсчет";
+"account_rewards"                                               = "Вознаграждение";
+"account_payouts"                                               = "Выплаты";
+"account_pool_info"                                             = "Инфо о пуле";
+"Total"                                                         = "Суммарный";
+"time"                                                          = "Время";
+"includeElectricityCost"                                        = "Включить стоимость электроэнергии";
+"electricityConsumption"                                        = "Потребление электроэнергии";
+"electricityPrice"                                              = "Стоимость электроэнергии (1кВтч)";
+// MARK: - Errors
+"cant_select_more_than_5_items"                                 = "Вы не можете выбрать более 5 элементов.";
+"check_network_connection"                                      = "Проверьте подключение к сети";
+"no_items_available"                                            = "Нет записей";
+"mail_not_configured"                                           = "Электронная почта не настроена!";
+"incorrect_pass_code"                                           = "Неверный код доступа";
+"incorrect_repeat_password"                                     = "Новый пароль не совпадает!";
+"incorrect_symbol"                                              = "Некоторые введенные символы не разрешены!";
+"input_4_and_more_characters"                                   = "Введите 4 и более символов";
+"input_6_and_more_characters"                                   = "Введите 6 и более символов";
+"unknown_error"                                                 = "Что-то пошло не так";
+"Try again later"                                               = "Повторите попозже";
+"Enter valid ID/key"                                            = "Введите достоверный ID/key";
+"Name Already Exist!"                                           = "Имя уже существует!";
+"Pool Address Invalid!"                                         = "Адрес пула неправильный!";
+"The request timed out."                                        = "Истекло время ожидания запроса.";
+"it's incorrect account"                                        = "Hеверный аккаунт";
+"Can't check your payment"                                      = "Не возможно проверить ваш платеж";
+"Could not connect to the server."                              = "Не удалось подключиться к серверу.";
+"You need to add something in favorites"                        = "Добавьте монеты в избранное";
+"The Internet connection appears to be offline."                = "Подключение к Интернету, по-видимому, отключено.";
+
+// Backend
+"Sorry, internal server error!"                                     = "Извините, внутренняя ошибка сервера!";
+"Server is overloaded, please try again later!"                     = "Сервер перегружен, повторите попытку позже!";
+"Email Already Exist!"                                              = "Email уже существует!";
+"Invalid Parameter!"                                                = "Неправильный параметр!";
+"Failed Authentication!"                                            = "Неудачная аутентификация!";
+"Access Denied!"                                                    = "Доступ запрещен!";
+"User not exist!"                                                   = "Пользователь не существует!";
+"Password does not match!"                                          = "Пароль не совпадает!";
+"Password is invalid!"                                              = "Неверный пароль!";
+"You can resend the request after a while!"                         = "Вы можете повторно отправить запрос через некоторое время!";
+"You can request after xxx sec!"                                    = "Вы можете запросить через xxx сек!";
+"Verification code is invalid. Please try again!"                   = "Проверочный код недействителен. Пожалуйста, попробуйте еще раз!";
+"Coin Favorite Already Exist!"                                      = "Монета уже в избранных!";
+"Pool Account Already Exist!"                                       = "Учетная запись пула уже существует!";
+"Pool Account Not Exist!"                                           = "Учетная запись пула не существует!";
+"Pool Account Data Not Exist!"                                      = "Данные учетной записи пула не существует!";
+"Reached Max Pool Account Count!"                                   = "Достигнуто максимальное количество учетных записей пула!";
+"Max Active Account Already Exist!"                                 = "Максимальная активная учетная запись уже существует!";
+"Pool Statistics Not Exist!"                                        = "Статистика пула не существует!";
+"Pool Information Not Exist!"                                       = "Информация пула не существует!";
+"Coin Alert Already Exist!"                                         = "Уведомление монеты уже существует!";
+"Coin Alert Not Exist!"                                             = "Уведомление монеты не существует!";
+"Cost Not Exist!"                                                   = "Стоимость не существует!";
+"Coin Not Exist!"                                                   = "Стоимость не существует!";
+"Pool Alert Already Exist!"                                         = "Уведомление пула уже существует!";
+"Pool Alert Not Exist!"                                             = "Уведомление пула не существует!";
+"Adding Pool Alert Not Allowed!"                                    = "Добавление уведомления пула не допускается!";
+"Failed to Add Subscription!"                                       = "Не удалось добавить подписку!";
+"12_months_as_mo"                                                   = "12 месяцев как x/mo";
+"SAVE"                                                              = "Экономия";
+
+// MARK: - Hashrate
+"active"                                                        = "Активный";
+"inactive"                                                      = "Неактивный";
+"average"                                                       = "Средний";
+"current"                                                       = "Текущий";
+"hashrate"                                                      = "Хешрейт";
+"hashrates"                                                     = "Хешрейт";
+"real"                                                          = "Реальный";
+"reported"                                                      = "Сообщаемый";
+"reportedHashrate"                                             = "Заявленный хешрейт";
+"Selected hashrate"                                             = "Выбранный хешрейт";
+
+// MARK: - Menu
+"accounts"                                                      = "Аккаунты";
+"coin_price"                                                    = "Цены монет";
+"more"                                                          = "Еще";
+"notifications"                                                 = "Уведомления";
+"Account"                                                       = "Аккаунт";
+"Settings"                                                      = "Настройки";
+
+// MARK: - More
+"more_about_app"                                                = "О приложении";
+"more_darkMode"                                                 = "Темный режим";
+"more_join_community"                                           = "Присоединиться к сообществу";
+"more_languages"                                                = "Язык";
+"more_toolbar"                                                  = "Инструменты";
+"toolBarPages"                                                  = "Панели инструментов";
+"more_login_signup"                                             = "Вход / Регистрация";
+"more_manage_subscription"                                      = "Управление Подпиской";
+"more_profile"                                                  = "Профиль";
+"more_security"                                                 = "Безопасность";
+"more_widget"                                                   = "Виджет";
+"more_converter"                                                = "Конвертер";
+"more_faq"                                                      = "FAQ";
+"profile_log_out"                                               = "Выход";
+"delete_account"                                                = "Удалить Аккаунт";
+"community_facebook"                                            = "Лайкните наш Facebook";
+"community_reddit"                                              = "Следите за нами в Reddit";
+"community_telegram"                                            = "Присоединяйтесь к нашей Telegram";
+"community_twitter"                                             = "Следуйте за нами в Twitter";
+"about_app_feedback"                                            = "Отзыв";
+"about_app_share"                                               = "Поделиться Приложением";
+"about_app_rate"                                                = "Оценить приложение";
+"about_app_version"                                             = "Версия приложения";
+"about_app_share_text"                                          = "Вау, я управляю / отслеживаю добычу криптовалют с помощью этого замечательного приложения!\nСкачайте его бесплатно для\nAndroid: android_app_link\niOS: ios_app_link";
+"Select accounts"                                               = "Выберите аккаунты";
+"choose_email"                                                  = "Выберите email";
+"fiat"                                                          = "Фиат";
+"income"                                                        = "Доход";
+"hide_0"                                                        = "Скрыть 0";
+"show_0"                                                        = "Показать 0";
+
+// MARK: - Notificaiton
+"new_payout_detected"                                           = "Обнаружена новая выплата (xxx)!";
+"notifications_coin_alerts"                                     = "Монета";
+"notifications_info_alerts"                                     = "Инфо";
+"notifications_payout_alerts"                                   = "Выплата";
+"notifications_pool_alerts"                                     = "Пул";
+"notificaiton_auto_hashrate_changed"                            = "Обнаружено изменение хешрейта xxx->yyy!";
+"notificaiton_auto_worker_changed"                              = "Обнаружено изменение количества воркера xxx->yyy!";
+"notification_coin_greater_than"                                = "Цена имеет рост от xxx (yyy)!";
+"notification_coin_less_than"                                   = "Цена упала от xxx (yyy)!";
+"notification_hashrate_greater_than"                            = "Хешрейт имеет рост от xxx (yyy)!";
+"notificaiton_auto_repHashrate_changed"                         = "Обнаружено изменение заявленного хешрейта xxx->yyy!";
+"notification_repHashrate_greater_than"                         = "Заявленный хешрейт имеет рост от xxx (yyy)!";
+"notification_repHashrate_less_than"                            = "Заявленный хешрейт упал от xxx (yyy)!";
+"notification_hashrate_less_than"                               = "Хешрейт упал от xxx (yyy)!";
+"notification_workers_greater_than"                             = "Количество воркеров имеет рост от xxx (yyy)!";
+"notification_workers_less_than"                                = "Количество воркеров упало с xxx (yyy)!";
+"add_coin_alert"                                                = "Добавьте уведомление о монетах";
+"for_coin_alert"                                                = "чтобы получать инфо об изменении цены";
+"add_pool_account"                                              = "Добавить учетную запись пула";
+"for_pool_notifications"                                        = "для уведомлений";
+"add_pool_account_alerts"                                       = "Добавить пул аккаунт оповещения";
+"for_receiving_notifications"                                   = "для получения уведомлений";
+
+
+// MARK: - Pool account
+"activate"                                                      = "Активировать";
+"edit_account"                                                  = "Редактировать аккаунт";
+"enter_new_pool_name"                                           = "Введите новое имя пула";
+"input"                                                         = "Введите";
+"Watcher link"                                                  = "Ссылка наблюдателя";
+"Wallet address"                                                = "Адрес кошелька";
+"Observer link"                                                 = "Ссылка наблюдателя";
+"input_label"                                                   = "Введите метку";
+"input_puid"                                                    = "Введите PUID";
+"new_account"                                                   = "Новый аккаунт";
+"request_new_pool"                                              = "Запросить новый пул";
+"save_account"                                                  = "Сохранить аккаунт";
+"select_pool"                                                   = "Выберите пул";
+"status_check"                                                  = "Проверка статуса";
+"successfully_added"                                            = "Успешно добавлено";
+"successfully_updated"                                          = "Успешно обновлено";
+"one_account_can_be_activated"                                  = "Достигнуто максимальное количество активных аккаунтов. Активная учетная запись должна быть удалена для активации другой.";
+"xxx_account_can_be_activated"                                  = "Только XXX аккаунт может быть активирован! Активная учетная запись должна быть удалена для активации другой.";
+"Alerts"                                                        = "Уведомления";
+"Miner ID"                                                      = "Miner ID";
+"optional_input_label"                                          = "Введите метку (Необязательный)";
+"optional"                                                      = "(Необязательный)";
+"Input API key"                                                 = "Введите API key";
+"Input Miner ID"                                                = "Введите Miner ID";
+"Select group pool"                                             = "Выберите группу пула";
+"Press the + button to add an account"                          = "Нажмите кнопку +, чтобы добавить аккаунт";
+"MAINTENANCE"                                                   = "На техобслуживании!";
+"Sponsored"                                                     = "Спонсируемый";
+"out_of_date"                                                   = "Устаревший!";
+
+// MARK: - Pool info
+"amount"                                                        = "Сумма";
+"block"                                                         = "Блок";
+"coinAddress"                                                  = "Адрес монеты";
+"confirmations"                                                 = "Подтверждения";
+"mixin"                                                         = "Mixin";
+"paidOn"                                                       = "Выплачен";
+"period"                                                        = "Период";
+"price_usd"                                                     = "Цена USD";
+"price_btc"                                                     = "Цена BTC";
+"status"                                                        = "Статус";
+"tx"                                                            = "Tx";
+"txId"                                                         = "Tx ID";
+"type"                                                          = "Тип";
+"active_miners"                                                 = "Активные майнеры";
+"active_workers"                                                = "Активные воркеры";
+"ago"                                                           = "назад";
+"blocks_per_hour"                                               = "Блоков в час";
+"coin_name"                                                     = "Название монеты";
+"coinId"                                                        = "Coin Id";
+"currency"                                                      = "Валюта";
+"current_block"                                                 = "Текущий блок";
+"fees"                                                          = "Платеж";
+"fee"                                                           = "Комиссия";
+"networkFee"                                                    = "Комиссия сети";
+"name"                                                          = "Имя";
+"last_mined_block"                                              = "Последний майненный блок";
+"last_mined_block_time"                                         = "Время последнего добытого блока";
+"max_ap_threshold"                                              = "Максимальный ap порог";
+"min_ap_threshold"                                              = "Минимальный ap порог";
+"network_block_time"                                            = "Время блока сети";
+"network_retarget_time"                                         = "Сетевое время для перенастройки";
+"network_difficulty"                                            = "Сложность сети";
+"network_next_difficulty"                                       = "Следующая сложность Сети";
+"network_hashrate"                                              = "Хешрейт сети";
+"network_time"                                                  = "Сетевое время";
+"next_block"                                                    = "Следующий блок";
+"payout_system"                                                 = "Система выплат";
+"price"                                                         = "Цена";
+"reward_type"                                                   = "Тип вознаграждения";
+"total_alt_blocks_found"                                        = "Всего найдено alt блоков";
+"luck"                                                          = "Удача";
+"current_round_duration"                                        = "Текущая прод. раунда";
+"total_blocks_found"                                            = "Всего найдено блоков";
+"txFee"                                                         = "TxFee";
+"txFee_auto"                                                    = "TxFee auto";
+"txFee_manual"                                                  = "TxFee manual";
+"currentBlockNumber"                                            = "";
+"nextNetBlockNumber"                                            = "";
+"blockTime"                                                    = "Время блока";
+"blockReward"                                                  = "Вознаграждение майнера";
+"blocksPending"                                                 = "Ожидаемые блоки";
+"blocksOrphaned"                                                = "Осиротевшие блоки";
+"blocksConfirmed"                                               = "Подтвержденные блоки";
+"minerReward"                                                   = "Время блока";
+"totalPaid"                                                     = "Всего выплачено";
+// MARK: - Recent credits
+"matured"                                                       = "Зрелый";
+"immature"                                                      = "Незрелый";
+
+// MARK: - Security
+"create_pin"                                                    = "Создать PIN";
+"enter_pin"                                                     = "Введите PIN";
+"pin_lock"                                                      = "PIN замок";
+"retype_pin"                                                    = "Повторно ввести";
+"use_pin"                                                       = "Использовать";
+
+// MARK: - Shares
+"choose_shares"                                                 = "Выберите шары";
+"invalid"                                                       = "Недействительные";
+"shares"                                                        = "Шары";
+"stale"                                                         = "Устаревшие";
+"valid"                                                         = "Действительные";
+"round"                                                         = "Раунд";
+"expired"                                              = "Истекший";
+// MARK: - Difficulty
+"diff"                                                          = "Сложность";
+
+// MARK: - Luck
+"luckHours"                                                     = "Удача";
+
+// MARK: - Subscription
+"subscribe"                                                     = "Подписаться";
+"re_subscribe"                                                  = "Повторно подписаться";
+"remove_ads_more"                                                    = "Удалить рекламу";
+"add_up_to_xxx_accounts"                                         = "Добавьте до xxx аккаунтов";
+"add_widget"                                                    = "Добавить виджеты аккаунта";
+"premium_plan"                                                  = "Премиум план";
+"premium_promo_user"                                            = "Премиум промо";
+"privacy_policy"                                                = "Политика конфиденциальности";
+"restore_subscription"                                          = "Восстановить подписку";
+"standard_plan"                                                 = "Стандартный план";
+"standard_promo_user"                                           = "Стандартный промо пользователь";
+"terms_of_use"                                                  = "Условия использования";
+"then_xxx_monthly"                                              = "Затем xxx ежемесячно";
+"try_7_days"                                                    = "ПОПРОБУЙТЕ 3 ДНЕЙ БЕСПЛАТНО\nзатем xxx ежемесячно";
+"cancel_anytime"                                                = "Автоматически продлевается, отменить в любое время";
+"continue"                                                      = "Продолжать";
+"premium"                                                       = "Премиум";
+"standart"                                                      = "Стандарт";
+"payment_problem"                                               = "Проблема оплаты: ваш счет остается активным, но, пожалуйста, обновите информацию о вашей кредитной карте, чтобы избежать приостановки.";
+"billing_retry"                                                 = "Проблема с оплатой: состояние Billing Retry, обновите информацию о кредитной карте, чтобы возобновить подписку.";
+"subscription_cancelled"                                        = "Подписка была отменена, пожалуйста, ПОВТОРНО ПОДПИШИТЕСЬ, чтобы избежать приостановки.";
+"subscripted_from_play_store"                                   = "Подписано из Play Store";
+"subscription_info"                                             = "После 3-дневной бесплатной пробной версии подписка автоматически продлевается на месяц, если она не будет отменена по крайней мере за 24 часа до окончания пробного периода. Любая неиспользованная часть бесплатного пробного периода будет аннулирована, когда пользователь приобретет подписку MinerBox. Ваша подписка автоматически возобновляется, если автоматическое продление не будет отключено по крайней мере за 24 часа до окончания текущего периода. Оплата будет снята с учетной записи App Store при подтверждении покупки. С вашего счета будет снята плата за продление в течение 24 часов до окончания текущего периода и определена стоимость продления. Подписки можно управлять и отменять из настроек учетной записи после покупки.";
+"Subscriptions"                                                 = "Подписка";
+"User authorization needed"                                     = "Требуется авторизация пользователя";
+"Subscripted from other user"                                   = "Подписано от другого пользователя";
+
+//Widget
+"need_subscription"                                             = "Необходима подписка";
+"please_check_acounts"                                          = "Пожалуйста, проверьте учетные записи в поле Майнер -> Настройки -> Виджет";
+"update_widget_settings"                                        = "Обновить настройки виджета";
+"single_Coin_Widget"                                            = "Виджет с одной монетой";
+"single_Account_Widget"                                         = "Виджет для одного аккаунта";
+"multi_Coin_Widget"                                             = "Мультимонетный виджет";
+"account_Balance_Widget"                                        = "Виджет баланса счета";
+"multi_Account_Widget"                                          = "Мультиаккаунт виджет";
+"single_coin_description"                                       = "Следите за информацией о монетах";
+"single_account_description"                                    = "Следите за информацией о ваших аккаунта";
+"multi_coin_description"                                        = "Следите за информацией о монетах";
+"multi_account_description"                                     = "Следите за информацией о ваших аккаунтах";
+"account_balance_description"                                   = "Следите за информацией о ваших аккаунтах";
+// MARK: - Time
+"date_from"                                                     = "Дата от";
+"date_to"                                                       = "Дата до";
+"duration"                                                      = "Период";
+"date"                                                          = "Дата";
+"day"                                                           = "День";
+"hour"                                                          = "Час";
+"minute"                                                        = "Минута";
+"month"                                                         = "Месяц";
+"week"                                                          = "Неделя";
+"year"                                                          = "Год";
+"all"                                                           = "Все";
+"1m"                                                            = "1м";
+"1w"                                                            = "1н";
+"1y"                                                            = "1г";
+"3m"                                                            = "3м";
+"6m"                                                            = "6м";
+"24h"                                                           = "24ч";
+"change_1_hour"                                                 = "Сдвиг 1 час";
+"change_24_hour"                                                = "Сдвиг 24 часа";
+"change_7_day"                                                  = "Сдвиг 1 неделя";
+"yearly"                                                        = "Ежегодно";
+"monthly"                                                       = "Ежемесячно";
+"M"                                                             = "М";
+"D"                                                             = "Д";
+"hr"                                                            = "чс";
+"min"                                                           = "мин";
+"sec"                                                           = "сек";
+
+// MARK: - What to mine
+//"enter_name"                                                    = "Введите имя";
+//"add_new_profile"                                               = "Добавить новый профиль";
+"what_to_mine"                                                  = "Что майнить";
+"models"                                                        = "Модели";
+"algorithms"                                                    = "Алгоритмы";
+"coin_details"                                                  = "Детали Монеты";
+"algorithm"                                                     = "Алгоритм";
+//"block_time"                                                    = "Время блока";
+//"block_reward"                                                  = "Награда блока";
+"difficulty"                                                    = "Сложность";
+//"difficulty_change"                                             = "Изменение сложности";
+//"estimated_rewards"                                             = "Оценочные вознаграждения";
+//"exchange_rate"                                                 = "Обменный курс";
+//"exchange_rate_change"                                          = "Изменение обменного курса";
+"revenue"                                                       = "Доход";
+"profit"                                                        = "Прибыль";
+"electricityCost"                                               = "Стоимость электричества";
+"3d"                                                            = "3д";
+"7d"                                                            = "7д";
+"no_item_selected"                                              = "Ничего Не Выбрано";
+"clear"                                                         = "Очистить";
+
+// MARK: - Worker
+"choose_workers"                                                = "Выберите воркеров";
+"select"                                                        = "Выбрать";
+"groups"                                                        = "Группы";
+"groups_workers"                                                = "Группы / Воркеры";
+"monitor"                                                       = "Monitor";
+"worker"                                                        = "Воркер";
+"worker_name"                                                   = "Имя воркера";
+"workers"                                                       = "Воркеры";
+"workers_count"                                                 = "Кол-во воркеров";
+"first_connection"                                              = "Первое подключение";
+"participation"                                                 = "Участие";
+"mode"                                                          = "Режим";
+"worker_id"                                                     = "Воркер ID";
+"efficiency"                                                    = "Эффективность";
+
+//"disabled"                                                      = "Выключен";
+//"all_workers"                                                   = "Все воркеры";
+//"selected_workers_count"                                        = "Кол-во выбранных воркеров";
+
+// MARK: - Blocks
+"blocks"                                                        = "Блоки";
+"block"                                                         = "Блок";
+"luck"                                                          = "Удача";
+"height"                                                        = "Номер блока";
+"reward"                                                        = "Вознаграждение";
+"uncle"                                                         = "Осиротевший";
+
+// MARK: - News
+"news"                                                          = "Новости";
+"my_feed"                                                       = "Моя лента";
+"top_news"                                                      = "Главные новости";
+"all_news"                                                      = "Все новости";
+"added_sources"                                                 = "Добавленные источники";
+"all_sources"                                                   = "Все источники";
+"bookmark"                                                      = "Закладка";
+"add_sources"                                                   = "Добавить источники";
+"top"                                                           = "Топ"; 
+"bookmarks"                                                     = "Закладки";
+"sources"                                                       = "Источники";
+
+// MARK: - Wallet -
+"addresses"                                                     = "Адреса";
+"wallets"                                                       = "Кошельки";
+"show_all"                                                      = "Показать все";
+"invalid_credentials!"                                          = "Неверные учетные данные!";
+"edit_wallet"                                                   = "Редактировать кошелек";
+"add_wallet"                                                    = "Добавить кошелек";
+"add_coin"                                                      = "Добавить монету";
+"address"                                                       = "Адрес";
+"description"                                                   = "Описание";
+"download_QR"                                                   = "Скачать QR-код";
+"equity_value"                                                  = "Собственная стоимость";
+"deposit"                                                       = "Депозит";
+"more_wallet"                                                   = "Кошелек";
+"network"                                                       = "Сеть";
+"history"                                                       = "История";
+
+
+
+
+
+
+
+

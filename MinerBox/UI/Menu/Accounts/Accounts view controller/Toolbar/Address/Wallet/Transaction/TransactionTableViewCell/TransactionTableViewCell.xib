@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="54" id="KGk-i7-Jjw" customClass="TransactionTableViewCell" customModule="MinerBox" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="319" height="54"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="319" height="54"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="AVi-Wq-4I5">
+                        <rect key="frame" x="16" y="0.0" width="33" height="54"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jaa-H5-e0N">
+                                <rect key="frame" x="0.0" y="0.0" width="33" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2u0-WV-Hzz" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="18" width="33" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3F-xR-ZLp">
+                                <rect key="frame" x="0.0" y="36" width="33" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="i8v-cT-Vru">
+                        <rect key="frame" x="40" y="0.0" width="239" height="54"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mnU-Ay-0n6">
+                                <rect key="frame" x="0.0" y="0.0" width="239" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MWn-QN-CSO" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="18" width="239" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2W-pe-bqN">
+                                <rect key="frame" x="0.0" y="36" width="239" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8fb-XX-PA1">
+                        <rect key="frame" x="279" y="7" width="40" height="40"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZ9-fx-LSe" customClass="BaseButton" customModule="MinerBox" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="0bb-ck-noT"/>
+                            <constraint firstAttribute="bottom" secondItem="RZ9-fx-LSe" secondAttribute="bottom" id="4qi-y2-5He"/>
+                            <constraint firstItem="RZ9-fx-LSe" firstAttribute="leading" secondItem="8fb-XX-PA1" secondAttribute="leading" id="9VM-hg-WO1"/>
+                            <constraint firstAttribute="trailing" secondItem="RZ9-fx-LSe" secondAttribute="trailing" id="Ez5-h3-loW"/>
+                            <constraint firstAttribute="width" secondItem="8fb-XX-PA1" secondAttribute="height" multiplier="1:1" id="z5D-Vb-GFV"/>
+                            <constraint firstItem="RZ9-fx-LSe" firstAttribute="top" secondItem="8fb-XX-PA1" secondAttribute="top" id="zcU-iS-LoD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="8fb-XX-PA1" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="5gl-eo-37J"/>
+                    <constraint firstItem="i8v-cT-Vru" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="BaX-Nk-PPO"/>
+                    <constraint firstAttribute="bottom" secondItem="AVi-Wq-4I5" secondAttribute="bottom" id="Ibn-5R-P2F"/>
+                    <constraint firstAttribute="trailing" secondItem="8fb-XX-PA1" secondAttribute="trailing" id="L5o-iO-wAU"/>
+                    <constraint firstItem="i8v-cT-Vru" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="kgS-qN-kuI"/>
+                    <constraint firstItem="AVi-Wq-4I5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="n3B-8I-CMo"/>
+                    <constraint firstAttribute="bottom" secondItem="i8v-cT-Vru" secondAttribute="bottom" id="pg5-ZN-eKG"/>
+                    <constraint firstItem="8fb-XX-PA1" firstAttribute="leading" secondItem="i8v-cT-Vru" secondAttribute="trailing" id="ql6-EH-Wbv"/>
+                    <constraint firstItem="AVi-Wq-4I5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="ymW-OD-hNF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="amountLabel" destination="MWn-QN-CSO" id="LzU-va-7q4"/>
+                <outlet property="confirmLabel" destination="Jaa-H5-e0N" id="F0y-wV-d0M"/>
+                <outlet property="currencyLabel" destination="2u0-WV-Hzz" id="PGc-cb-5dP"/>
+                <outlet property="dateLabel" destination="A3F-xR-ZLp" id="xal-8h-ud9"/>
+                <outlet property="detailButton" destination="RZ9-fx-LSe" id="9ER-x4-Up7"/>
+                <outlet property="feeLabel" destination="D2W-pe-bqN" id="0hZ-cd-exw"/>
+                <outlet property="statusLabel" destination="mnU-Ay-0n6" id="QNE-IN-xkD"/>
+            </connections>
+            <point key="canvasLocation" x="131.15942028985509" y="77.678571428571431"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="2u0-WV-Hzz">
+            <size key="intrinsicContentSize" width="33" height="16"/>
+        </designable>
+        <designable name="MWn-QN-CSO">
+            <size key="intrinsicContentSize" width="33" height="16"/>
+        </designable>
+        <designable name="RZ9-fx-LSe">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+    </designables>
+</document>

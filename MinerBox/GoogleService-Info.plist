@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>328463436817-9scum7vc36cosi7npfjna10d2720r031.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.328463436817-9scum7vc36cosi7npfjna10d2720r031</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC580AGNqS6jKwI10f0CtqMo9aXJehNy-8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>328463436817</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.witplex.MinerBox</string>
+	<key>PROJECT_ID</key>
+	<string>minerbox-ac2a1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>minerbox-ac2a1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:328463436817:ios:d3400123e0196bee</string>
+	<key>DATABASE_URL</key>
+	<string>https://minerbox-ac2a1.firebaseio.com</string>
+</dict>
+</plist>

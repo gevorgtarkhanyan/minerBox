@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TotalHashrateTableViewCell" rowHeight="60" id="KGk-i7-Jjw" customClass="TotalHashrateTableViewCell" customModule="MinerBox" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="409" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="409" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xz0-QL-FU5">
+                        <rect key="frame" x="16" y="23.5" width="28.5" height="13.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="OOs-5w-hDK">
+                        <rect key="frame" x="272.5" y="21.5" width="120.5" height="17"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="iRy-RN-Pyk">
+                                <rect key="frame" x="0.0" y="0.0" width="50.5" height="17"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAp-0l-FfV">
+                                        <rect key="frame" x="0.0" y="0.0" width="28.5" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QAi-Vv-06F">
+                                        <rect key="frame" x="33.5" y="0.0" width="17" height="17"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="17" id="Hu4-Da-JlZ"/>
+                                            <constraint firstAttribute="width" secondItem="QAi-Vv-06F" secondAttribute="height" id="lmP-jQ-i8w"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="uJb-1R-4cb">
+                                <rect key="frame" x="55.5" y="0.0" width="65" height="17"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQx-JQ-EL1">
+                                        <rect key="frame" x="0.0" y="0.0" width="43" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HRZ-fW-dC9">
+                                        <rect key="frame" x="48" y="0.0" width="17" height="17"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="HRZ-fW-dC9" secondAttribute="height" id="1yQ-fc-EkH"/>
+                                            <constraint firstAttribute="height" constant="17" id="l0u-Mb-1YM"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="7KC-Vt-oKY"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Xz0-QL-FU5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Ln5-tE-y5C"/>
+                    <constraint firstAttribute="trailing" secondItem="OOs-5w-hDK" secondAttribute="trailing" constant="16" id="a4R-yL-aV8"/>
+                    <constraint firstItem="OOs-5w-hDK" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="hT6-E3-OJ8"/>
+                    <constraint firstItem="Xz0-QL-FU5" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="p37-YK-acQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="hashrateImageView" destination="QAi-Vv-06F" id="Yp1-Uh-Qp3"/>
+                <outlet property="hashrateLabel" destination="uAp-0l-FfV" id="I0J-QT-YPX"/>
+                <outlet property="nameLabel" destination="Xz0-QL-FU5" id="WIq-iE-8oi"/>
+                <outlet property="workerCountImageView" destination="HRZ-fW-dC9" id="DKI-xI-Og4"/>
+                <outlet property="workerCountLabel" destination="oQx-JQ-EL1" id="byo-gH-wFT"/>
+            </connections>
+            <point key="canvasLocation" x="115.21739130434783" y="129.24107142857142"/>
+        </tableViewCell>
+    </objects>
+</document>

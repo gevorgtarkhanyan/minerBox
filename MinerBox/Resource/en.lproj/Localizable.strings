@@ -1,0 +1,566 @@
+/* 
+  Localizable.strings
+  MinerBox
+
+  Created by Ruben Nahatakyan on 2/7/19.
+  Copyright © 2019 WitPlex. All rights reserved.
+*/
+
+// MARK: - Alerts
+"active_workers_change"                                         = "Active workers change";
+"add_hashrate_alert"                                            = "Add hashrate alert";
+"add_hashrate_alerts"                                           = "Add hashrate alerts";
+"add_reportedHashrate_alert"                                    = "Add reported hashrate alert";
+"add_reportedHashrate_alerts"                                   = "Add reported hashrate alerts";
+"add_payout_alerts"                                             = "Add payout alerts";
+"add_worker_alert"                                              = "Add worker alert";
+"add_worker_alerts"                                             = "Add worker alerts";
+"alert_added"                                                   = "Alert added";
+"alert_category_auto"                                           = "Auto";
+"alert_category_manual"                                         = "Manual";
+"alert_updated"                                                 = "Alert updated";
+"count"                                                         = "Count";
+"current_hashrate"                                              = "Current hashrate";
+"current_reportedHashrate"                                      = "Current reported hashrate";
+"current_workers_count"                                         = "Current workers count";
+"edit_alert"                                                    = "Edit alert";
+"edit_hashrate_alert"                                           = "Edit hashrate alert";
+"edit_reportedHashrate_alert"                                   = "Edit reported hashrate alert";
+"edit_worker_alert"                                             = "Edit worker alert";
+"enabled"                                                       = "Enabled";
+"hashrate_change_state"                                         = "Hashrate On/Off state";
+"reportedHashrate_change_state"                                 = "Reported hashrate On/Off state";
+"new_alert"                                                     = "New alert";
+"notifications_will_delete"                                     = "Notifications will be deleted";
+"payout_detection"                                              = "Payout detection";
+"repeat"                                                        = "Repeat";
+"speed"                                                         = "Speed";
+"Enter comparison"                                              = "Enter comparison";
+"Enter valid value"                                             = "Enter valid value";
+"maximum_count_reached!"                                        = "Maximum count reached!";
+"deleted"                                                       = "Deleted";
+
+// MARK: - Animation
+"animation_retry"                                               = "Retry";
+
+// MARK: - Authorization
+"change_password"                                               = "Change password";
+"change_username"                                               = "Change username";
+"email_sended"                                                  = "Check your mail for recover password";
+"incorrect_email"                                               = "Incorrect email";
+"login_email"                                                   = "Email";
+"login_forgot_password"                                         = "Forgot password";
+"login_login"                                                   = "Login";
+"login_sign_up"                                                 = "Signup";
+"login_skip"                                                    = "Skip";
+"new_password"                                                  = "New password";
+"old_password"                                                  = "Old password";
+"password"                                                      = "Password";
+"receive_code"                                                  = "Receive code";
+"register"                                                      = "Register";
+"retype_password"                                               = "Retype password";
+"update"                                                        = "Update";
+"username"                                                      = "Username";
+"username_optional"                                             = "Username (Optional)";
+"verification_code"                                             = "Verification code";
+"verify"                                                        = "Verify";
+"Recover"                                                       = "Recover";
+"Incorrect password"                                            = "Incorrect password";
+
+// MARK: - Balance
+"balance"                                                       = "Balance";
+"confirmed"                                                     = "Confirmed";
+"orphaned"                                                      = "Orphaned";
+"paid"                                                          = "Paid";
+"unconfirmed"                                                   = "Unconfirmed";
+"unpaid"                                                        = "Unpaid";
+"credit"                                                        = "Credit";
+"coins"                                                         = "Coins";
+"payoutThreshold"                                               = "Payout threshold";
+"totalBalance"                                                  = "Total balance";
+"paid24h"                                                       = "Paid 24h";
+"none"                                                          = "None";
+"reward24h"                                                     = "Reward 24h";
+"immatureReward"                                                = "Immature Reward";
+
+// MARK: - Coin price
+
+// Filter
+"filter"                                                        = "Filter";
+"coin_sort_coin"                                                = "Coin";
+"coin_sort_change"                                              = "Change";
+"coin_sort_price"                                               = "Price";
+"coin_sort_rank"                                                = "Rank";
+"from_textfield"                                                = "From";
+"to_textfield"                                                  = "To";
+
+// Page type
+"coin_price_all"                                                = "All";
+"coin_price_favorites"                                          = "Favorites";
+"coin_price_alerts"                                             = "Alerts";
+
+// Change
+"coin_price_change_1_hour"                                      = "1h";
+"coin_price_change_24_hours"                                    = "24h";
+"coin_price_change_7_days"                                      = "1w";
+"coin_alert_deleted"                                            = "Coin Alert Deleted";
+"market_cap_usd"                                                = "Market cap USD";
+"Enter value"                                                   = "Enter value";
+"Select coin"                                                   = "Select coin";
+"Coin Alert Added"                                              = "Coin alert added";
+"added_to_favorite"                                             = "Added to favorites";
+"deleted_from_favorite"                                         = "Deleted from favorites";
+
+"add_favorite"                                                  = "Add Favorite";
+"volume"                                                        = "Volume";
+"max_supply"                                                    = "Max Supply";
+"total_supply"                                                  = "Total Supply";
+"explorers"                                                     = "Explorers";
+
+// MARK: - Coin graph
+"choose_coin"                                                   = "Choose coin";
+"coin_settings_analize"                                         = "Analyze";
+"coin_settings_axis"                                            = "Axis";
+"coin_settings_comparision"                                     = "Comparision";
+"coin_settings_graph"                                           = "Graph";
+"coin_settings_horizontal"                                      = "Horizontal";
+"coin_settings_indicators"                                      = "Indicators";
+"coin_settings_line"                                            = "Line";
+"coin_settings_mountain"                                        = "Mountain";
+"coin_settings_vertical"                                        = "Vertical";
+
+// MARK: - Comparision
+"comparision_greather_than"                                     = "Greater than";
+"comparision_less_than"                                         = "Less than";
+
+// MARK: - Default
+"id"                                                            = "ID";
+"ask_for_delete"                                                = "Are you sure you want to delete?";
+"cancel"                                                        = "Cancel";
+"delete"                                                        = "Delete";
+"done"                                                          = "Done";
+"edit"                                                          = "Edit";
+"last_updated"                                                  = "Last updated";
+"payment_method"                                                = "Payment method";
+"later"                                                         = "Later";
+"loading"                                                       = "Loading";
+"no_chart_data"                                                 = "No chart data";
+"ok"                                                            = "OK";
+"save"                                                          = "Save";
+"search"                                                        = "Search";
+"sent"                                                          = "Sent";
+"state"                                                         = "State";
+"update_info"                                                   = "New version available";
+"areSure"                                                       = "Are you sure?";
+"temperature"                                                   = "Temperature";
+"load"                                                          = "Load";
+"next_payout_time"                                              = "Next Payout Time";
+
+// MARK: - Analytics
+"more_analytics"                                                = "Analytics";
+"more_help"                                                     = "Help";
+"others"                                                        = "Others";
+
+// MARK: - Details
+"account_alerts"                                                = "Alerts";
+"account_details"                                               = "Details";
+"account_estimations"                                           = "Estimations";
+"account_rewards"                                               = "Rewards";
+"account_payouts"                                               = "Payouts";
+"account_pool_info"                                             = "Pool info";
+"Total"                                                         = "Total";
+"time"                                                          = "Time";
+"includeElectricityCost"                                        = "Include Electricity Cost";
+"electricityConsumption"                                        = "Electricity consumption";
+"electricityPrice"                                              = "Electricity price (1kWh)";
+// MARK: - Errors
+"cant_select_more_than_5_items"                                 = "You can't select more than 5 items.";
+"check_network_connection"                                      = "Check network connection";
+"no_items_available"                                            = "No items available";
+"mail_not_configured"                                           = "Email is not configured!";
+"incorrect_pass_code"                                           = "Incorrect pass code";
+"incorrect_repeat_password"                                     = "New password doesn't match!";
+"incorrect_symbol"                                              = "Some entered characters are not allowed!";
+"input_4_and_more_characters"                                   = "Input 4 and more characters";
+"input_6_and_more_characters"                                   = "Input 6 and more characters";
+"unknown_error"                                                 = "Something went wrong";
+
+"Try again later"                                               = "Try again later";
+"Enter valid ID/key"                                            = "Enter valid ID/key";
+"Name Already Exist!"                                           = "Name Already Exist!";
+"Pool Address Invalid!"                                         = "Pool Address Invalid!";
+"The request timed out."                                        = "The request timed out.";
+"it's incorrect account"                                        = "it's incorrect account";
+"Can't check your payment"                                      = "Can't check your payment";
+"Could not connect to the server."                              = "Could not connect to the server.";
+"You need to add something in favorites"                        = "Add coins to Favorites";
+"The Internet connection appears to be offline."                = "The Internet connection appears to be offline.";
+
+// Backend
+"Sorry, internal server error!"                                 = "Sorry, internal server error!";
+"Server is overloaded, please try again later!"                 = "Server is overloaded, please try again later!";
+"Email Already Exist!"                                          = "Email Already Exist!";
+"Invalid Parameter!"                                            = "Invalid Parameter!";
+"Failed Authentication!"                                        = "Failed Authentication!";
+"Access Denied!"                                                = "Access Denied!";
+"User not exist!"                                               = "User not exist!";
+"Password does not match!"                                      = "Password does not match!";
+"Password is invalid!"                                          = "Password is invalid!";
+"You can resend the request after a while!"                     = "You can resend the request after a while!";
+"You can request after xxx sec!"                                = "You can request after xxx sec!";
+"Verification code is invalid. Please try again!"               = "Verification code is invalid. Please try again!";
+"Coin Favorite Already Exist!"                                  = "Coin Favorite Already Exist!";
+"Pool Account Already Exist!"                                   = "Pool Account Already Exist!";
+"Pool Account Not Exist!"                                       = "Pool Account Not Exist!";
+"Pool Account Data Not Exist!"                                  = "Pool Account Data Not Exist!";
+"Reached Max Pool Account Count!"                               = "Reached Max Pool Account Count!";
+"Max Active Account Already Exist!"                             = "Max Active Account Already Exist!";
+"Pool Statistics Not Exist!"                                    = "Pool Statistics Not Exist!";
+"Pool Information Not Exist!"                                   = "Pool Information Not Exist!";
+"Coin Alert Already Exist!"                                     = "Coin Alert Already Exist!";
+"Coin Alert Not Exist!"                                         = "Coin Alert Not Exist!";
+"Cost Not Exist!"                                               = "Cost Not Exist!";
+"Coin Not Exist!"                                                = "Coin Not Exis";
+"Pool Alert Already Exist!"                                     = "Pool Alert Already Exist!";
+"Pool Alert Not Exist!"                                         = "Pool Alert Not Exist!";
+"Adding Pool Alert Not Allowed!"                                = "Adding Pool Alert Not Allowed!";
+"Failed to Add Subscription!"                                   = "Failed to Add Subscription!";
+
+// MARK: - Hashrate
+"active"                                                        = "Active";
+"inactive"                                                      = "Inactive";
+"average"                                                       = "Average";
+"current"                                                       = "Current";
+"hashrate"                                                      = "Hashrate";
+"hashrates"                                                     = "Hashrates";
+"real"                                                          = "Real";
+"reported"                                                      = "Reported";
+"Selected hashrate"                                             = "Selected hashrate";
+"reportedHashrate"                                              = "Reported hashrate";
+// MARK: - Menu
+"accounts"                                                      = "Accounts";
+"coin_price"                                                    = "Coin price";
+"more"                                                          = "More";
+"notifications"                                                 = "Notifications";
+"Account"                                                      = "Account";
+"Settings"                                                      = "Settings";
+
+// MARK: - More
+"more_about_app"                                                = "About App";
+"more_darkMode"                                                 = "Dark Mode";
+"more_join_community"                                           = "Join Community";
+"more_languages"                                                = "Languages";
+"more_toolbar"                                                  = "Toolbar";
+"toolBarPages"                                                  = "Toolbar Pages";
+"more_login_signup"                                             = "Login / Signup";
+"more_manage_subscription"                                      = "Manage Subscription";
+"more_profile"                                                  = "Profile";
+"more_security"                                                 = "Security";
+"more_widget"                                                   = "Widget";
+"more_converter"                                                = "Converter";
+"more_faq"                                                      = "FAQ";
+"profile_log_out"                                               = "Log Out";
+"delete_account"                                                = "Delete Account";
+"community_facebook"                                            = "Like us on Facebook";
+"community_reddit"                                              = "Follow us on Reddit";
+"community_telegram"                                            = "Join our Telegram group";
+"community_twitter"                                             = "Follow us on Twitter";
+"about_app_feedback"                                            = "Feedback";
+"about_app_share"                                               = "Share App";
+"about_app_rate"                                                = "Rate app";
+"about_app_version"                                             = "App version";
+"about_app_share_text"                                          = "Hey, I am managing/tracking my Cryptocurrencies mining by using this great app!\nDownload it free for\nAndroid: android_app_link\niOS: ios_app_link";
+"Select accounts"                                               = "Choose accounts";
+"fiat"                                                          = "Fiat";
+"choose_email"                                                  = "Choose email";
+"income"                                                        = "Income";
+"hide_0"                                                        = "Hide 0";
+"show_0"                                                        = "Show 0";
+
+// MARK: - Notificaiton
+"new_payout_detected"                                           = "New Payout detected (xxx)!";
+"notifications_coin_alerts"                                     = "Coin";
+"notifications_info_alerts"                                     = "Info";
+"notifications_payout_alerts"                                   = "Payout";
+"notifications_pool_alerts"                                     = "Pool";
+"notificaiton_auto_hashrate_changed"                            = "Hashrate change detected xxx->yyy!";
+"notificaiton_auto_worker_changed"                              = "Workers count change detected xxx->yyy!";
+"notification_coin_greater_than"                                = "The price has growth from xxx (yyy)!";
+"notification_coin_less_than"                                   = "The price has dropped from xxx (yyy)!";
+"notification_hashrate_greater_than"                            = "Hashrate has growth from xxx (yyy)!";
+"notificaiton_auto_repHashrate_changed"                         = "Reported Hashrate change detected xxx->yyy!";
+"notification_repHashrate_greater_than"                         = "Reported Hashrate has growth from xxx (yyy)!";
+"notification_repHashrate_less_than"                            = "Reported Hashrate has dropped from xxx (yyy)!";
+"notification_hashrate_less_than"                               = "Hashrate has dropped from xxx (yyy)!";
+"notification_workers_greater_than"                             = "Workers count has growth from xxx (yyy)!";
+"notification_workers_less_than"                                = "Workers count has dropped from xxx (yyy)!";
+"add_coin_alert"                                                = "Add coin alert";
+"for_coin_alert"                                                = "For getting notified about price change";
+"add_pool_account"                                              = "Add pool account";
+"for_pool_notifications"                                        = "For notifications";
+"add_pool_account_alerts"                                       = "Add pool account alerts";
+"for_receiving_notifications"                                   = "For receiving notifications";
+
+// MARK: - Pool account
+"activate"                                                      = "Activate";
+"edit_account"                                                  = "Edit account";
+"enter_new_pool_name"                                           = "Enter new pool name";
+"input"                                                         = "Input";
+"Watcher link"                                                  = "Watcher link";
+"Wallet address"                                                = "Wallet address";
+"Observer link"                                                 = "Observer link";
+"input_label"                                                   = "Input label";
+"input_puid"                                                    = "Input PUID";
+"new_account"                                                   = "New account";
+"request_new_pool"                                              = "Request new pool";
+"save_account"                                                  = "Save account";
+"select_pool"                                                   = "Select pool";
+"status_check"                                                  = "Status check";
+"successfully_added"                                            = "Successfully added";
+"successfully_updated"                                          = "Successfully updated";
+"one_account_can_be_activated"                                  = "Max number of active accounts reached. Active account should be deleted for activating another one.";
+"xxx_account_can_be_activated"                                  = "Only XXX account can be activated! Active account should be deleted for activing other one.";
+"Alerts"                                                        = "Alerts";
+"Miner ID"                                                      = "Miner ID";
+"optional_input_label"                                          = "Input label (Optional)";
+"optional"                                                      = "(Optional)";
+"Input API key"                                                 = "Input API key";
+"Input Miner ID"                                                = "Input Miner ID";
+"Select group pool"                                             = "Select group pool";
+"Press the + button to add an account"                          = "Press the + button to add an account";
+"MAINTENANCE"                                                   = "Under maintenance!";
+"Sponsored"                                                     = "Sponsored";
+"out_of_date"                                                   = "Out of date!";
+
+// MARK: - Pool info
+"amount"                                                        = "Amount";
+"block"                                                         = "Block";
+"coinAddress"                                                  = "Coin address";
+"confirmations"                                                 = "Confirmations";
+"mixin"                                                         = "Mixin";
+"paidOn"                                                       = "Paid on";
+"period"                                                        = "Period";
+"price_usd"                                                     = "Price USD";
+"price_btc"                                                     = "Price BTC";
+"status"                                                        = "Status";
+"tx"                                                            = "Tx";
+"txId"                                                         = "Tx ID";
+"type"                                                          = "Type";
+"active_miners"                                                 = "Active miners";
+"active_workers"                                                = "Active workers";
+"ago"                                                           = "ago";
+"blocks_per_hour"                                               = "Blocks per hour";
+"coin_name"                                                     = "Coin name";
+"coinId"                                                        = "Coin Id";
+"currency"                                                      = "Currency";
+"current_block"                                                 = "Current block";
+"fee"                                                           = "Fee";
+"networkFee"                                                    = "Network Fee";
+"name"                                                          = "Name";
+"last_mined_block"                                              = "Last mined block";
+"last_mined_block_time"                                         = "Last mined block time";
+"max_ap_threshold"                                              = "Max ap threshold";
+"min_ap_threshold"                                              = "Min ap threshold";
+"network_block_time"                                            = "Network block time";
+"network_retarget_time"                                         = "Network time to retarget";
+"network_difficulty"                                            = "Network difficulty";
+"network_next_difficulty"                                       = "Network next difficulty";
+"network_hashrate"                                              = "Network hashrate";
+"network_time"                                                  = "Network time";
+"next_block"                                                    = "Next block";
+"payout_system"                                                 = "Payout system";
+"price"                                                         = "Price";
+"reward_type"                                                   = "Reward type";
+"total_alt_blocks_found"                                        = "Total alt blocks found";
+"luck"                                                          = "Luck";
+"current_round_duration"                                        = "Current Round Duration";
+"total_blocks_found"                                            = "Total blocks found";
+"blocksFound24h"                                                = "Blocks Found 24h";
+"txFee"                                                         = "TxFee";
+"txFee_auto"                                                    = "TxFee auto";
+"txFee_manual"                                                  = "TxFee manual";
+"currentBlockNumber"                                            = "Current block";
+"nextNetBlockNumber"                                            = "Next block";
+"blockTime"                                                     = "Block time";
+"blockReward"                                                   = "Block reward";
+"blocksPending"                                                 = "Pending blocks";
+"blocksOrphaned"                                                = "Orphaned blocks";
+"blocksConfirmed"                                               = "Confirmed blocks";
+"minerReward"                                                   = "Miner reward";
+"totalPaid"                                                     = "Total Paid";
+// MARK: - Recent credits
+"matured"                                                       = "Matured";
+"immature"                                                      = "Immature";
+
+// MARK: - Security
+"create_pin"                                                    = "Create PIN";
+"enter_pin"                                                     = "Enter PIN";
+"pin_lock"                                                      = "PIN lock";
+"retype_pin"                                                    = "Retype";
+"use_pin"                                                       = "Use";
+
+// MARK: - Shares
+"choose_shares"                                                 = "Choose shares";
+"invalid"                                                       = "Invalid";
+"shares"                                                        = "Shares";
+"stale"                                                         = "Stale";
+"valid"                                                         = "Valid";
+"round"                                                         = "Round";
+"expired"                                                       = "Expired";
+// MARK: - Difficulty
+"diff"                                                          = "Difficulty";
+
+// MARK: - Luck
+"luckHours"                                                     = "Luck";
+// MARK: - Subscription
+"subscribe"                                                     = "Subscribe";
+"re_subscribe"                                                  = "Resubscribe";
+"remove_ads_more"                                               = "Remove Ads";
+"add_up_to_xxx_accounts"                                        = "Add up to xxx accounts";
+"add_widget"                                                    = "Add account widgets";
+"premium_plan"                                                  = "Premium plan";
+"premium_promo_user"                                            = "Premium promo ";
+"privacy_policy"                                                = "Privacy policy";
+"restore_subscription"                                          = "Restore subscription";
+"standard_plan"                                                 = "Standard plan";
+"standard_promo_user"                                           = "Standard promo user";
+"terms_of_use"                                                  = "Terms of use";
+"then_xxx_monthly"                                              = "then xxx monthly";
+"try_7_days"                                                    = "TRY 3 DAYS FOR FREE";
+"cancel_anytime"                                                = "Automatically renewed, cancel anytime";
+"continue"                                                      = "Continue";
+"premium"                                                       = "Premium";
+"standart"                                                      = "Standard";
+"payment_problem"                                               = "Payment problem: your account remains active, but please update your credit card information to avoid suspension.";
+"billing_retry"                                                 = "Payment problem: Billing Retry state, please update your credit card information to resume subscription.";
+"subscription_cancelled"                                        = "The subscription has been canceled, please RE-SUBSCRIBE to avoid suspension.";
+"subscripted_from_play_store"                                   = "Subscripted from Play Store";
+"subscription_info"                                             = "After the 3 days free trial the subscription automatically renews for per month unless it is canceled at least 24 hours before the end of the trial period. Any unused portion of a free trial period, will be forfeited when the user purchase a MinerBox subscription. Your subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. Payment will be charged to App Store Account at confirmation of purchase. Your account will be charged for renewal within 24-hours prior to the end of the current period and identify the cost of the renewal. Subscriptions can be managed and canceled from Account Settings after purchase.";
+
+"Subscriptions"                                                 = "Subscriptions";
+"User authorization needed"                                     = "User authorization needed";
+"Subscripted from other user"                                   = "Subscripted from other user";
+"12_months_as_mo"                                               = "12 months as x/mo";
+"SAVE"                                                          = "SAVE";
+
+//Widget
+"need_subscription"                                             = "Need subscription";
+"please_check_acounts"                                          = "MinerBox -> More -> Widget";
+"update_widget_settings"                                        = "Update Widget Settings";
+"single_Coin_Widget"                                            = "Single Coin Widget";
+"single_Account_Widget"                                         = "Single Account Widget";
+"multi_Coin_Widget"                                             = "Multi Coin Widget";
+"account_Balance_Widget"                                        = "Account Balance Widget";
+"multi_Account_Widget"                                          = "Multi Account Widget";
+"single_coin_description"                                       = "Keep track of coins info";
+"single_account_description"                                    = "Keep track of your accounts info";
+"multi_coin_description"                                        = "Keep track of coins info";
+"multi_account_description"                                     = "Keep track of your accounts info";
+"account_balance_description"                                   = "Keep track of your accounts info";
+// MARK: - Time
+"date_from"                                                     = "Date from";
+"date_to"                                                       = "Date to";
+"duration"                                                      = "Duration";
+"date"                                                          = "Date";
+"day"                                                           = "Day";
+"hour"                                                          = "Hour";
+"minute"                                                        = "Minute";
+"month"                                                         = "Month";
+"week"                                                          = "Week";
+"year"                                                          = "Year";
+"all"                                                           = "All";
+"1m"                                                            = "1m";
+"1w"                                                            = "1w";
+"1y"                                                            = "1y";
+"3m"                                                            = "3m";
+"6m"                                                            = "6m";
+"24h"                                                           = "24h";
+"change_1_hour"                                                 = "Change 1 hour";
+"change_24_hour"                                                = "Change 24 hours";
+"change_7_day"                                                  = "Change 1 week";
+"yearly"                                                        = "Yearly";
+"monthly"                                                       = "Monthly";
+"M"                                                             = "M";
+"D"                                                             = "D";
+"hr"                                                            = "hr";
+"min"                                                           = "min";
+"sec"                                                           = "sec";
+
+// MARK: - What to mine
+//"enter_name"                                                    = "Enter Name";
+//"add_new_profile"                                               = "Add new profile";
+"what_to_mine"                                                  = "What to Mine";
+"models"                                                        = "Models";
+"algorithms"                                                    = "Algorithms";
+"coin_details"                                                  = "Coin Details";
+"algorithm"                                                     = "Algorithm";
+"difficulty"                                                    = "Difficulty";
+//"difficulty_change"                                             = "Difficulty change";
+//"estimated_rewards"                                             = "Estimated rewards";
+//"exchange_rate"                                                 = "Exchange rate";
+//"exchange_rate_change"                                          = "Exchange rate change";
+"revenue"                                                       = "Revenue";
+"profit"                                                        = "Profit";
+"electricityCost"                                               = "Electricity cost";
+"3d"                                                            = "3d";
+"7d"                                                            = "7d";
+"no_item_selected"                                              = "No Item Selected";
+"clear"                                                         = "Clear";
+
+// MARK: - Worker
+"choose_workers"                                                = "Choose workers";
+"select"                                                        = "Select";
+"groups"                                                        = "Groups";
+"groups_workers"                                                = "Groups / Workers";
+"monitor"                                                       = "Monitor";
+"worker"                                                        = "Worker";
+"worker_name"                                                   = "Worker name";
+"workers"                                                       = "Workers";
+"workers_count"                                                 = "Workers count";
+"first_connection"                                              = "First connect";
+"participation"                                                 = "Participation";
+"mode"                                                          = "Mode";
+"worker_id"                                                     = "Worker ID";
+"efficiency"                                                    = "Efficiency";
+//"disabled"                                                      = "Disabled";
+//"all_workers"                                                   = "All workers";
+//"selected_workers_count"                                        = "Selected workers count";
+
+// MARK: - Blocks
+"blocks"                                                        = "Blocks";
+"block"                                                         = "Block";
+"luck"                                                          = "Luck";
+"height"                                                        = "Height";
+"reward"                                                        = "Reward";
+"uncle"                                                         = "Uncle";
+
+// MARK: - News
+"news"                                                          = "News";
+"my_feed"                                                       = "My feed";
+"top_news"                                                      = "Top News";
+"all_news"                                                      = "All News";
+"added_sources"                                                 = "Added Sources";
+"all_sources"                                                   = "All Sources";
+"bookmark"                                                      = "Bookmark";
+"add_sources"                                                   = "Add Sources";
+"top"                                                          = "Top";
+"bookmarks"                                                    = "Bookmarks";
+"sources"                                                       = "Sources";
+
+// MARK: - Wallet -
+"addresses"                                                     = "Addresses";
+"wallets"                                                       = "Wallets";
+"show_all"                                                      = "Show all";
+"invalid_credentials!"                                          = "Invalid Credentials!";
+"edit_wallet"                                                   = "Edit wallet";
+"add_wallet"                                                    = "Add wallet";
+"add_coin"                                                      = "Add coin";
+"address"                                                       = "Address";
+"description"                                                   = "Description";
+"download_QR"                                                   = "Download QR code";
+"equity_value"                                                  = "Equity Value";
+"deposit"                                                       = "Deposit";
+"more_wallet"                                                   = "Wallet";
+"network"                                                       = "Network";
+"history"                                                       = "History";
+

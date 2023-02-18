@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="gTV-IL-0wX" customClass="SubCollectionViewCelll" customModule="MinerBox" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="172" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="172" height="90"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sNJ-Qi-vje">
+                        <rect key="frame" x="10" y="10" width="152" height="70"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8c5-hj-Sa5" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                                <rect key="frame" x="55" y="24.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8c5-hj-Sa5" firstAttribute="centerX" secondItem="sNJ-Qi-vje" secondAttribute="centerX" id="UJu-gH-yRP"/>
+                            <constraint firstItem="8c5-hj-Sa5" firstAttribute="centerY" secondItem="sNJ-Qi-vje" secondAttribute="centerY" id="ocK-gb-vC4"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="sNJ-Qi-vje" secondAttribute="trailing" constant="10" id="3Pe-ET-ouK"/>
+                <constraint firstItem="sNJ-Qi-vje" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="4ui-9w-ve0"/>
+                <constraint firstAttribute="bottom" secondItem="sNJ-Qi-vje" secondAttribute="bottom" constant="10" id="Atg-a1-Uzd"/>
+                <constraint firstItem="sNJ-Qi-vje" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="jae-qg-jEX"/>
+            </constraints>
+            <size key="customSize" width="172" height="90"/>
+            <connections>
+                <outlet property="backgroundVew" destination="sNJ-Qi-vje" id="nRS-UC-Szo"/>
+                <outlet property="buttonName" destination="8c5-hj-Sa5" id="wvM-pZ-4Zp"/>
+            </connections>
+            <point key="canvasLocation" x="217.39130434782609" y="113.16964285714285"/>
+        </collectionViewCell>
+    </objects>
+    <designables>
+        <designable name="8c5-hj-Sa5">
+            <size key="intrinsicContentSize" width="41.5" height="20.5"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

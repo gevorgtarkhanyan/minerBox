@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="40" id="KGk-i7-Jjw" customClass="AddAddressTableViewCell" customModule="MinerBox" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="335" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="335" height="40"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qjf-zR-8wM" customClass="BaseTextField" customModule="MinerBox" customModuleProvider="target">
+                        <rect key="frame" x="16" y="7" width="259" height="34"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                        <connections>
+                            <action selector="textFielEditingChanged:" destination="KGk-i7-Jjw" eventType="editingChanged" id="h7t-J3-oWS"/>
+                        </connections>
+                    </textField>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MnG-6Y-Y3l" userLabel="qrBackgorund">
+                        <rect key="frame" x="285" y="7" width="34" height="34"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ST-P7-hdd" customClass="QRScanButton" customModule="MinerBox" customModuleProvider="target">
+                                <rect key="frame" x="2" y="2" width="30" height="30"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2ST-P7-hdd" firstAttribute="leading" secondItem="MnG-6Y-Y3l" secondAttribute="leading" constant="2" id="Jg4-Fi-MmB"/>
+                            <constraint firstAttribute="width" secondItem="MnG-6Y-Y3l" secondAttribute="height" multiplier="1:1" id="l3U-ck-Chb"/>
+                            <constraint firstAttribute="width" constant="35" id="lcr-Aa-hDr"/>
+                            <constraint firstAttribute="trailing" secondItem="2ST-P7-hdd" secondAttribute="trailing" constant="2" id="o74-8b-Dbl"/>
+                            <constraint firstItem="2ST-P7-hdd" firstAttribute="top" secondItem="MnG-6Y-Y3l" secondAttribute="top" constant="2" id="s6z-Qk-18w"/>
+                            <constraint firstAttribute="bottom" secondItem="2ST-P7-hdd" secondAttribute="bottom" constant="2" id="sQ4-Gg-eYC"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Qjf-zR-8wM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="4uz-0d-mg4"/>
+                    <constraint firstItem="MnG-6Y-Y3l" firstAttribute="leading" secondItem="Qjf-zR-8wM" secondAttribute="trailing" constant="10" id="IRP-c7-Flc"/>
+                    <constraint firstAttribute="bottom" secondItem="Qjf-zR-8wM" secondAttribute="bottom" constant="7" id="LKt-3d-4SO"/>
+                    <constraint firstAttribute="bottom" secondItem="MnG-6Y-Y3l" secondAttribute="bottom" constant="7" id="VNW-nh-rtk"/>
+                    <constraint firstAttribute="trailing" secondItem="MnG-6Y-Y3l" secondAttribute="trailing" constant="16" id="WuM-KT-TP9"/>
+                    <constraint firstItem="Qjf-zR-8wM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="eSe-zh-OPI"/>
+                    <constraint firstItem="MnG-6Y-Y3l" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="vMh-D5-uDv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="fieldTextField" destination="Qjf-zR-8wM" id="2cK-Pm-H12"/>
+                <outlet property="qrBackgroundView" destination="MnG-6Y-Y3l" id="ivv-tD-aFF"/>
+                <outlet property="qrScanButton" destination="2ST-P7-hdd" id="toH-mR-h01"/>
+            </connections>
+            <point key="canvasLocation" x="-383.33333333333337" y="1.3392857142857142"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="2ST-P7-hdd">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="Qjf-zR-8wM">
+            <size key="intrinsicContentSize" width="32" height="34"/>
+        </designable>
+    </designables>
+</document>

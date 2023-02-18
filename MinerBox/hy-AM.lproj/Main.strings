@@ -1,0 +1,288 @@
+
+/* Class = "UILabel"; text = "Balance: "; ObjectID = "0nC-9Q-v6v"; */
+"0nC-9Q-v6v.text" = "Balance: ";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "1qK-tO-uib"; */
+"1qK-tO-uib.normalTitle" = "Cancel";
+
+/* Class = "UITabBarItem"; title = "Alerts"; ObjectID = "26W-0m-Tiu"; */
+"26W-0m-Tiu.title" = "Alerts";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "325-JL-aRz"; */
+"325-JL-aRz.text" = "Label";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "3Xe-Pq-Ggz"; */
+"3Xe-Pq-Ggz.text" = "Name";
+
+/* Class = "UILabel"; text = "Stale"; ObjectID = "3r7-qr-loa"; */
+"3r7-qr-loa.text" = "Stale";
+
+/* Class = "UITextField"; placeholder = "Date to"; ObjectID = "3yP-xh-nFy"; */
+"3yP-xh-nFy.placeholder" = "Date to";
+
+/* Class = "UITextField"; placeholder = "Date from"; ObjectID = "51H-Rp-jqy"; */
+"51H-Rp-jqy.placeholder" = "Date from";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5A9-Tl-YE2"; */
+"5A9-Tl-YE2.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Date to"; ObjectID = "5MF-r2-W9X"; */
+"5MF-r2-W9X.placeholder" = "Date to";
+
+/* Class = "UILabel"; text = "MinerBox"; ObjectID = "7JK-Lu-zaS"; */
+"7JK-Lu-zaS.text" = "MinerBox";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7Ns-tv-4LA"; */
+"7Ns-tv-4LA.text" = "Label";
+
+/* Class = "UILabel"; text = "Block"; ObjectID = "7Qp-aS-E7s"; */
+"7Qp-aS-E7s.text" = "Block";
+
+/* Class = "UITabBarItem"; title = "Details"; ObjectID = "7tj-ag-KZm"; */
+"7tj-ag-KZm.title" = "Details";
+
+/* Class = "UILabel"; text = "Id: "; ObjectID = "92n-dg-H53"; */
+"92n-dg-H53.text" = "Id: ";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "9fr-hI-rxh"; */
+"9fr-hI-rxh.text" = "0";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "AqT-Ph-MKe"; */
+"AqT-Ph-MKe.text" = "Label";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "Awc-Ds-rog"; */
+"Awc-Ds-rog.text" = "Email";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "C1V-pX-HET"; */
+"C1V-pX-HET.text" = "Date";
+
+/* Class = "UILabel"; text = "BTC"; ObjectID = "CdO-uj-nfX"; */
+"CdO-uj-nfX.text" = "BTC";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "Cyv-Im-jGY"; */
+"Cyv-Im-jGY.text" = "Date";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "D2C-lG-9VL"; */
+"D2C-lG-9VL.text" = "Name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "EBh-tf-2XY"; */
+"EBh-tf-2XY.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Choose"; ObjectID = "EKS-p4-QqP"; */
+"EKS-p4-QqP.normalTitle" = "Choose";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "EO5-LQ-FqU"; */
+"EO5-LQ-FqU.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Ey9-2x-8DC"; */
+"Ey9-2x-8DC.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "FYx-VW-1OH"; */
+"FYx-VW-1OH.text" = "Label";
+
+/* Class = "UILabel"; text = "Amount"; ObjectID = "Fek-NZ-NRR"; */
+"Fek-NZ-NRR.text" = "Amount";
+
+/* Class = "UILabel"; text = "Count"; ObjectID = "Gnf-44-KF4"; */
+"Gnf-44-KF4.text" = "Count";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Gyh-Kr-HsH"; */
+"Gyh-Kr-HsH.text" = "Label";
+
+/* Class = "UILabel"; text = "USD"; ObjectID = "H5e-nA-7bR"; */
+"H5e-nA-7bR.text" = "USD";
+
+/* Class = "UILabel"; text = "Last updated: "; ObjectID = "IF2-OR-j1h"; */
+"IF2-OR-j1h.text" = "Last updated: ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "J8K-hW-aHd"; */
+"J8K-hW-aHd.text" = "Label";
+
+/* Class = "UILabel"; text = "Amount"; ObjectID = "JsI-LL-keb"; */
+"JsI-LL-keb.text" = "Amount";
+
+/* Class = "UILabel"; text = "Count"; ObjectID = "L9v-In-GAO"; */
+"L9v-In-GAO.text" = "Count";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "LL7-iX-ude"; */
+"LL7-iX-ude.normalTitle" = "Save";
+
+/* Class = "UILabel"; text = "Option"; ObjectID = "LLb-kO-4z3"; */
+"LLb-kO-4z3.text" = "Option";
+
+/* Class = "UILabel"; text = "Hashrate"; ObjectID = "Lmt-V8-aIC"; */
+"Lmt-V8-aIC.text" = "Hashrate";
+
+/* Class = "UILabel"; text = "Amount"; ObjectID = "LyX-X2-rri"; */
+"LyX-X2-rri.text" = "Amount";
+
+/* Class = "UITextField"; placeholder = "Input label"; ObjectID = "N8p-sr-92I"; */
+"N8p-sr-92I.placeholder" = "Input label";
+
+/* Class = "UIButton"; normalTitle = "Save account"; ObjectID = "NH5-dQ-UqW"; */
+"NH5-dQ-UqW.normalTitle" = "Save account";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "Nk5-SJ-yCK"; */
+"Nk5-SJ-yCK.text" = "Time";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "NmU-IF-7AB"; */
+"NmU-IF-7AB.text" = "Name";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "P4v-MJ-b9p"; */
+"P4v-MJ-b9p.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "TX"; ObjectID = "PHB-Ub-uZU"; */
+"PHB-Ub-uZU.text" = "TX";
+
+/* Class = "UILabel"; text = "Email: "; ObjectID = "PQA-Zp-MLB"; */
+"PQA-Zp-MLB.text" = "Email: ";
+
+/* Class = "UITabBarItem"; title = "Pool info"; ObjectID = "PeL-9x-F5f"; */
+"PeL-9x-F5f.title" = "Pool info";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "Pqw-Kq-g6U"; */
+"Pqw-Kq-g6U.normalTitle" = "OK";
+
+/* Class = "UILabel"; text = "Invalid"; ObjectID = "QJc-0P-XbM"; */
+"QJc-0P-XbM.text" = "Invalid";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "SBc-Hd-KhK"; */
+"SBc-Hd-KhK.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "UUM-oT-oP1"; */
+"UUM-oT-oP1.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "VLy-9b-MDn"; */
+"VLy-9b-MDn.text" = "Label";
+
+/* Class = "UILabel"; text = "Duration(h)"; ObjectID = "VpY-My-gtA"; */
+"VpY-My-gtA.text" = "Duration(h)";
+
+/* Class = "UILabel"; text = "Valid"; ObjectID = "Vrc-wG-hFg"; */
+"Vrc-wG-hFg.text" = "Valid";
+
+/* Class = "UILabel"; text = "Share"; ObjectID = "WGv-Gx-NRv"; */
+"WGv-Gx-NRv.text" = "Share";
+
+/* Class = "UILabel"; text = "Monitor"; ObjectID = "Wtx-Jn-zWJ"; */
+"Wtx-Jn-zWJ.text" = "Monitor";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "XlZ-zQ-kQr"; */
+"XlZ-zQ-kQr.text" = "0";
+
+/* Class = "UILabel"; text = "Id: "; ObjectID = "XuL-cD-NYP"; */
+"XuL-cD-NYP.text" = "Id: ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "aDh-7k-9Cz"; */
+"aDh-7k-9Cz.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Payouts"; ObjectID = "b0Z-Qe-EOu"; */
+"b0Z-Qe-EOu.title" = "Payouts";
+
+/* Class = "UILabel"; text = "Last updated: "; ObjectID = "b6K-B8-2fm"; */
+"b6K-B8-2fm.text" = "Last updated: ";
+
+/* Class = "UILabel"; text = "Repeat"; ObjectID = "bUm-gK-KpT"; */
+"bUm-gK-KpT.text" = "Repeat";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bbn-bk-xdY"; */
+"bbn-bk-xdY.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cK4-ef-W5o"; */
+"cK4-ef-W5o.text" = "Label";
+
+/* Class = "UILabel"; text = "Real"; ObjectID = "ciO-IP-vz7"; */
+"ciO-IP-vz7.text" = "Real";
+
+/* Class = "UILabel"; text = "Paid On"; ObjectID = "dnM-W9-PNB"; */
+"dnM-W9-PNB.text" = "Paid On";
+
+/* Class = "UILabel"; text = "Monitor"; ObjectID = "eD1-LG-wbx"; */
+"eD1-LG-wbx.text" = "Monitor";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "eve-J8-zu4"; */
+"eve-J8-zu4.text" = "Name";
+
+/* Class = "UIButton"; normalTitle = "Select pool"; ObjectID = "gPq-BB-THk"; */
+"gPq-BB-THk.normalTitle" = "Select pool";
+
+/* Class = "UILabel"; text = "Current"; ObjectID = "gSV-fK-mhN"; */
+"gSV-fK-mhN.text" = "Current";
+
+/* Class = "UILabel"; text = "QR code Miner ID"; ObjectID = "gTh-sM-w7Z"; */
+"gTh-sM-w7Z.text" = "QR code Miner ID";
+
+/* Class = "UITextField"; placeholder = "Input API key or Miner ID"; ObjectID = "gXi-ba-lOz"; */
+"gXi-ba-lOz.placeholder" = "Input API key or Miner ID";
+
+/* Class = "UINavigationItem"; title = "What To Mine"; ObjectID = "gkj-Wa-Brf"; */
+"gkj-Wa-Brf.title" = "What To Mine";
+
+/* Class = "UILabel"; text = "Details"; ObjectID = "gyz-eb-RpH"; */
+"gyz-eb-RpH.text" = "Details";
+
+/* Class = "UITextField"; placeholder = "Date from"; ObjectID = "hB5-Gu-d0I"; */
+"hB5-Gu-d0I.placeholder" = "Date from";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hIg-1R-SCp"; */
+"hIg-1R-SCp.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Select group pool"; ObjectID = "k1N-K5-hb4"; */
+"k1N-K5-hb4.normalTitle" = "Select group pool";
+
+/* Class = "UIButton"; normalTitle = "Status check"; ObjectID = "n8H-EE-h8P"; */
+"n8H-EE-h8P.normalTitle" = "Status check";
+
+/* Class = "UITextField"; placeholder = "0"; ObjectID = "ngC-XI-aXY"; */
+"ngC-XI-aXY.placeholder" = "0";
+
+/* Class = "UILabel"; text = "Coin"; ObjectID = "nkc-Ro-ul0"; */
+"nkc-Ro-ul0.text" = "Coin";
+
+/* Class = "UITabBarItem"; title = "Estimations"; ObjectID = "oho-ej-FBg"; */
+"oho-ej-FBg.title" = "Estimations";
+
+/* Class = "UILabel"; text = "Id: "; ObjectID = "pbg-bs-BdQ"; */
+"pbg-bs-BdQ.text" = "Id: ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pyC-Jj-dGG"; */
+"pyC-Jj-dGG.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Accounts"; ObjectID = "qqq-iV-rUi"; */
+"qqq-iV-rUi.title" = "Accounts";
+
+/* Class = "UILabel"; text = "Last updated: "; ObjectID = "uBz-ic-BSe"; */
+"uBz-ic-BSe.text" = "Last updated: ";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "uLm-D9-kzt"; */
+"uLm-D9-kzt.normalTitle" = "Save";
+
+/* Class = "UILabel"; text = "Period"; ObjectID = "ua5-od-5Y3"; */
+"ua5-od-5Y3.text" = "Period";
+
+/* Class = "UILabel"; text = "Greater than"; ObjectID = "vNG-of-e5J"; */
+"vNG-of-e5J.text" = "Greater than";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vnq-er-Qc6"; */
+"vnq-er-Qc6.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "x47-zZ-UD7"; */
+"x47-zZ-UD7.text" = "Label";
+
+/* Class = "UILabel"; text = "Id: "; ObjectID = "x4c-5m-vUr"; */
+"x4c-5m-vUr.text" = "Id: ";
+
+/* Class = "UILabel"; text = "Value"; ObjectID = "xF6-xL-gRm"; */
+"xF6-xL-gRm.text" = "Value";
+
+/* Class = "UILabel"; text = "Enabled"; ObjectID = "xom-cz-fgb"; */
+"xom-cz-fgb.text" = "Enabled";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "yJt-So-Oct"; */
+"yJt-So-Oct.text" = "0";
+
+/* Class = "UILabel"; text = "Period"; ObjectID = "zYQ-mx-3mn"; */
+"zYQ-mx-3mn.text" = "Period";
+
+/* Class = "UILabel"; text = "Reported"; ObjectID = "zgX-yt-0BL"; */
+"zgX-yt-0BL.text" = "Reported";

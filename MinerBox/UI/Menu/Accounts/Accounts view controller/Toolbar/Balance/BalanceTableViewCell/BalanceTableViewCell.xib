@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BalanceTableViewCell" customModule="MinerBox" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="BalanceTableViewCell" customModule="MinerBox" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMb-nt-wpq" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                        <rect key="frame" x="16" y="11.666666666666664" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hvc-xZ-zsn" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                        <rect key="frame" x="227" y="11.666666666666664" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kUb-xI-pIl">
+                        <rect key="frame" x="102" y="0.0" width="96" height="44"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ammount" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DCN-Ui-XhQ" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="11.666666666666664" width="75" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xih-tV-g17">
+                                <rect key="frame" x="71" y="9.6666666666666643" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="S6W-pQ-Wds"/>
+                                    <constraint firstAttribute="width" secondItem="Xih-tV-g17" secondAttribute="height" multiplier="1:1" id="VJB-xZ-riF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" image="details_converter_black"/>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="DCN-Ui-XhQ" firstAttribute="leading" secondItem="kUb-xI-pIl" secondAttribute="leading" id="Ab2-0R-Kmb"/>
+                            <constraint firstItem="Xih-tV-g17" firstAttribute="width" secondItem="Xih-tV-g17" secondAttribute="height" multiplier="1:1" id="kW7-Ex-2MN"/>
+                            <constraint firstItem="Xih-tV-g17" firstAttribute="centerY" secondItem="kUb-xI-pIl" secondAttribute="centerY" id="mdV-GS-out"/>
+                            <constraint firstAttribute="trailing" secondItem="Xih-tV-g17" secondAttribute="trailing" id="nnQ-Lv-PdJ"/>
+                            <constraint firstItem="DCN-Ui-XhQ" firstAttribute="centerY" secondItem="kUb-xI-pIl" secondAttribute="centerY" id="utJ-Rr-8cp"/>
+                        </constraints>
+                    </view>
+                    <button clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5w-LN-MvN">
+                        <rect key="frame" x="279" y="9.6666666666666643" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="c5w-LN-MvN" secondAttribute="height" multiplier="100:100" id="3LA-WS-SEr"/>
+                            <constraint firstAttribute="width" constant="25" id="pHM-rP-wR2"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                        <state key="normal" image="details_converter_black"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="DMb-nt-wpq" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="5vR-Bl-eqR"/>
+                    <constraint firstItem="kUb-xI-pIl" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" constant="-10" id="6Mq-BG-wFV"/>
+                    <constraint firstItem="kUb-xI-pIl" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Db9-CU-YMB"/>
+                    <constraint firstItem="kUb-xI-pIl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Jas-3o-8KJ"/>
+                    <constraint firstItem="c5w-LN-MvN" firstAttribute="leading" secondItem="hvc-xZ-zsn" secondAttribute="trailing" constant="10" id="UAz-YJ-6fs"/>
+                    <constraint firstItem="c5w-LN-MvN" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Z7P-Pf-QRi"/>
+                    <constraint firstItem="hvc-xZ-zsn" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="c72-ip-Ye4"/>
+                    <constraint firstItem="DMb-nt-wpq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="dFE-sk-tng"/>
+                    <constraint firstItem="kUb-xI-pIl" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.3" id="h2k-AH-cmv"/>
+                    <constraint firstAttribute="trailing" secondItem="c5w-LN-MvN" secondAttribute="trailing" constant="16" id="omF-fM-lhJ"/>
+                    <constraint firstAttribute="bottom" secondItem="kUb-xI-pIl" secondAttribute="bottom" id="x3x-2B-bch"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="ammountConvertorButton" destination="Xih-tV-g17" id="1zB-Vm-icL"/>
+                <outlet property="ammountConvertorButtonWidthConstraits" destination="S6W-pQ-Wds" id="UOc-b6-02X"/>
+                <outlet property="ammountLabbel" destination="DCN-Ui-XhQ" id="RaL-u5-14X"/>
+                <outlet property="balanceTypeLabbel" destination="DMb-nt-wpq" id="iwR-jp-vT7"/>
+                <outlet property="balanceValueLabbel" destination="hvc-xZ-zsn" id="355-Wg-9DP"/>
+                <outlet property="convertorButton" destination="c5w-LN-MvN" id="976-VR-R3f"/>
+                <outlet property="convertorWidthConstraits" destination="pHM-rP-wR2" id="NVw-ae-V6T"/>
+            </connections>
+            <point key="canvasLocation" x="-26.086956521739133" y="59.598214285714285"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="DCN-Ui-XhQ">
+            <size key="intrinsicContentSize" width="74.5" height="20.5"/>
+        </designable>
+        <designable name="DMb-nt-wpq">
+            <size key="intrinsicContentSize" width="41.5" height="20.5"/>
+        </designable>
+        <designable name="hvc-xZ-zsn">
+            <size key="intrinsicContentSize" width="41.5" height="20.5"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="details_converter_black" width="19" height="22"/>
+    </resources>
+</document>

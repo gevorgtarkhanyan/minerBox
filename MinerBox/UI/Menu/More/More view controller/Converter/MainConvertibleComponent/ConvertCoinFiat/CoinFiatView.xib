@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CoinFiatView" customModule="MinerBox" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="bni-Ka-ixL" id="nUg-tU-e6G"/>
+                <outlet property="firstLabel" destination="waO-1i-CKE" id="A7D-gU-wun"/>
+                <outlet property="gradientView" destination="vpE-lY-TjH" id="gfN-w1-qY0"/>
+                <outlet property="iconImageView" destination="zQe-h0-4pS" id="RUN-yA-Tic"/>
+                <outlet property="secondLabel" destination="mel-rA-kHg" id="ga9-Tj-c3t"/>
+                <outlet property="separatorView" destination="xad-Ip-sCl" id="iLp-5d-bm3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="bni-Ka-ixL" customClass="BigSeparatorView" customModule="MinerBox" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vpE-lY-TjH" customClass="BaseView" customModule="MinerBox" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="waO-1i-CKE" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                            <rect key="frame" x="20" y="9.5" width="34" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mel-rA-kHg" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                            <rect key="frame" x="336" y="9.5" width="58" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="converter_icon" translatesAutoresizingMaskIntoConstraints="NO" id="zQe-h0-4pS">
+                            <rect key="frame" x="195" y="8" width="24" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="24" id="9qm-2c-e1p"/>
+                                <constraint firstAttribute="width" secondItem="zQe-h0-4pS" secondAttribute="height" id="BV5-ur-6B1"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="mel-rA-kHg" firstAttribute="centerY" secondItem="vpE-lY-TjH" secondAttribute="centerY" id="3Xr-HB-3vG"/>
+                        <constraint firstItem="waO-1i-CKE" firstAttribute="leading" secondItem="vpE-lY-TjH" secondAttribute="leading" constant="20" symbolic="YES" id="JM6-3b-beG"/>
+                        <constraint firstItem="zQe-h0-4pS" firstAttribute="centerY" secondItem="vpE-lY-TjH" secondAttribute="centerY" id="Zii-9T-C53"/>
+                        <constraint firstItem="waO-1i-CKE" firstAttribute="centerY" secondItem="vpE-lY-TjH" secondAttribute="centerY" id="aOf-TW-QZs"/>
+                        <constraint firstAttribute="height" constant="40" id="eN3-X7-rB6"/>
+                        <constraint firstItem="zQe-h0-4pS" firstAttribute="centerX" secondItem="vpE-lY-TjH" secondAttribute="centerX" id="eVY-Ra-Sb6"/>
+                        <constraint firstAttribute="trailing" secondItem="mel-rA-kHg" secondAttribute="trailing" constant="20" symbolic="YES" id="kD1-ue-lnH"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xad-Ip-sCl" customClass="BaseView" customModule="MinerBox" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="40" width="414" height="20"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="jtx-UG-b73"/>
+            <constraints>
+                <constraint firstItem="jtx-UG-b73" firstAttribute="trailing" secondItem="xad-Ip-sCl" secondAttribute="trailing" id="5t3-3a-38F"/>
+                <constraint firstItem="vpE-lY-TjH" firstAttribute="leading" secondItem="bni-Ka-ixL" secondAttribute="leading" id="6XS-A3-Vv3"/>
+                <constraint firstAttribute="bottom" secondItem="xad-Ip-sCl" secondAttribute="bottom" id="SNO-1H-5Fj"/>
+                <constraint firstItem="vpE-lY-TjH" firstAttribute="top" secondItem="bni-Ka-ixL" secondAttribute="top" id="dnN-Zg-FLM"/>
+                <constraint firstAttribute="trailing" secondItem="vpE-lY-TjH" secondAttribute="trailing" id="o2e-Ny-XEK"/>
+                <constraint firstItem="xad-Ip-sCl" firstAttribute="top" secondItem="vpE-lY-TjH" secondAttribute="bottom" id="tSQ-7V-SiO"/>
+                <constraint firstItem="xad-Ip-sCl" firstAttribute="leading" secondItem="jtx-UG-b73" secondAttribute="leading" id="tuF-ws-Aau"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-88" y="65"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="mel-rA-kHg">
+            <size key="intrinsicContentSize" width="58" height="20.5"/>
+        </designable>
+        <designable name="waO-1i-CKE">
+            <size key="intrinsicContentSize" width="33.5" height="20.5"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="converter_icon" width="26" height="31"/>
+    </resources>
+</document>

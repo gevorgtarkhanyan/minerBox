@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AUj-XM-a8A">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Animation View Controller-->
+        <scene sceneID="veT-UO-M8a">
+            <objects>
+                <viewController storyboardIdentifier="AnimationViewController" id="AUj-XM-a8A" customClass="AnimationViewController" customModule="MinerBox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b8f-aK-Wq6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8kg-tk-zXP" customClass="AnimationView" customModule="MinerBox" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wrT-kY-cmp">
+                                        <rect key="frame" x="82.666666666666671" y="323.66666666666669" width="248.66666666666663" height="248.66666666666669"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="wrT-kY-cmp" secondAttribute="height" id="qUF-Mo-elZ"/>
+                                        </constraints>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cvh-ts-Sh2">
+                                        <rect key="frame" x="0.0" y="572.33333333333337" width="414" height="323.66666666666663"/>
+                                        <subviews>
+                                            <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJ1-nB-RWe" customClass="LoginButton" customModule="MinerBox" customModuleProvider="target">
+                                                <rect key="frame" x="184" y="146.66666666666663" width="46" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="KJ1-nB-RWe" firstAttribute="centerX" secondItem="Cvh-ts-Sh2" secondAttribute="centerX" id="8kg-Jw-I7R"/>
+                                            <constraint firstItem="KJ1-nB-RWe" firstAttribute="centerY" secondItem="Cvh-ts-Sh2" secondAttribute="centerY" id="Rz4-aK-eX0"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Cvh-ts-Sh2" secondAttribute="trailing" id="Eoo-es-0oG"/>
+                                    <constraint firstAttribute="bottom" secondItem="Cvh-ts-Sh2" secondAttribute="bottom" id="OP5-RG-JSo"/>
+                                    <constraint firstItem="Cvh-ts-Sh2" firstAttribute="leading" secondItem="8kg-tk-zXP" secondAttribute="leading" id="aFF-yi-lEP"/>
+                                    <constraint firstItem="wrT-kY-cmp" firstAttribute="centerX" secondItem="8kg-tk-zXP" secondAttribute="centerX" id="bXk-Pb-iMz"/>
+                                    <constraint firstItem="wrT-kY-cmp" firstAttribute="centerY" secondItem="8kg-tk-zXP" secondAttribute="centerY" id="e0S-wE-gBW"/>
+                                    <constraint firstItem="Cvh-ts-Sh2" firstAttribute="top" secondItem="wrT-kY-cmp" secondAttribute="bottom" id="e65-0u-ZwH"/>
+                                    <constraint firstItem="wrT-kY-cmp" firstAttribute="height" relation="lessThanOrEqual" secondItem="8kg-tk-zXP" secondAttribute="height" multiplier="0.6" id="kwm-l7-snh"/>
+                                    <constraint firstItem="wrT-kY-cmp" firstAttribute="width" secondItem="8kg-tk-zXP" secondAttribute="width" multiplier="0.6" priority="750" id="uK9-MD-Ga9"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="LII-Mb-oFe"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="8kg-tk-zXP" secondAttribute="trailing" id="21E-nf-sTT"/>
+                            <constraint firstItem="8kg-tk-zXP" firstAttribute="top" secondItem="b8f-aK-Wq6" secondAttribute="top" id="RVQ-Hh-7zx"/>
+                            <constraint firstAttribute="bottom" secondItem="8kg-tk-zXP" secondAttribute="bottom" id="Yls-en-9AB"/>
+                            <constraint firstItem="8kg-tk-zXP" firstAttribute="leading" secondItem="b8f-aK-Wq6" secondAttribute="leading" id="Zlv-Ps-bF6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundView" destination="8kg-tk-zXP" id="G5B-LK-kJc"/>
+                        <outlet property="logoImageView" destination="wrT-kY-cmp" id="Tkr-oF-JON"/>
+                        <outlet property="retryButton" destination="KJ1-nB-RWe" id="wzj-tC-zfE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oD7-hn-c8X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="357.97101449275362" y="147.99107142857142"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="KJ1-nB-RWe">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+    </designables>
+</document>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="36" id="KGk-i7-Jjw" customClass="SettingsAlgorithmTableViewCell" customModule="MinerBox" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="340" height="36"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="340" height="36"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KIZ-Mv-oDN">
+                        <rect key="frame" x="45" y="0.0" width="102" height="36"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <state key="normal" title="Algorithm Name">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="nameButtonTapped" destination="KGk-i7-Jjw" eventType="touchUpInside" id="vfm-zf-qzb"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bW7-rh-2fL">
+                        <rect key="frame" x="10" y="5.5" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="25" id="cDX-1c-aUG"/>
+                            <constraint firstAttribute="height" constant="25" id="jlM-ey-c2P"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="Slected"/>
+                        <connections>
+                            <action selector="nameButtonTapped" destination="KGk-i7-Jjw" eventType="touchUpInside" id="xnf-ul-EFL"/>
+                        </connections>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rp5-VB-jI7">
+                        <rect key="frame" x="147" y="5.5" width="90" height="25"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1020.00" borderStyle="roundedRect" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="i4l-x6-4Rc">
+                                <rect key="frame" x="10" y="0.0" width="51.5" height="25"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                <connections>
+                                    <action selector="changeElectriCityText:" destination="KGk-i7-Jjw" eventType="editingChanged" id="DA8-hN-Q6x"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mh/s" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="9vx-sJ-KCE" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                                <rect key="frame" x="61.5" y="4" width="23.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="9vx-sJ-KCE" secondAttribute="trailing" constant="5" id="0js-ox-R4Q"/>
+                            <constraint firstAttribute="height" constant="25" id="6f8-DA-2zv"/>
+                            <constraint firstAttribute="width" constant="90" id="DUd-k3-ghG"/>
+                            <constraint firstAttribute="bottom" secondItem="i4l-x6-4Rc" secondAttribute="bottom" id="Ejn-60-gic"/>
+                            <constraint firstItem="i4l-x6-4Rc" firstAttribute="top" secondItem="Rp5-VB-jI7" secondAttribute="top" id="VXI-no-xSa"/>
+                            <constraint firstAttribute="bottom" secondItem="9vx-sJ-KCE" secondAttribute="bottom" constant="4" id="but-CO-JOj"/>
+                            <constraint firstItem="9vx-sJ-KCE" firstAttribute="top" secondItem="Rp5-VB-jI7" secondAttribute="top" constant="4" id="tSW-HE-wkL"/>
+                            <constraint firstItem="9vx-sJ-KCE" firstAttribute="leading" secondItem="i4l-x6-4Rc" secondAttribute="trailing" id="vMy-Gx-bB7"/>
+                            <constraint firstItem="i4l-x6-4Rc" firstAttribute="leading" secondItem="Rp5-VB-jI7" secondAttribute="leading" constant="10" id="xMA-0h-rZb"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hXH-gJ-eKf">
+                        <rect key="frame" x="242" y="5.5" width="90" height="25"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="73838" borderStyle="roundedRect" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="5HL-um-kjY">
+                                <rect key="frame" x="10" y="0.0" width="62" height="25"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                <connections>
+                                    <action selector="changeElectriCityText:" destination="KGk-i7-Jjw" eventType="editingChanged" id="dvg-B9-FuM"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="W" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="8yW-Vv-lho" customClass="BaseLabel" customModule="MinerBox" customModuleProvider="target">
+                                <rect key="frame" x="72" y="5" width="13" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="13" id="Ase-pg-zxN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="8di-W7-JOa"/>
+                            <constraint firstItem="8yW-Vv-lho" firstAttribute="leading" secondItem="5HL-um-kjY" secondAttribute="trailing" id="DhQ-FF-aaa"/>
+                            <constraint firstAttribute="height" constant="25" id="NWx-sd-QSj"/>
+                            <constraint firstItem="5HL-um-kjY" firstAttribute="top" secondItem="hXH-gJ-eKf" secondAttribute="top" id="Zca-Jx-o1c"/>
+                            <constraint firstAttribute="bottom" secondItem="5HL-um-kjY" secondAttribute="bottom" id="fDQ-ux-797"/>
+                            <constraint firstItem="5HL-um-kjY" firstAttribute="leading" secondItem="hXH-gJ-eKf" secondAttribute="leading" constant="10" id="ivE-Mi-vtW"/>
+                            <constraint firstAttribute="bottom" secondItem="8yW-Vv-lho" secondAttribute="bottom" constant="4" id="mwd-0N-fy5"/>
+                            <constraint firstAttribute="trailing" secondItem="8yW-Vv-lho" secondAttribute="trailing" constant="5" id="ocD-XZ-oTq"/>
+                            <constraint firstItem="8yW-Vv-lho" firstAttribute="top" secondItem="hXH-gJ-eKf" secondAttribute="top" constant="5" id="oxt-wG-9wT"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="hXH-gJ-eKf" firstAttribute="leading" secondItem="Rp5-VB-jI7" secondAttribute="trailing" constant="5" id="Ck1-vV-z7L"/>
+                    <constraint firstItem="KIZ-Mv-oDN" firstAttribute="leading" secondItem="bW7-rh-2fL" secondAttribute="trailing" constant="10" id="JAa-4O-ncU"/>
+                    <constraint firstItem="KIZ-Mv-oDN" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Wj9-4x-s6w"/>
+                    <constraint firstAttribute="bottom" secondItem="KIZ-Mv-oDN" secondAttribute="bottom" id="dAR-eY-t1m"/>
+                    <constraint firstAttribute="trailing" secondItem="hXH-gJ-eKf" secondAttribute="trailing" constant="8" id="iAU-4Z-dcr"/>
+                    <constraint firstItem="bW7-rh-2fL" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="iG7-DH-eNl"/>
+                    <constraint firstItem="bW7-rh-2fL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="ojc-2E-WZx"/>
+                    <constraint firstItem="hXH-gJ-eKf" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="uZG-bH-kzo"/>
+                    <constraint firstItem="KIZ-Mv-oDN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="vne-nx-Vw1"/>
+                    <constraint firstItem="Rp5-VB-jI7" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="x2u-H5-gDU"/>
+                    <constraint firstItem="Rp5-VB-jI7" firstAttribute="leading" secondItem="KIZ-Mv-oDN" secondAttribute="trailing" id="y55-ZJ-7wH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="algorithmNameButton" destination="KIZ-Mv-oDN" id="Nkh-TK-uh3"/>
+                <outlet property="cheeckMarkButton" destination="bW7-rh-2fL" id="jPJ-uw-1Ay"/>
+                <outlet property="mhsLabel" destination="9vx-sJ-KCE" id="V1n-zN-WWO"/>
+                <outlet property="mhsTextField" destination="i4l-x6-4Rc" id="xrB-X1-JzV"/>
+                <outlet property="mhsView" destination="Rp5-VB-jI7" id="7Rt-rq-c2O"/>
+                <outlet property="wLabel" destination="8yW-Vv-lho" id="prd-Ko-Tdn"/>
+                <outlet property="wTextField" destination="5HL-um-kjY" id="xIE-xS-lKf"/>
+                <outlet property="wView" destination="hXH-gJ-eKf" id="ix5-QL-FUn"/>
+            </connections>
+            <point key="canvasLocation" x="85.507246376811594" y="205.58035714285714"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="8yW-Vv-lho">
+            <size key="intrinsicContentSize" width="10" height="12"/>
+        </designable>
+        <designable name="9vx-sJ-KCE">
+            <size key="intrinsicContentSize" width="23.5" height="12"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="Slected" width="25" height="24"/>
+    </resources>
+</document>

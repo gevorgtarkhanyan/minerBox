@@ -1,0 +1,595 @@
+/*
+ Localizable.strings
+ MinerBox
+ 
+ Created by Ruben Nahatakyan on 2/7/19.
+ Copyright © 2019 WitPlex. All rights reserved.
+ */
+
+// MARK: - Alerts
+"active_workers_change"                                         = "Ակտիվ աշխատողների փոխոխություն";
+"add_hashrate_alert"                                            = "Ավելացնել արագության ծանուցում";
+"add_hashrate_alerts"                                           = "Ավելացնել արագության ծանուցումներ";
+"add_reportedHashrate_alert"                                    = "Ավելացնել hաղորդված արագության ծանուցումներ";
+"add_reportedHashrate_alerts"                                   = "Ավելացնել hաղորդված արագության ծանուցումներ";
+"add_payout_alerts"                                             = "Ավելացնել վճարման ծանուցումներ";
+"add_worker_alert"                                              = "Ավելացնել աշխատողի ծանուցում";
+"add_worker_alerts"                                             = "Ավելացնել աշխատողների ծանուցումներ";
+"alert_added"                                                   = "Ծանուցումն ավելացված է";
+"alert_category_auto"                                           = "Ավտոմատ";
+"alert_category_manual"                                         = "Կարգավորվող";
+"alert_updated"                                                 = "Ծանուցումը թարմացված է";
+"count"                                                         = "Քանակ";
+"current_hashrate"                                              = "Ընթացիկ արագություն";
+"current_reportedHashrate"                                      = "Ընթացիկ hաղորդված արագություն";
+"current_workers_count"                                         = "Ընթացիկ աշխատողների քանակ";
+"edit_alert"                                                    = "Խմբագրել ծանուցումը";
+"edit_hashrate_alert"                                           = "Խմբագրել արագության ծանուցումը";
+"edit_reportedHashrate_alert"                                   = "Խմբագրել hաղորդված արագության ծանուցումը";
+"edit_worker_alert"                                             = "Խմբագրել աշխատողի ծանուցումը";
+"enabled"                                                       = "Միացնել";
+"hashrate_change_state"                                         = "Արագության միացում/անջատում";
+"reportedHashrate_change_state"                                 = "Հաղորդված արագության միացում/անջատում";
+"new_alert"                                                     = "Նոր ծանուցում";
+"notifications_will_delete"                                     = "ծանուցումները կջնջվեն";
+"payout_detection"                                              = "Վճարումների փոփոխություն";
+"repeat"                                                        = "Կրկնել";
+"speed"                                                         = "Արագություն";
+"Enter comparison"                                              = "Մուտքագրեք համեմատությունը";
+"Enter valid value"                                             = "Մուտքագրեք վավեր արժեք";
+"maximum_count_reached!"                                        = "Գրանցումների առավելագույն քանակ!";
+"deleted"                                                       = "Ջնջվել է";
+
+
+// MARK: - Animation
+"animation_retry"                                               = "Կրկին փորձել";
+
+// MARK: - Authorization
+"change_password"                                               = "Փոխել գաղտնաբառը";
+"change_username"                                               = "Փոխել մուտքանունը";
+"email_sended"                                                  = "Ստուգեք ձեր փոստը գաղտնաբառը  վերականգնելու համար";
+"incorrect_email"                                               = "Սխալ էլ.հասցե";
+"login_email"                                                   = "Էլ. հասցե";
+"login_forgot_password"                                         = "Գաղտնաբառի հիշեցում";
+"login_login"                                                   = "Մուտք";
+"login_sign_up"                                                 = "Գրանցում";
+"login_skip"                                                    = "Բաց թողնել";
+"new_password"                                                  = "Նոր գաղտնաբառ";
+"old_password"                                                  = "Հին գաղտնաբառ";
+"password"                                                      = "Գաղտնաբառ";
+"receive_code"                                                  = "Ստանալ կոդ";
+"register"                                                      = "Գրանցվել";
+"retype_password"                                               = "Գաղտնաբառի հաստատում";
+"update"                                                        = "Թարմացնել";
+"username"                                                      = "Մուտքանուն";
+"username_optional"                                             = "Մուտքանուն (Ոչ պարտադիր)";
+"verification_code"                                             = "Վերիֆիկացման կոդ";
+"verify"                                                        = "Ստուգել";
+
+"Recover" = "Վերականգնում";
+"Incorrect password" = "Սխալ գաղտնաբառ";
+
+// MARK: - Balance
+"balance"                                                       = "Մնացորդ";
+"confirmed"                                                     = "Հաստատված";
+"orphaned"                                                      = "Անապահով";
+"paid"                                                          = "Վճարված";
+"unconfirmed"                                                   = "Չհաստատված";
+"unpaid"                                                        = "Չվճարված";
+"credit"                                                        = "Կրեդիտ";
+"totalBalance"                                                  = "Ընդհանուր մնացորդ";
+"paid24h"                                                       = "Վճարված 24ժ";
+"coins"                                                         = "Coins";
+"payoutThreshold"                                               = "Վճարման շեմ";
+"none"                                                          = "Ոչինչ";
+"reward24h"                                                     = "24 ժամ պարգև";
+"immatureReward"                                                = "Անհասուն պարգև";
+
+// MARK: - Coin price
+
+// Filter
+"filter"                                                        = "Ֆիլտր";
+"coin_sort_coin"                                                = "Coin";
+"coin_sort_change"                                              = "Փոփոխ.";
+"coin_sort_price"                                               = "Գին";
+"coin_sort_rank"                                                = "Կարգ";
+"from_textfield"                                                = "Սկիզբ";
+"to_textfield"                                                  = "Վերջ";
+
+
+// Page type
+"coin_price_all"                                                = "Բոլորը";
+"coin_price_favorites"                                          = "Ընտրվածներ";
+"coin_price_alerts"                                             = "Ծանուցումներ";
+
+// Change
+"coin_price_change_1_hour"                                      = "1ժ";
+"coin_price_change_24_hours"                                    = "24ժ";
+"coin_price_change_7_days"                                      = "1շ";
+
+"coin_alert_deleted"                                            = "Coin-ի ծանուցումը ջնջվել է";
+"market_cap_usd"                                                = "Շուկայական կապ. USD";
+
+"Enter value" = "Մուտքագրեք արժեք";
+"Select coin" = "Ընտրեք coin-ը";
+"Coin Alert Added" = "Coin-ի ծանուցումն ավելացված է";
+"added_to_favorite" = "Ավելացված է ընտրվածների ցանկում";
+"deleted_from_favorite" = "Ջնջված է ընտրվածների շարքից";
+"add_favorite"                                                  = "Ավելացնել Ընտրված";
+
+"volume"                                                        = "Ծավալ";
+"max_supply"                                                    = "Առավելագույն պաշար";
+"total_supply"                                                  = "Ընդհանուր պաշար";
+"explorers"                                                     = "Հետազոտողներ";
+
+// MARK: - Coin graph
+"choose_coin"                                                   = "Ընտրեք coin-ը";
+"coin_settings_analize"                                         = "Վերլուծություն";
+"coin_settings_axis"                                            = "Առանցքներ";
+"coin_settings_comparision"                                     = "Համեմատություն";
+"coin_settings_graph"                                           = "Գրաֆիկ";
+"coin_settings_horizontal"                                      = "Հորիզոնական";
+"coin_settings_indicators"                                      = "Ցուցանիշներ";
+"coin_settings_line"                                            = "Գծային";
+"coin_settings_mountain"                                        = "Լեռնային";
+"coin_settings_vertical"                                        = "Ուղղահայաց";
+
+// MARK: - Comparision
+"comparision_greather_than"                                     = "Ավելի շատ";
+"comparision_less_than"                                         = "Ավելի քիչ";
+
+// MARK: - Default
+"id"                                                            = "ID";
+"ask_for_delete"                                                = "Վստահ եք, որ ցանկանում եք ջնջել?";
+"cancel"                                                        = "Չեղարկել";
+"delete"                                                        = "Ջնջել";
+"done"                                                          = "Ընտրել";
+"edit"                                                          = "Խմբագրել";
+"last_updated"                                                  = "Վերջին թարմացում";
+"payment_method"                                                = "Վճարման եղանակ";
+"later"                                                         = "Ավելի ուշ";
+"loading"                                                       = "Բեռնվում է";
+"no_chart_data"                                                 = "Տվյալներ չկան";
+"ok"                                                            = "Լավ";
+"save"                                                          = "Պահպանել";
+"search"                                                        = "Որոնում";
+"sent"                                                          = "Ուղարկված է";
+"state"                                                         = "Վիճակ";
+"update_info"                                                   = "Հասանելի է հավելվածի նոր տարբերակ";
+"areSure"                                                       = "Դուք վստահ ե՞ք";
+"temperature"                                                   = "Ջերմաստիճան";
+"load"                                                          = "Բեռնվածք";
+"next_payout_time"                                              = "Հաջորդ վճարում";
+
+// MARK: - Analytics
+"more_analytics"                                                     = "Վերլուծություն";
+"more_help"                                                          = "Օգնություն";
+"others"                                                             = "Այլ";
+
+// MARK: - Details
+"account_alerts"                                                = "Ծանուցումներ";
+"account_details"                                               = "Մանրամասներ";
+"account_estimations"                                           = "Եկամուտներ";
+"account_rewards"                                               = "Պարգևներ";
+"account_payouts"                                               = "Վճարումներ";
+"account_pool_info"                                             = "Տվյալներ";
+"Total"                                                         = "Ամբողջ";
+"time"                                                          = "Ժամանակ";
+"includeElectricityCost"                                        = "Ներառել էլեկտրաէներգիայի արժեքը";
+"electricityConsumption"                                        = "Էլեկտրաէներգիայի սպառումը";
+"electricityPrice"                                              = "Էլեկտրաէներգիայի գինը (1կՎտժ)";
+// MARK: - Errors
+"cant_select_more_than_5_items"                                 = "Չեք կարող ընտրել ավելի քան 5 հատ:";
+"check_network_connection"                                      = "Ստուգեք ցանցի հասանելիությունը";
+"mail_not_configured"                                           = "Էլ. Փոստը կազմաձեւված չէ!";
+"no_items_available"                                            = "Տարրեր չկան";
+"incorrect_repeat_password"                                     = "Նոր գաղտնաբառը չի համապատասխանում!";
+"incorrect_symbol"                                              = "Որոշ մուտքագրված նիշեր չեն թույլատվում!";
+"input_4_and_more_characters"                                   = "Մուտքագրեք 4 նիշ և ավել";
+"input_6_and_more_characters"                                   = "Մուտքագրեք 6 նիշ և ավել";
+"unknown_error"                                                 = "Տեղի ունեցավ սխալ";
+
+"Try again later" = "Փորձեք ավելի ուշ";
+"Enter valid ID/key" = "Մուտքագրեք վավեր ID/key";
+"Incorrect pass code" = "Կոդը սխալ է";
+"Pool Address Invalid!" = "Փուլի հասցեն սխալ է";
+"The request timed out." = "Հարցման ժամանակը սպառվեց։";
+"it's incorrect account" = "Սխալ հաշիվ";
+"Can't check your payment" = "Հնարավոր չէ ստուգել ձեր վճարումը";
+"Name Already Exist!" = "Անունն արդեն գոյություն ունի!";
+"Could not connect to the server." = "Չի հաջողվում միանալ սերվերին։";
+"You need to add something in favorites" = "Ընտրվածների ցանկում տարրեր չկան";
+"The Internet connection appears to be offline." = "Ստուգեք ինտերնետի հասանելիությունը։";
+
+// Backend
+"Sorry, internal server error!" = "Ներեցեք, սերվերի ներքին սխալ!";
+"Server is overloaded, please try again later!" = "Սերվերը գերբեռնված է, խնդրում ենք կրկին փորձել!";
+"Email Already Exist!" = "Էլեկտրոնային հասցեն արդեն գոյություն ունի!";
+"Invalid Parameter!" = "Անվավեր պարամետր!";
+"Failed Authentication!" = "Նույնականացումը չհաջողվեց!";
+"Access Denied!" = "Մուտքն արգելված է!";
+"User not exist!" = "Օգտվողը գոյություն չունի!";
+"Password does not match!" = "Գաղտնաբառը չի համապատասխանում!";
+"Password is invalid!" = "Գաղտնաբառը անվավեր է!";
+"You can resend the request after a while!" = "Կարող եք կրկին ուղարկել հարցումն որոշ ժամանակ անց!";
+"You can request after xxx sec!" = "Փորձեք xxx վայրկյան հետո!";
+"Verification code is invalid. Please try again!" = "Ստուգման կոդն անվավեր է: Խնդրում եմ կրկին փորձեք!";
+"Coin Favorite Already Exist!" = "Coin-ը Ընտրվածներում արդեն գոյություն ունի!";
+"Pool Account Already Exist!" = "Փուլի հաշիվն արդեն գոյություն ունի!";
+"Pool Account Not Exist!" = "Փուլի հաշիվը գոյություն չունի!";
+"Pool Account Data Not Exist!" = "Փուլի հաշվի տվյալները գոյություն չունեն!";
+"Reached Max Pool Account Count!" = "Հասել է առավելագույն փուլի հաշիվների քանակին!";
+"Max Active Account Already Exist!" = "Առավելագույն ակտիվ հաշիվներ արդեն գոյություն ունեն!";
+"Pool Statistics Not Exist!" = "Փուլի վիճակագրություն գոյություն չունի!";
+"Pool Information Not Exist!" = "Փուլի տեղեկություններ գոյություն չունի!";
+"Coin Alert Already Exist!" = "Coin-ի ծանուցումն արդեն գոյություն ունի!";
+"Coin Alert Not Exist!" = "Coin-ի ծանուցումը գոյություն չունի!";
+"Coin Not Exist!" = "Coin-ը գոյություն չունի!";
+"Pool Alert Already Exist!" = "Փուլի ծանուցումն արդեն գոյություն ունի!";
+"Pool Alert Not Exist!" = "Փուլի ծանուցումը գոյություն չունի!";
+"Adding Pool Alert Not Allowed!" = "Փուլի ծանուցումը թույլատրված չէ!";
+"Failed to Add Subscription!" = "Բաժանորդագրությունը ավելացնել չհաջողվեց!";
+
+// MARK: - Hashrate
+"active"                                                        = "Ակտիվ";
+"inactive"                                                      = "Ոչ ակտիվ";
+"average"                                                       = "Միջին";
+"current"                                                       = "Ընթացիկ";
+"hashrate"                                                      = "Արագություն";
+"hashrates"                                                     = "Արագություն";
+"real"                                                          = "Իրական";
+"reported"                                                      = "Հաղորդված";
+"reportedHashrate"                                              = "Հաղորդված արագություն";
+"Selected hashrate" = "Ընտրված արագություն";
+// MARK: - Menu
+"accounts"                                                      = "Հաշիվներ";
+"coin_price"                                                    = "Coin-ի արժեք";
+"more"                                                          = "Ավելին";
+"notifications"                                                 = "Ծանուցումներ";
+
+"Account" = "Հաշիվ";
+"Settings" = "Կարգավորումներ";
+
+// MARK: - More
+"more_about_app"                                                = "Հավելվածի մասին";
+"more_darkMode"                                                 = "Մութ ռեժիմ";
+"more_join_community"                                           = "Միացեք համայնքին";
+"more_languages"                                                = "Լեզուներ";
+"more_toolbar"                                                  = "Գործիքներ";
+"toolBarPages"                                                  = "Գործիքներիի էջեր";
+"more_login_signup"                                             = "Մուտք / Գրանցում";
+"more_manage_subscription"                                      = "Բաժանորդագրություն";
+"more_profile"                                                  = "Պրոֆիլ";
+"more_security"                                                 = "Անվտանգություն";
+"more_widget"                                                   = "Widget";
+"more_converter"                                                = "Փոխարկիչ";
+"more_faq"                                                      = "FAQ";
+"profile_log_out"                                               = "Դուրս գալ";
+"delete_account"                                                = "Ջնջել հաշիվը";
+"community_facebook"                                            = "Հավանեք մեր էջը Facebook-ում";
+"community_reddit"                                              = "Հետևեք մեզ Reddit-ում";
+"community_telegram"                                            = "Միացեք մեր Telegram-ի խմբին";
+"community_twitter"                                             = "Հետևեք մեզ Twitter-ում";
+
+"about_app_feedback"                                            = "Հետադարձ կապ";
+"about_app_share"                                               = "Կիսվել հավելվածով";
+"about_app_rate"                                                = "Գնահատել հավելվածը";
+"about_app_version"                                             = "Հավելվածի համարը";
+
+"about_app_share_text"                                          = "Ողջույն, ես կառավարում/հետեւում եմ իմ կրիպտոարժույթների մայնինգին այս հիանալի ծրագրով!\nՆերբեռնեք այն անվճար\nAndroid: android_app_link\niOS: ios_app_link";
+
+"Select accounts" = "Ընտրել հաշիվներ";
+
+"fiat"                                                          = "Ֆիատ";
+"choose_email"                                                  = "Choose email";
+"income"                                                        = "Եկամուտ";
+"hide_0"                                                        = "Թաքցնել 0";
+"show_0"                                                        = "Ցույց տալ 0";
+
+// MARK: - Notificaiton
+"new_payout_detected"                                           = "Նոր վճարում է կատարվել (xxx)!";
+
+"notifications_coin_alerts"                                     = "Coin";
+"notifications_info_alerts"                                     = "Ինֆո";
+"notifications_payout_alerts"                                   = "Վճարում";
+"notifications_pool_alerts"                                     = "Փուլ";
+
+"notificaiton_auto_hashrate_changed"                            = "Արագությունը փոփոխվել է xxx->yyy!";
+"notificaiton_auto_worker_changed"                              = "Աշխատողների քանակը փոփոխվել է xxx->yyy!";
+"notificaiton_auto_repHashrate_changed"                         = "Հաղորդված արագությունը փոփոխվել է xxx->yyy!";
+"notification_repHashrate_greater_than"                         = "Հաղորդված արագությունն աճել է xxx-ից (yyy)!";
+"notification_repHashrate_less_than"                            = "Հաղորդված արագությունը նվազել է xxx-ից (yyy)!";
+"notification_coin_greater_than"                                = "Արժեքը աճել է xxx-ից (yyy)";
+"notification_coin_less_than"                                   = "Արժեքը նվազել է xxx-ից (yyy)!";
+"notification_hashrate_greater_than"                            = "Արագությունն աճել է xxx-ից (yyy)!";
+"notification_hashrate_less_than"                               = "Արագությունը նվազել է xxx-ից (yyy)!";
+"notification_workers_greater_than"                             = "Աշխատողների քանակն աճել է xxx-ից (yyy)!";
+"notification_workers_less_than"                                = "Աշխատողների քանակը նվազել է xxx-ից (yyy)!";
+"add_coin_alert"                                                = "Ավելացնել coin-ի ծանուցում";
+"for_coin_alert"                                                = "Տեղեկացեք գների փոփոխությունների մասին";
+"add_pool_account"                                              = "Ավելացնել հաշիվ";
+"for_pool_notifications"                                        = "Ծանուցման համար";
+"add_pool_account_alerts"                                       = "Ավելացնել հաշվի ծանուցումներ";
+"for_receiving_notifications"                                   = "հաղորդագրություններ ստանալու համար";
+
+// MARK: - Pool account
+"activate"                                                      = "Ակտիվացնել";
+"edit_account"                                                  = "Խմբագրել հաշիվը";
+"enter_new_pool_name"                                           = "Մուտքագրեք նոր փուլի անուն";
+"input"                                                         = "Մուտքագրեք";
+"Watcher link"                                                  = "Դիտորդի հղում";
+"Wallet address"                                                = "Դրամապանակի հասցե";
+"Observer link"                                                 = "Դիտորդի հղում";
+"input_label"                                                   = "Մուտքագրեք անուն";
+"input_puid"                                                    = "Մուտքագրեք PUID";
+"new_account"                                                   = "Նոր հաշիվ";
+"request_new_pool"                                              = "Նոր փուլի հարցում";
+"save_account"                                                  = "Պահել պրոֆիլը";
+"select_pool"                                                   = "Ընտրեք փուլ";
+"status_check"                                                  = "Կարգավիճակի ստուգում";
+"successfully_added"                                            = "Հաջողությամբ ավելացվեց";
+"successfully_updated"                                          = "Հաջողությամբ թարմացվեց";
+
+"one_account_can_be_activated"                                  = "Առկա է առավելագույն ակտիվ հաշիվներ։ Այլ պրոֆիլ ակտիվացնելու համար պետք է ջնջեք ներկայիս ակտիվը։";
+"xxx_account_can_be_activated"                                  = "Կարող է ակտիվ լինել միայն XXX պրոֆիլ։ Այլ պրոֆիլ ակտիվացնելու համար պետք է ջնջեք ներկայիս ակտիվը։";
+"Alerts" = "Ծանուցումներ";
+"Miner ID" = "Miner ID";
+"optional_input_label"                                          = "Մուտքագրեք անուն (Ոչ պարտադիր)";
+"optional"                                                      = "(Ոչ պարտադիր)";
+"Input API key" = "Մուտքագրեք API key";
+"Input Miner ID" = "Մուտքագրեք Miner ID";
+"Select group pool" = "Ընտրեք փուլի խումբ";
+"Press the + button to add an account" = "Հաշիվ ավելացնելու համար սեղմեք + կոճակը";
+
+"MAINTENANCE"                                                   = "Սպասարկման մեջ!";
+"Sponsored"                                                     = "Հովանավորվող";
+"out_of_date"                                                   = "Ժամկետն անց!";
+
+// MARK: - Pool info
+"amount"                                                        = "Գումար";
+"block"                                                         = "Բլոկ";
+"coinAddress"                                                  = "Coin-ի հասցե";
+"confirmations"                                                 = "Հաստատումներ";
+"mixin"                                                         = "Mixin";
+"paidOn"                                                       = "Վճարված է";
+"period"                                                        = "Ընթացք";
+"price_usd"                                                     = "Գին USD";
+"price_btc"                                                     = "Գին BTC";
+"status"                                                        = "Կարգավիճակ";
+"tx"                                                            = "Tx";
+"txId"                                                         = "Tx ID";
+"type"                                                          = "Տեսակ";
+
+"active_miners"                                                 = "Ակտիվ հանքագործներ";
+"active_workers"                                                = "Ակտիվ աշխատողներ";
+"ago"                                                           = "առաջ";
+"blocks_per_hour"                                               = "Բլոկ ժամում";
+"coin_name"                                                     = "Coin-ի անուն";
+"coinId"                                                        = "Coin Id";
+"currency"                                                      = "Արժույթ";
+"current_block"                                                 = "Ընթացիկ բլոկ";
+"fee"                                                           = "Վճար";
+"networkFee"                                                    = "Ցանցի վճար";
+"name"                                                          = "Անուն";
+"fees"                                                          = "Վճարներ";
+"last_mined_block"                                              = "Վերջին mine արված բլոկ";
+"last_mined_block_time"                                         = "Վերջին mine արված բլոկի ժամանակ";
+"max_ap_threshold"                                              = "Առավելագույն շեմ";
+"min_ap_threshold"                                              = "Նվազագույն շեմ";
+"network_block_time"                                            = "Ցանցի բլոկի տևողություն";
+"network_retarget_time"                                         = "Ցանցի վերաթիրախավորման ժամանակ";
+"network_difficulty"                                            = "Ցանցի բարդություն";
+"network_next_difficulty"                                       = "Ցանցի հաջորդ բարդություն";
+"network_hashrate"                                              = "Ցանցի արագություն";
+"network_time"                                                  = "Ցանցի ժամ";
+"next_block"                                                    = "Հաջորդ բլոկ";
+"payout_system"                                                 = "Վճարման համակարգ";
+"price"                                                         = "Գին";
+"reward_type"                                                   = "Պարգեւի տեսակ";
+"total_alt_blocks_found"                                        = "Ընդհանուր alt գտնված բլոկ";
+"luck"                                                          = "Հաջողություն";
+"current_round_duration"                                        = "Շրջանի տևողություն";
+"total_blocks_found"                                            = "Ընդհանուր գտնված բլոկ";
+"txFee"                                                         = "TxFee";
+"txFee_auto"                                                    = "TxFee ավտոմատ";
+"txFee_manual"                                                  = "TxFee մեխանիկական";
+"currentBlockNumber"                                            = "Ընթացիկ ցանցի բլոկ";
+"nextNetBlockNumber"                                            = "Հաջորդ  բլոկը";
+"blockTime"                                                    = "Բլոկի ժամանակ";
+"blockReward"                                                   = "Հանքագործի պարգև";
+"blocksPending"                                                 = "Սպասվող բլոկներ";
+"blocksOrphaned"                                                = "Անապահով բլոկներ";
+"blocksConfirmed"                                               = "Հաստատված բլոկներ";
+"minerReward"                                                   = "Բլոկի ժամանակ";
+"totalPaid"                                                     = "Ընդհանուր վճարված";
+// MARK: - Recent credits
+"matured"                                                       = "Հաստատված";
+"immature"                                                      = "Անբավարար";
+
+// MARK: - Security
+"create_pin"                                                    = "Ստեղծել PIN";
+"enter_pin"                                                     = "Մուտքագրեք PIN";
+"pin_lock"                                                      = "PIN";
+"retype_pin"                                                    = "Կրկնել";
+"use_pin"                                                       = "Օգտագործել";
+
+// MARK: - Shares
+"choose_shares"                                                 = "Ընտրեք փոխանցումներ";
+"invalid"                                                       = "Անվավեր";
+"shares"                                                        = "Փոխանցումներ";
+"stale"                                                         = "Գողացված";
+"valid"                                                         = "Վավեր";
+"round"                                                         = "Շրջան";
+"expired"                                              = "Ժամկետանց";
+// MARK: - Difficulty
+"diff"                                                          = "Բարդություն";
+
+// MARK: - Luck
+"luckHours"                                                     = "Հաջողություն";
+
+// MARK: - Subscription
+"subscribe"                                                     = "Բաժանորդագրվել";
+"re_subscribe"                                                  = "Վերաբաժանորդագրվել";
+"remove_ads_more"                                                    = "Հեռացնել գովազդը";
+"add_up_to_xxx_accounts"                                         = "Ավելացնել ընդհուպ xxx պրոֆիլ";
+"add_widget"                                                    = "Ավելացնել account widget";
+"premium_plan"                                                  = "Պրեմիում պլան";
+"premium_promo_user"                                            = "Պրեմիում պրոմո";
+"privacy_policy"                                                = "Գաղտնիության քաղաքականություն";
+"restore_subscription"                                          = "Վերականգնել բաժանորդագրությունը";
+"standard_plan"                                                 = "Ստանդարտ պլան";
+"standard_promo_user"                                           = "Ստանդարտ պրոմո օգտատեր";
+"terms_of_use"                                                  = "Օգտվելու կանոններ";
+"then_xxx_monthly"                                              = "ապա xxx ամսեկան";
+"try_7_days"                                                    = "Փորձեք 3 օր անվճար\nապա ամսեկան xxx";
+"cancel_anytime"                                                = "Ավտոմատ թարմացվում է, ցանկացած ժամանակ կարող է չեղարկվել";
+"continue"                                                      = "Շարունակել
+";
+"premium"                                                       = "Պրեմիում";
+"standart"                                                      = "Ստանդարտ";
+"payment_problem"                                               = "Վճարման խնդիրներ. Ձեր հաշիվը մնում է ակտիվ, բայց խնդրում ենք թարմացնել Ձեր կրեդիտ քարտի տվյալները կասեցումից խուսափելու համար:";
+"billing_retry"                                                  = "Վճարման խնդիր. Billing Retry: Խնդրում ենք թարմացնել Ձեր կրեդիտ քարտի տվյալները՝ բաժանորդագրությունը վերսկսելու համար:";
+"subscription_cancelled"                                        = "Բաժանորդագրությունը չեղյալ է հայտարարվել, խնդրում ենք վերաբաժանորդագրվեք կասեցումից խուսափելու համար:";
+"subscripted_from_play_store"                                   = "Բաժանորդագրված է Play Store-ում";
+"subscription_info"                                             = "3 օր անվճար օգտագործելուց հետո բաժանորդագրությունը ավտոմատ կերպով կթարմացվի ամսականով, եթե այն չչեղարկվի փորձաշրջանի ավարտից առնվազն 24 ժամ առաջ: Անվճար փորձաշրջանի ցանկացած չօգտագործված մաս կավարտվի, երբ օգտագործողը գնի MinerBox-ի որեւէ բաժանորդագրություն: Ձեր բաժանորդագրությունը ավտոմատ կերպով թարմացվում է մինչեւ ընթացիկ ժամանակաշրջանի ավարտից առնվազն 24 ժամ առաջ ավտոմատ կերպով վերականգնելը: Վճարումը գանձվում է App Store հաշվի վրա `գնման հաստատման ժամանակ: Ձեր հաշիվը գանձվում է ընթացիկ ժամանակաշրջանի ավարտից առաջ 24 ժամվա ընթացքում, երկարաձգելու համար եւ որոշում է նորացման արժեքը: Բաժանորդագրությունները կարող են կառավարվել եւ չեղարկվել Հաշվի կարգավորումից գնումից հետո:";
+
+
+"Subscriptions" = "Բաժանորդագրություններ";
+"User authorization needed" = "Պետք է մուտք լինել համակարգ";
+"Subscripted from other user" = "Բաժանորդագրվել է մեկ այլ օգտատեր";
+"12_months_as_mo"                                               = "12 ամիս x / ամիս";
+"SAVE"                                                          = "Խնայել";
+
+//Widget
+"need_subscription"                                             = "Անհրաժեշտ է բաժանորդագրություն";
+"please_check_acounts"                                          = "Խնդրում ենք ստուգել հաշիվները MinerBox - > կարգավորումներ - > widget";
+"update_widget_settings"                                        = "Թարմացրեք վիջեթի կարգավորումները";
+"single_Coin_Widget"                                            = "Մեկ coin-ի վիդջեթ";
+"single_Account_Widget"                                         = "Մեկ հաշվի վիդջեթ";
+"multi_Coin_Widget"                                             = "Multi coin վիդջեթ";
+"account_Balance_Widget"                                        = "Հաշվի մնացորդի վիդջեթ";
+"multi_Account_Widget"                                          = "Բազմահաշվի վիդջեթ";
+"single_coin_description"                                       = "Հետևեք coin-ների տեղեկատվությանը";
+"single_account_description"                                    = "Հետևեք ձեր հաշիվների տեղեկատվությանը";
+"multi_coin_description"                                        = "Հետևեք coin-ների տեղեկատվությանը";
+"multi_account_description"                                     = "Հետևեք ձեր հաշիվների տեղեկատվությանը";
+"account_balance_description"                                   = "Հետևեք ձեր հաշիվների տեղեկատվությանը";
+// MARK: - Time
+"date_from"                                                     = "Սկիզբ";
+"date_to"                                                       = "Վերջ";
+"duration"                                                      = "Տեւողություն";
+
+"date"                                                          = "Ամսաթիվ";
+"day"                                                           = "Oր";
+"hour"                                                          = "Ժամ";
+"minute"                                                        = "Րոպե";
+"month"                                                         = "Ամիս";
+"week"                                                          = "Շաբաթ";
+"year"                                                          = "Տարի";
+
+"all"                                                           = "Բոլորը";
+"1m"                                                            = "1ա";
+"1w"                                                            = "1շ";
+"1y"                                                            = "1տ";
+"3m"                                                            = "3ա";
+"6m"                                                            = "6ա";
+"24h"                                                           = "24ժ";
+
+"change_1_hour"                                                 = "1 ժամվա փոփոխ.";
+"change_24_hour"                                                = "24 ժամվա փոփոխ.";
+"change_7_day"                                                  = "1 շաբաթվա փոփոխ.";
+
+"M"                                                             = "Ա";
+"D"                                                             = "օր";
+"hr"                                                            = "ժ";
+"min"                                                           = "ր";
+"sec"                                                           = "վրկ";
+
+"yearly"                                                        = "Տարեկան";
+"monthly"                                                       = "Ամսեկան";
+
+// MARK: - What to mine
+//"enter_name"                                                  = "Մուտքագրեք անունը";
+//"add_new_profile"                                                  = "Ավելացնել նոր հաշիվ";
+"what_to_mine"                                                  = "Ինչ mine անել";
+"models"                                                        = "Մոդելներ";
+"algorithms"                                                    = "Ալգորիթմներ";
+"coin_details"                                                  = "Coin-ի մանրամասներ";
+"algorithm"                                                     = "Ալգորիթմ";
+//"block_time"                                                    = "Բլոկի ժամանակը";
+//"block_reward"                                                  = "Բլոկի վարձատրությունը";
+"difficulty"                                                    = "Բարդություն";
+//"difficulty_change"                                             = "Բարդության փոփոխություն";
+//"estimated_rewards"                                             = "Ակնկալվող պարգև";
+//"exchange_rate"                                                 = "Փոխարժեք";
+//"exchange_rate_change"                                          = "Փոխարժեքի փոփոխություն";
+"revenue"                                                       = "Եկամուտ";
+"profit"                                                        = "Շահույթ";
+"electricityCost"                                               = "Էլեկտրաէներգիայի արժեք";
+"3d"                                                            = "3օր";
+"7d"                                                            = "7օր";
+"no_item_selected"                                              = "Ընտրված տարր չկա";
+"clear"                                                         = "Մաքրել";
+
+// MARK: - Worker
+"choose_workers"                                                = "Ընտրեք աշխատողներին";
+"select"                                                        = "Ընտրել";
+"groups"                                                        = "Խմբեր";
+"groups_workers"                                                = "Խմբեր / Աշխատողներ";
+"monitor"                                                       = "Մոնիտոր";
+"worker"                                                        = "Աշխատող";
+"worker_name"                                                   = "Աշխատողի անուն";
+"workers"                                                       = "Աշխատողներ";
+"workers_count"                                                 = "Աշխատողների քանակ";
+"first_connection"                                              = "Առաջին միացում";
+"participation"                                                 = "Մասնակցություն";
+"mode"                                                          = "Մեթոդ";
+"worker_id"                                                     = "Աշխատողի ID";
+"efficiency"                                                    = "Արդյունավետություն";
+
+//"disabled"                                                    = "Անջատված";
+//"all_workers"                                                 = "Բոլոր աշխատողները";
+//"selected_workers_count"                                        = "Ընտրված աշխատողների քանակ";
+
+// MARK: - Blocks
+"blocks"                                                        = "Բլոկներ";
+"block"                                                         = "Բլոկ";
+"luck"                                                          = "Հաջողություն";
+"height"                                                        = "Բլոկի համար";
+"reward"                                                        = "Պարգևներ";
+"uncle"                                                         = "Անապահով";
+
+// MARK: - News
+"news"                                                          = "Նորություններ";
+"my_feed"                                                       = "Իմ լրահոսը";
+"top_news"                                                      = "Գլխավոր";
+"all_news"                                                      = "Բոլոր նորությունները";
+"added_sources"                                                 = "Ավելացված աղբյուրներ";
+"all_sources"                                                   = "Բոլոր աղբյուրները";
+"bookmark"                                                      = "Էջանիշ";
+"add_sources"                                                   = "Ավելացնել աղբյուրներ";
+"top"                                                           = "Գլխավոր";
+"bookmarks"                                                     = "Ընտրվածներ";
+"sources"                                                       = "Աղբյուրներ";
+
+// MARK: - Wallet -
+"addresses"                                                     = "Հասցեներ";
+"wallets"                                                       = "Դրամապանակներ";
+"show_all"                                                      = "Ցույց տալ ամբողջը";
+"invalid_credentials!"                                          = "Անվավեր տվյալներ!";
+"edit_wallet"                                                   = "Խմբագրել դրամապանակը";
+"add_wallet"                                                    = "Ավելացնել դրամապանակ";
+"add_coin"                                                      = "Ավելացնել coin";
+"address"                                                       = "Հասցե";
+"description"                                                   = "Բացատրություն";
+"download_QR"                                                   = "Ներբեռնել QR կոդը";
+"equity_value"                                                  = "Սեփական կապիտալի արժեք";
+"deposit"                                                       = "Դեպոզիտ";
+"more_wallet"                                                   = "Դրամապանակ";
+"network"                                                       = "Ցանց";
+"history"                                                       = "Պատմություն";
+
+
+
+
+

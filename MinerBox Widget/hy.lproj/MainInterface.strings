@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Workers"; ObjectID = "89d-o6-GIS"; */
+"89d-o6-GIS.text" = "Workers";
+
+/* Class = "UILabel"; text = "Hashrate"; ObjectID = "Ctd-W2-RTV"; */
+"Ctd-W2-RTV.text" = "Hashrate";
+
+/* Class = "UILabel"; text = "Account name"; ObjectID = "Rx5-Jw-b30"; */
+"Rx5-Jw-b30.text" = "Account name";
+
+/* Class = "UILabel"; text = "Hashrate value"; ObjectID = "Xht-14-8aY"; */
+"Xht-14-8aY.text" = "Hashrate value";
+
+/* Class = "UILabel"; text = "Worker value"; ObjectID = "kwt-WU-hzt"; */
+"kwt-WU-hzt.text" = "Worker value";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "ybI-VL-PCc"; */
+"ybI-VL-PCc.normalTitle" = "Login";
